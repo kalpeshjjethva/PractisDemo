@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1C13A61EE7E38C000633DF /* DrawRout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C13A51EE7E38C000633DF /* DrawRout.swift */; };
+		0E1C13A81EE7E62E000633DF /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C13A71EE7E62E000633DF /* Polyline.swift */; };
+		0E1EC9D01EE808AF00BF23D6 /* customMapview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1EC9CF1EE808AF00BF23D6 /* customMapview.m */; };
+		0E1EC9DA1EE83A2500BF23D6 /* LoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1EC9D91EE83A2500BF23D6 /* LoaderView.xib */; };
+		0E210BC31EDBF60500D705BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E210BC21EDBF60500D705BD /* AppDelegate.swift */; };
+		0E210BC51EDBF60500D705BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E210BC41EDBF60500D705BD /* ViewController.swift */; };
+		0E210BC81EDBF60500D705BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E210BC61EDBF60500D705BD /* Main.storyboard */; };
+		0E210BCA1EDBF60500D705BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E210BC91EDBF60500D705BD /* Assets.xcassets */; };
+		0E210BCD1EDBF60500D705BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E210BCB1EDBF60500D705BD /* LaunchScreen.storyboard */; };
+		0E46F7611EE6A8D300BEC579 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */; };
+		0E46F7621EE6A8D300BEC579 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F7601EE6A8D300BEC579 /* Fabric.framework */; };
+		0EB058621EE57B940058A39D /* getAllcontacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058611EE57B940058A39D /* getAllcontacts.swift */; };
+		0EB058641EE581680058A39D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB058631EE581680058A39D /* AddressBookUI.framework */; };
+		0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058651EE584E80058A39D /* ContactEntry.swift */; };
+		0EB058681EE585300058A39D /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058671EE585300058A39D /* String+Email.swift */; };
+		0EEC1E181EDEEC0E00FBC91E /* CustomCallOutMapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E171EDEEC0E00FBC91E /* CustomCallOutMapview.swift */; };
+		0EEC1E1F1EDEF78600FBC91E /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E1D1EDEF78600FBC91E /* AnnotationView.swift */; };
+		0EEC1E201EDEF78600FBC91E /* StarbucksAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E1E1EDEF78600FBC91E /* StarbucksAnnotation.swift */; };
+		0EEC1E231EDEF79700FBC91E /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EEC1E211EDEF79700FBC91E /* CustomCalloutView.xib */; };
+		0EEC1E241EDEF79700FBC91E /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E221EDEF79700FBC91E /* CustomCalloutView.swift */; };
+		0EEC1E2D1EDEFB6800FBC91E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEC1E2C1EDEFB6800FBC91E /* MapKit.framework */; };
+		811BF94B6D8B329CC775BB15 /* Pods_PractisDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D69D27C6F8667C444F73F4 /* Pods_PractisDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1C13A51EE7E38C000633DF /* DrawRout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawRout.swift; sourceTree = "<group>"; };
+		0E1C13A71EE7E62E000633DF /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
+		0E1EC9CD1EE808AF00BF23D6 /* PractisDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PractisDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		0E1EC9CE1EE808AF00BF23D6 /* customMapview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customMapview.h; sourceTree = "<group>"; };
+		0E1EC9CF1EE808AF00BF23D6 /* customMapview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customMapview.m; sourceTree = "<group>"; };
+		0E1EC9D91EE83A2500BF23D6 /* LoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderView.xib; sourceTree = "<group>"; };
+		0E210BBF1EDBF60500D705BD /* PractisDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PractisDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E210BC21EDBF60500D705BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E210BC41EDBF60500D705BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E210BC71EDBF60500D705BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E210BC91EDBF60500D705BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E210BCC1EDBF60500D705BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E210BCE1EDBF60500D705BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		0E46F7601EE6A8D300BEC579 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		0EB058611EE57B940058A39D /* getAllcontacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getAllcontacts.swift; sourceTree = "<group>"; };
+		0EB058631EE581680058A39D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		0EB058651EE584E80058A39D /* ContactEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEntry.swift; sourceTree = "<group>"; };
+		0EB058671EE585300058A39D /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
+		0EEC1E171EDEEC0E00FBC91E /* CustomCallOutMapview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCallOutMapview.swift; sourceTree = "<group>"; };
+		0EEC1E1D1EDEF78600FBC91E /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		0EEC1E1E1EDEF78600FBC91E /* StarbucksAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksAnnotation.swift; sourceTree = "<group>"; };
+		0EEC1E211EDEF79700FBC91E /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
+		0EEC1E221EDEF79700FBC91E /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		0EEC1E2C1EDEFB6800FBC91E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		56C9ED7E606C9934302BC2DC /* Pods-PractisDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractisDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PractisDemo/Pods-PractisDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9FE860961C4AEEBC15C87D91 /* Pods-PractisDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractisDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PractisDemo/Pods-PractisDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C1D69D27C6F8667C444F73F4 /* Pods_PractisDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractisDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E210BBC1EDBF60500D705BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB058641EE581680058A39D /* AddressBookUI.framework in Frameworks */,
+				0E46F7621EE6A8D300BEC579 /* Fabric.framework in Frameworks */,
+				0EEC1E2D1EDEFB6800FBC91E /* MapKit.framework in Frameworks */,
+				0E46F7611EE6A8D300BEC579 /* Crashlytics.framework in Frameworks */,
+				811BF94B6D8B329CC775BB15 /* Pods_PractisDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E210BB61EDBF60500D705BD = {
+			isa = PBXGroup;
+			children = (
+				0E210BC11EDBF60500D705BD /* PractisDemo */,
+				0E210BC01EDBF60500D705BD /* Products */,
+				4566BAE0D67BEEDE8613F788 /* Pods */,
+				4DEEB6DAD7FA7E9A47879128 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E210BC01EDBF60500D705BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E210BBF1EDBF60500D705BD /* PractisDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E210BC11EDBF60500D705BD /* PractisDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */,
+				0E46F7601EE6A8D300BEC579 /* Fabric.framework */,
+				0E210BC21EDBF60500D705BD /* AppDelegate.swift */,
+				0E210BC41EDBF60500D705BD /* ViewController.swift */,
+				0EB058651EE584E80058A39D /* ContactEntry.swift */,
+				0EB058671EE585300058A39D /* String+Email.swift */,
+				0EB058611EE57B940058A39D /* getAllcontacts.swift */,
+				0E1C13A51EE7E38C000633DF /* DrawRout.swift */,
+				0E1C13A71EE7E62E000633DF /* Polyline.swift */,
+				0EEC1E251EDEF7E600FBC91E /* CalloutCustom */,
+				0E210BC61EDBF60500D705BD /* Main.storyboard */,
+				0E210BC91EDBF60500D705BD /* Assets.xcassets */,
+				0E210BCB1EDBF60500D705BD /* LaunchScreen.storyboard */,
+				0E210BCE1EDBF60500D705BD /* Info.plist */,
+				0E1EC9CE1EE808AF00BF23D6 /* customMapview.h */,
+				0E1EC9CF1EE808AF00BF23D6 /* customMapview.m */,
+				0E1EC9CD1EE808AF00BF23D6 /* PractisDemo-Bridging-Header.h */,
+				0E1EC9D91EE83A2500BF23D6 /* LoaderView.xib */,
+			);
+			path = PractisDemo;
+			sourceTree = "<group>";
+		};
+		0EEC1E251EDEF7E600FBC91E /* CalloutCustom */ = {
+			isa = PBXGroup;
+			children = (
+				0EEC1E221EDEF79700FBC91E /* CustomCalloutView.swift */,
+				0EEC1E211EDEF79700FBC91E /* CustomCalloutView.xib */,
+				0EEC1E1D1EDEF78600FBC91E /* AnnotationView.swift */,
+				0EEC1E1E1EDEF78600FBC91E /* StarbucksAnnotation.swift */,
+				0EEC1E171EDEEC0E00FBC91E /* CustomCallOutMapview.swift */,
+			);
+			name = CalloutCustom;
+			sourceTree = "<group>";
+		};
+		4566BAE0D67BEEDE8613F788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FE860961C4AEEBC15C87D91 /* Pods-PractisDemo.debug.xcconfig */,
+				56C9ED7E606C9934302BC2DC /* Pods-PractisDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DEEB6DAD7FA7E9A47879128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB058631EE581680058A39D /* AddressBookUI.framework */,
+				0EEC1E2C1EDEFB6800FBC91E /* MapKit.framework */,
+				C1D69D27C6F8667C444F73F4 /* Pods_PractisDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E210BBE1EDBF60500D705BD /* PractisDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E210BD11EDBF60500D705BD /* Build configuration list for PBXNativeTarget "PractisDemo" */;
+			buildPhases = (
+				0FAB61931A40D88BAD3A2CE7 /* [CP] Check Pods Manifest.lock */,
+				0E210BBB1EDBF60500D705BD /* Sources */,
+				0E210BBC1EDBF60500D705BD /* Frameworks */,
+				0E210BBD1EDBF60500D705BD /* Resources */,
+				C73348421578CFD70757FBB8 /* [CP] Embed Pods Frameworks */,
+				B14FD6245D4446AA0611C958 /* [CP] Copy Pods Resources */,
+				0E46F75E1EE6879800BEC579 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PractisDemo;
+			productName = PractisDemo;
+			productReference = 0E210BBF1EDBF60500D705BD /* PractisDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E210BB71EDBF60500D705BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sufalam;
+				TargetAttributes = {
+					0E210BBE1EDBF60500D705BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4D7WM9KH8K;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0E210BBA1EDBF60500D705BD /* Build configuration list for PBXProject "PractisDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E210BB61EDBF60500D705BD;
+			productRefGroup = 0E210BC01EDBF60500D705BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E210BBE1EDBF60500D705BD /* PractisDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E210BBD1EDBF60500D705BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1EC9DA1EE83A2500BF23D6 /* LoaderView.xib in Resources */,
+				0EEC1E231EDEF79700FBC91E /* CustomCalloutView.xib in Resources */,
+				0E210BCD1EDBF60500D705BD /* LaunchScreen.storyboard in Resources */,
+				0E210BCA1EDBF60500D705BD /* Assets.xcassets in Resources */,
+				0E210BC81EDBF60500D705BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E46F75E1EE6879800BEC579 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 87471b2d9057775a8221888d35dd8801ab43e55e 2a60015f12303db84b54e297fcf2a87c572b7573568ce142a1b95d1d17ac759a";
+		};
+		0FAB61931A40D88BAD3A2CE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B14FD6245D4446AA0611C958 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PractisDemo/Pods-PractisDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73348421578CFD70757FBB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PractisDemo/Pods-PractisDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E210BBB1EDBF60500D705BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB058621EE57B940058A39D /* getAllcontacts.swift in Sources */,
+				0E1C13A61EE7E38C000633DF /* DrawRout.swift in Sources */,
+				0E1C13A81EE7E62E000633DF /* Polyline.swift in Sources */,
+				0EEC1E241EDEF79700FBC91E /* CustomCalloutView.swift in Sources */,
+				0EB058681EE585300058A39D /* String+Email.swift in Sources */,
+				0EEC1E201EDEF78600FBC91E /* StarbucksAnnotation.swift in Sources */,
+				0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */,
+				0EEC1E181EDEEC0E00FBC91E /* CustomCallOutMapview.swift in Sources */,
+				0EEC1E1F1EDEF78600FBC91E /* AnnotationView.swift in Sources */,
+				0E210BC51EDBF60500D705BD /* ViewController.swift in Sources */,
+				0E1EC9D01EE808AF00BF23D6 /* customMapview.m in Sources */,
+				0E210BC31EDBF60500D705BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E210BC61EDBF60500D705BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E210BC71EDBF60500D705BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E210BCB1EDBF60500D705BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E210BCC1EDBF60500D705BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E210BCF1EDBF60500D705BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4D7WM9KH8K;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E210BD01EDBF60500D705BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4D7WM9KH8K;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E210BD21EDBF60500D705BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE860961C4AEEBC15C87D91 /* Pods-PractisDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PractisDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.pmits;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PractisDemo/PractisDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0E210BD31EDBF60500D705BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C9ED7E606C9934302BC2DC /* Pods-PractisDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PractisDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.pmits;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PractisDemo/PractisDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E210BBA1EDBF60500D705BD /* Build configuration list for PBXProject "PractisDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E210BCF1EDBF60500D705BD /* Debug */,
+				0E210BD01EDBF60500D705BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E210BD11EDBF60500D705BD /* Build configuration list for PBXNativeTarget "PractisDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E210BD21EDBF60500D705BD /* Debug */,
+				0E210BD31EDBF60500D705BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E210BB71EDBF60500D705BD /* Project object */;
+}

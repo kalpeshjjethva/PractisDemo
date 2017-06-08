@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h2F-A6-FEj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Draw Rout-->
+        <scene sceneID="qEa-1Y-tlr">
+            <objects>
+                <viewController id="h2F-A6-FEj" customClass="DrawRout" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z49-Ca-EIi"/>
+                        <viewControllerLayoutGuide type="bottom" id="SOK-sE-7fS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="99f-q9-gkf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5vL-8P-M77">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <outlet property="delegate" destination="h2F-A6-FEj" id="6Aq-f5-tDv"/>
+                                </connections>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hr-El-lgV">
+                                <rect key="frame" x="280" y="58" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="eMN-8Q-mTK"/>
+                                    <constraint firstAttribute="height" constant="30" id="zdX-sU-SNV"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnaddLoaderAction:" destination="h2F-A6-FEj" eventType="touchUpInside" id="x64-tB-Bgg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SOK-sE-7fS" firstAttribute="top" secondItem="5vL-8P-M77" secondAttribute="bottom" id="6Go-uG-369"/>
+                            <constraint firstAttribute="trailing" secondItem="5vL-8P-M77" secondAttribute="trailing" id="K31-Ng-QZw"/>
+                            <constraint firstItem="5vL-8P-M77" firstAttribute="top" secondItem="99f-q9-gkf" secondAttribute="top" id="Q2X-1p-3ha"/>
+                            <constraint firstItem="5hr-El-lgV" firstAttribute="top" secondItem="z49-Ca-EIi" secondAttribute="bottom" constant="38" id="VgF-Tn-k2S"/>
+                            <constraint firstItem="5vL-8P-M77" firstAttribute="leading" secondItem="99f-q9-gkf" secondAttribute="leading" id="Zhl-vt-P0D"/>
+                            <constraint firstAttribute="trailing" secondItem="5hr-El-lgV" secondAttribute="trailing" constant="49" id="zuG-ee-rnx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="objMapview" destination="5vL-8P-M77" id="caa-af-EuA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qa8-jw-fP9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-288.80000000000001" y="148.87556221889056"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4A-RM-Jww">
+                                <rect key="frame" x="406" y="283" width="588" height="263"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBH-ea-gkK">
+                                        <rect key="frame" x="10" y="40" width="568" height="209"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.5747214692" blue="0.060647884200000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QcC-lX-KD2">
+                                        <rect key="frame" x="542" y="225" width="46" height="38"/>
+                                        <color key="backgroundColor" red="0.93984168767929077" green="0.11859238892793655" blue="0.029801635071635246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="8kQ-jQ-emW"/>
+                                            <constraint firstAttribute="width" constant="46" id="Aoe-oi-cHd"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnFullScreenAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rN5-2A-f0D"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.39087637749999998" green="1" blue="0.42136299669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="QcC-lX-KD2" secondAttribute="bottom" id="2lD-1i-t4u"/>
+                                    <constraint firstItem="sBH-ea-gkK" firstAttribute="top" secondItem="u4A-RM-Jww" secondAttribute="top" constant="40" id="Dbg-pt-WDG"/>
+                                    <constraint firstItem="sBH-ea-gkK" firstAttribute="leading" secondItem="u4A-RM-Jww" secondAttribute="leading" constant="10" id="FZb-LM-87m"/>
+                                    <constraint firstAttribute="bottom" secondItem="sBH-ea-gkK" secondAttribute="bottom" constant="14" id="O5f-PU-y2z"/>
+                                    <constraint firstAttribute="trailing" secondItem="QcC-lX-KD2" secondAttribute="trailing" id="azd-fn-kUH"/>
+                                    <constraint firstAttribute="height" constant="263" id="f0u-22-YGm"/>
+                                    <constraint firstAttribute="trailing" secondItem="sBH-ea-gkK" secondAttribute="trailing" constant="10" id="vSB-c6-Yh1"/>
+                                    <constraint firstAttribute="width" constant="588" id="vq1-kW-c13"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u4A-RM-Jww" secondAttribute="bottom" constant="222" id="EOC-Vb-UFV"/>
+                            <constraint firstAttribute="trailing" secondItem="u4A-RM-Jww" secondAttribute="trailing" constant="30" id="qk6-2O-QhR"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="btnPlayPause" destination="QcC-lX-KD2" id="p5L-ds-tas"/>
+                        <outlet property="defaultView" destination="sBH-ea-gkK" id="KrI-Lq-dvQ"/>
+                        <outlet property="objSuperView" destination="u4A-RM-Jww" id="TVX-oB-mWW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="-134.03298350824588"/>
+        </scene>
+        <!--Custom Call Out Mapview-->
+        <scene sceneID="3cq-YB-bOM">
+            <objects>
+                <viewController storyboardIdentifier="CustomCallOutMapview" id="znL-rZ-Vl4" customClass="CustomCallOutMapview" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pi1-Es-xIV"/>
+                        <viewControllerLayoutGuide type="bottom" id="UJc-ri-JZA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8gJ-XT-t5J">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nSX-pO-3WU">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <connections>
+                                    <outlet property="delegate" destination="znL-rZ-Vl4" id="Sef-ud-ucE"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UJc-ri-JZA" firstAttribute="top" secondItem="nSX-pO-3WU" secondAttribute="bottom" id="Lxr-IH-3zr"/>
+                            <constraint firstItem="nSX-pO-3WU" firstAttribute="top" secondItem="8gJ-XT-t5J" secondAttribute="top" id="SCw-6N-wk0"/>
+                            <constraint firstAttribute="trailing" secondItem="nSX-pO-3WU" secondAttribute="trailing" id="VWP-nA-nER"/>
+                            <constraint firstItem="nSX-pO-3WU" firstAttribute="leading" secondItem="8gJ-XT-t5J" secondAttribute="leading" id="mEC-jc-9W7"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="mapView" destination="nSX-pO-3WU" id="xlC-fg-uZi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TCF-AX-6Ew" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="675"/>
+        </scene>
+        <!--Get Allcontacts-->
+        <scene sceneID="9f9-nR-HbD">
+            <objects>
+                <viewController storyboardIdentifier="getAllcontacts" id="fG7-W6-zGP" customClass="getAllcontacts" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tbo-2u-ODw"/>
+                        <viewControllerLayoutGuide type="bottom" id="SCH-f0-HQG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="klv-Gg-3nE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WeF-jw-b6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
