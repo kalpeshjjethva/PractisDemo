@@ -9,15 +9,52 @@
 /* Begin PBXBuildFile section */
 		0E1C13A61EE7E38C000633DF /* DrawRout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C13A51EE7E38C000633DF /* DrawRout.swift */; };
 		0E1C13A81EE7E62E000633DF /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C13A71EE7E62E000633DF /* Polyline.swift */; };
-		0E1EC9D01EE808AF00BF23D6 /* customMapview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1EC9CF1EE808AF00BF23D6 /* customMapview.m */; };
 		0E1EC9DA1EE83A2500BF23D6 /* LoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1EC9D91EE83A2500BF23D6 /* LoaderView.xib */; };
 		0E210BC31EDBF60500D705BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E210BC21EDBF60500D705BD /* AppDelegate.swift */; };
 		0E210BC51EDBF60500D705BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E210BC41EDBF60500D705BD /* ViewController.swift */; };
 		0E210BC81EDBF60500D705BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E210BC61EDBF60500D705BD /* Main.storyboard */; };
 		0E210BCA1EDBF60500D705BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E210BC91EDBF60500D705BD /* Assets.xcassets */; };
 		0E210BCD1EDBF60500D705BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E210BCB1EDBF60500D705BD /* LaunchScreen.storyboard */; };
+		0E32F6441EEAEA5C00177063 /* AreasExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6201EEAEA5B00177063 /* AreasExample.swift */; };
+		0E32F6451EEAEA5C00177063 /* BarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6211EEAEA5B00177063 /* BarsExample.swift */; };
+		0E32F6461EEAEA5C00177063 /* BarsPlusMinusAndLinesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6221EEAEA5B00177063 /* BarsPlusMinusAndLinesExample.swift */; };
+		0E32F6471EEAEA5C00177063 /* BarsPlusMinusWithGradientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6231EEAEA5B00177063 /* BarsPlusMinusWithGradientExample.swift */; };
+		0E32F6481EEAEA5C00177063 /* BubbleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6241EEAEA5B00177063 /* BubbleExample.swift */; };
+		0E32F6491EEAEA5C00177063 /* CandleStickExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6251EEAEA5B00177063 /* CandleStickExample.swift */; };
+		0E32F64A1EEAEA5C00177063 /* CandleStickInteractiveExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6261EEAEA5B00177063 /* CandleStickInteractiveExample.swift */; };
+		0E32F64B1EEAEA5C00177063 /* ConvenienceBarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6281EEAEA5B00177063 /* ConvenienceBarsExample.swift */; };
+		0E32F64C1EEAEA5C00177063 /* ConvenienceLinesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6291EEAEA5B00177063 /* ConvenienceLinesExample.swift */; };
+		0E32F64D1EEAEA5C00177063 /* CoordsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F62A1EEAEA5B00177063 /* CoordsExample.swift */; };
+		0E32F64E1EEAEA5C00177063 /* CubicLinesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F62B1EEAEA5B00177063 /* CubicLinesExample.swift */; };
+		0E32F64F1EEAEA5C00177063 /* CustomUnitsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F62C1EEAEA5B00177063 /* CustomUnitsExample.swift */; };
+		0E32F6501EEAEA5C00177063 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F62D1EEAEA5B00177063 /* Env.swift */; };
+		0E32F6511EEAEA5C00177063 /* EqualSpacingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F62E1EEAEA5B00177063 /* EqualSpacingExample.swift */; };
+		0E32F6521EEAEA5C00177063 /* ExamplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F62F1EEAEA5B00177063 /* ExamplesDefaults.swift */; };
+		0E32F6531EEAEA5C00177063 /* GroupedAndStackedBarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6301EEAEA5C00177063 /* GroupedAndStackedBarsExample.swift */; };
+		0E32F6541EEAEA5C00177063 /* GroupedBarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6311EEAEA5C00177063 /* GroupedBarsExample.swift */; };
+		0E32F6551EEAEA5C00177063 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6321EEAEA5C00177063 /* HelloWorld.swift */; };
+		0E32F6561EEAEA5C00177063 /* MultipleAxesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6331EEAEA5C00177063 /* MultipleAxesExample.swift */; };
+		0E32F6571EEAEA5C00177063 /* MultipleAxesInteractiveExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6341EEAEA5C00177063 /* MultipleAxesInteractiveExample.swift */; };
+		0E32F6581EEAEA5C00177063 /* MultipleLabelsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6351EEAEA5C00177063 /* MultipleLabelsExample.swift */; };
+		0E32F6591EEAEA5C00177063 /* MultiTrackerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6361EEAEA5C00177063 /* MultiTrackerExample.swift */; };
+		0E32F65A1EEAEA5C00177063 /* NotificationsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6371EEAEA5C00177063 /* NotificationsExample.swift */; };
+		0E32F65B1EEAEA5C00177063 /* NotNumericExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6381EEAEA5C00177063 /* NotNumericExample.swift */; };
+		0E32F65C1EEAEA5C00177063 /* RangedAxisExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6391EEAEA5C00177063 /* RangedAxisExample.swift */; };
+		0E32F65D1EEAEA5C00177063 /* ScatterExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F63A1EEAEA5C00177063 /* ScatterExample.swift */; };
+		0E32F65E1EEAEA5C00177063 /* StackedBarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F63B1EEAEA5C00177063 /* StackedBarsExample.swift */; };
+		0E32F65F1EEAEA5C00177063 /* TargetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F63C1EEAEA5C00177063 /* TargetExample.swift */; };
+		0E32F6601EEAEA5C00177063 /* TrackerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F63D1EEAEA5C00177063 /* TrackerExample.swift */; };
+		0E32F6611EEAEA5C00177063 /* TrendlineExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F63E1EEAEA5C00177063 /* TrendlineExample.swift */; };
+		0E32F6621EEAEA5C00177063 /* HorizontalGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F63F1EEAEA5C00177063 /* HorizontalGuide.swift */; };
+		0E32F6631EEAEA5C00177063 /* PointGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6401EEAEA5C00177063 /* PointGuide.swift */; };
+		0E32F6641EEAEA5C00177063 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6411EEAEA5C00177063 /* String.swift */; };
+		0E32F6651EEAEA5C00177063 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6421EEAEA5C00177063 /* UIColor.swift */; };
+		0E32F6661EEAEA5C00177063 /* VerticalGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6431EEAEA5C00177063 /* VerticalGuide.swift */; };
 		0E46F7611EE6A8D300BEC579 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */; };
 		0E46F7621EE6A8D300BEC579 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F7601EE6A8D300BEC579 /* Fabric.framework */; };
+		0E7E671A1EE95A5D0049FB98 /* HACBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67171EE95A5D0049FB98 /* HACBarChart.m */; };
+		0E7E671B1EE95A5D0049FB98 /* HACBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */; };
+		0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E671D1EE95BED0049FB98 /* Charts.swift */; };
 		0EB058621EE57B940058A39D /* getAllcontacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058611EE57B940058A39D /* getAllcontacts.swift */; };
 		0EB058641EE581680058A39D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB058631EE581680058A39D /* AddressBookUI.framework */; };
 		0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058651EE584E80058A39D /* ContactEntry.swift */; };
@@ -35,8 +72,6 @@
 		0E1C13A51EE7E38C000633DF /* DrawRout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawRout.swift; sourceTree = "<group>"; };
 		0E1C13A71EE7E62E000633DF /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
 		0E1EC9CD1EE808AF00BF23D6 /* PractisDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PractisDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		0E1EC9CE1EE808AF00BF23D6 /* customMapview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customMapview.h; sourceTree = "<group>"; };
-		0E1EC9CF1EE808AF00BF23D6 /* customMapview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customMapview.m; sourceTree = "<group>"; };
 		0E1EC9D91EE83A2500BF23D6 /* LoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderView.xib; sourceTree = "<group>"; };
 		0E210BBF1EDBF60500D705BD /* PractisDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PractisDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E210BC21EDBF60500D705BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +80,48 @@
 		0E210BC91EDBF60500D705BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E210BCC1EDBF60500D705BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E210BCE1EDBF60500D705BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E32F6201EEAEA5B00177063 /* AreasExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreasExample.swift; sourceTree = "<group>"; };
+		0E32F6211EEAEA5B00177063 /* BarsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarsExample.swift; sourceTree = "<group>"; };
+		0E32F6221EEAEA5B00177063 /* BarsPlusMinusAndLinesExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarsPlusMinusAndLinesExample.swift; sourceTree = "<group>"; };
+		0E32F6231EEAEA5B00177063 /* BarsPlusMinusWithGradientExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarsPlusMinusWithGradientExample.swift; sourceTree = "<group>"; };
+		0E32F6241EEAEA5B00177063 /* BubbleExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleExample.swift; sourceTree = "<group>"; };
+		0E32F6251EEAEA5B00177063 /* CandleStickExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleStickExample.swift; sourceTree = "<group>"; };
+		0E32F6261EEAEA5B00177063 /* CandleStickInteractiveExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleStickInteractiveExample.swift; sourceTree = "<group>"; };
+		0E32F6281EEAEA5B00177063 /* ConvenienceBarsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenienceBarsExample.swift; sourceTree = "<group>"; };
+		0E32F6291EEAEA5B00177063 /* ConvenienceLinesExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenienceLinesExample.swift; sourceTree = "<group>"; };
+		0E32F62A1EEAEA5B00177063 /* CoordsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordsExample.swift; sourceTree = "<group>"; };
+		0E32F62B1EEAEA5B00177063 /* CubicLinesExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicLinesExample.swift; sourceTree = "<group>"; };
+		0E32F62C1EEAEA5B00177063 /* CustomUnitsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUnitsExample.swift; sourceTree = "<group>"; };
+		0E32F62D1EEAEA5B00177063 /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		0E32F62E1EEAEA5B00177063 /* EqualSpacingExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualSpacingExample.swift; sourceTree = "<group>"; };
+		0E32F62F1EEAEA5B00177063 /* ExamplesDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesDefaults.swift; sourceTree = "<group>"; };
+		0E32F6301EEAEA5C00177063 /* GroupedAndStackedBarsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupedAndStackedBarsExample.swift; sourceTree = "<group>"; };
+		0E32F6311EEAEA5C00177063 /* GroupedBarsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupedBarsExample.swift; sourceTree = "<group>"; };
+		0E32F6321EEAEA5C00177063 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		0E32F6331EEAEA5C00177063 /* MultipleAxesExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleAxesExample.swift; sourceTree = "<group>"; };
+		0E32F6341EEAEA5C00177063 /* MultipleAxesInteractiveExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleAxesInteractiveExample.swift; sourceTree = "<group>"; };
+		0E32F6351EEAEA5C00177063 /* MultipleLabelsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleLabelsExample.swift; sourceTree = "<group>"; };
+		0E32F6361EEAEA5C00177063 /* MultiTrackerExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTrackerExample.swift; sourceTree = "<group>"; };
+		0E32F6371EEAEA5C00177063 /* NotificationsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsExample.swift; sourceTree = "<group>"; };
+		0E32F6381EEAEA5C00177063 /* NotNumericExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotNumericExample.swift; sourceTree = "<group>"; };
+		0E32F6391EEAEA5C00177063 /* RangedAxisExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangedAxisExample.swift; sourceTree = "<group>"; };
+		0E32F63A1EEAEA5C00177063 /* ScatterExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterExample.swift; sourceTree = "<group>"; };
+		0E32F63B1EEAEA5C00177063 /* StackedBarsExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedBarsExample.swift; sourceTree = "<group>"; };
+		0E32F63C1EEAEA5C00177063 /* TargetExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetExample.swift; sourceTree = "<group>"; };
+		0E32F63D1EEAEA5C00177063 /* TrackerExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerExample.swift; sourceTree = "<group>"; };
+		0E32F63E1EEAEA5C00177063 /* TrendlineExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendlineExample.swift; sourceTree = "<group>"; };
+		0E32F63F1EEAEA5C00177063 /* HorizontalGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalGuide.swift; sourceTree = "<group>"; };
+		0E32F6401EEAEA5C00177063 /* PointGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointGuide.swift; sourceTree = "<group>"; };
+		0E32F6411EEAEA5C00177063 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		0E32F6421EEAEA5C00177063 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		0E32F6431EEAEA5C00177063 /* VerticalGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalGuide.swift; sourceTree = "<group>"; };
 		0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		0E46F7601EE6A8D300BEC579 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		0E7E67161EE95A5D0049FB98 /* HACBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACBarChart.h; sourceTree = "<group>"; };
+		0E7E67171EE95A5D0049FB98 /* HACBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACBarChart.m; sourceTree = "<group>"; };
+		0E7E67181EE95A5D0049FB98 /* HACBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACBarLayer.h; sourceTree = "<group>"; };
+		0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACBarLayer.m; sourceTree = "<group>"; };
+		0E7E671D1EE95BED0049FB98 /* Charts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
 		0EB058611EE57B940058A39D /* getAllcontacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getAllcontacts.swift; sourceTree = "<group>"; };
 		0EB058631EE581680058A39D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		0EB058651EE584E80058A39D /* ContactEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEntry.swift; sourceTree = "<group>"; };
@@ -107,18 +182,88 @@
 				0EB058671EE585300058A39D /* String+Email.swift */,
 				0EB058611EE57B940058A39D /* getAllcontacts.swift */,
 				0E1C13A51EE7E38C000633DF /* DrawRout.swift */,
+				0E7E671D1EE95BED0049FB98 /* Charts.swift */,
 				0E1C13A71EE7E62E000633DF /* Polyline.swift */,
 				0EEC1E251EDEF7E600FBC91E /* CalloutCustom */,
 				0E210BC61EDBF60500D705BD /* Main.storyboard */,
+				0E32F61E1EEAEA5B00177063 /* ChartLibrary */,
 				0E210BC91EDBF60500D705BD /* Assets.xcassets */,
 				0E210BCB1EDBF60500D705BD /* LaunchScreen.storyboard */,
 				0E210BCE1EDBF60500D705BD /* Info.plist */,
-				0E1EC9CE1EE808AF00BF23D6 /* customMapview.h */,
-				0E1EC9CF1EE808AF00BF23D6 /* customMapview.m */,
 				0E1EC9CD1EE808AF00BF23D6 /* PractisDemo-Bridging-Header.h */,
 				0E1EC9D91EE83A2500BF23D6 /* LoaderView.xib */,
+				0E7E671C1EE95B720049FB98 /* HACGraph */,
 			);
 			path = PractisDemo;
+			sourceTree = "<group>";
+		};
+		0E32F61E1EEAEA5B00177063 /* ChartLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				0E32F61F1EEAEA5B00177063 /* Examples */,
+				0E32F63F1EEAEA5C00177063 /* HorizontalGuide.swift */,
+				0E32F6401EEAEA5C00177063 /* PointGuide.swift */,
+				0E32F6411EEAEA5C00177063 /* String.swift */,
+				0E32F6421EEAEA5C00177063 /* UIColor.swift */,
+				0E32F6431EEAEA5C00177063 /* VerticalGuide.swift */,
+			);
+			path = ChartLibrary;
+			sourceTree = "<group>";
+		};
+		0E32F61F1EEAEA5B00177063 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				0E32F6201EEAEA5B00177063 /* AreasExample.swift */,
+				0E32F6211EEAEA5B00177063 /* BarsExample.swift */,
+				0E32F6221EEAEA5B00177063 /* BarsPlusMinusAndLinesExample.swift */,
+				0E32F6231EEAEA5B00177063 /* BarsPlusMinusWithGradientExample.swift */,
+				0E32F6241EEAEA5B00177063 /* BubbleExample.swift */,
+				0E32F6251EEAEA5B00177063 /* CandleStickExample.swift */,
+				0E32F6261EEAEA5B00177063 /* CandleStickInteractiveExample.swift */,
+				0E32F6271EEAEA5B00177063 /* Convenience */,
+				0E32F62A1EEAEA5B00177063 /* CoordsExample.swift */,
+				0E32F62B1EEAEA5B00177063 /* CubicLinesExample.swift */,
+				0E32F62C1EEAEA5B00177063 /* CustomUnitsExample.swift */,
+				0E32F62D1EEAEA5B00177063 /* Env.swift */,
+				0E32F62E1EEAEA5B00177063 /* EqualSpacingExample.swift */,
+				0E32F62F1EEAEA5B00177063 /* ExamplesDefaults.swift */,
+				0E32F6301EEAEA5C00177063 /* GroupedAndStackedBarsExample.swift */,
+				0E32F6311EEAEA5C00177063 /* GroupedBarsExample.swift */,
+				0E32F6321EEAEA5C00177063 /* HelloWorld.swift */,
+				0E32F6331EEAEA5C00177063 /* MultipleAxesExample.swift */,
+				0E32F6341EEAEA5C00177063 /* MultipleAxesInteractiveExample.swift */,
+				0E32F6351EEAEA5C00177063 /* MultipleLabelsExample.swift */,
+				0E32F6361EEAEA5C00177063 /* MultiTrackerExample.swift */,
+				0E32F6371EEAEA5C00177063 /* NotificationsExample.swift */,
+				0E32F6381EEAEA5C00177063 /* NotNumericExample.swift */,
+				0E32F6391EEAEA5C00177063 /* RangedAxisExample.swift */,
+				0E32F63A1EEAEA5C00177063 /* ScatterExample.swift */,
+				0E32F63B1EEAEA5C00177063 /* StackedBarsExample.swift */,
+				0E32F63C1EEAEA5C00177063 /* TargetExample.swift */,
+				0E32F63D1EEAEA5C00177063 /* TrackerExample.swift */,
+				0E32F63E1EEAEA5C00177063 /* TrendlineExample.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		0E32F6271EEAEA5B00177063 /* Convenience */ = {
+			isa = PBXGroup;
+			children = (
+				0E32F6281EEAEA5B00177063 /* ConvenienceBarsExample.swift */,
+				0E32F6291EEAEA5B00177063 /* ConvenienceLinesExample.swift */,
+			);
+			path = Convenience;
+			sourceTree = "<group>";
+		};
+		0E7E671C1EE95B720049FB98 /* HACGraph */ = {
+			isa = PBXGroup;
+			children = (
+				0E7E67161EE95A5D0049FB98 /* HACBarChart.h */,
+				0E7E67171EE95A5D0049FB98 /* HACBarChart.m */,
+				0E7E67181EE95A5D0049FB98 /* HACBarLayer.h */,
+				0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */,
+			);
+			name = HACGraph;
 			sourceTree = "<group>";
 		};
 		0EEC1E251EDEF7E600FBC91E /* CalloutCustom */ = {
@@ -293,18 +438,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E32F6481EEAEA5C00177063 /* BubbleExample.swift in Sources */,
+				0E32F6451EEAEA5C00177063 /* BarsExample.swift in Sources */,
 				0EB058621EE57B940058A39D /* getAllcontacts.swift in Sources */,
 				0E1C13A61EE7E38C000633DF /* DrawRout.swift in Sources */,
+				0E32F6441EEAEA5C00177063 /* AreasExample.swift in Sources */,
+				0E32F6621EEAEA5C00177063 /* HorizontalGuide.swift in Sources */,
+				0E32F6521EEAEA5C00177063 /* ExamplesDefaults.swift in Sources */,
+				0E32F64A1EEAEA5C00177063 /* CandleStickInteractiveExample.swift in Sources */,
+				0E32F6551EEAEA5C00177063 /* HelloWorld.swift in Sources */,
+				0E7E671B1EE95A5D0049FB98 /* HACBarLayer.m in Sources */,
+				0E32F65D1EEAEA5C00177063 /* ScatterExample.swift in Sources */,
+				0E32F6661EEAEA5C00177063 /* VerticalGuide.swift in Sources */,
 				0E1C13A81EE7E62E000633DF /* Polyline.swift in Sources */,
+				0E32F6541EEAEA5C00177063 /* GroupedBarsExample.swift in Sources */,
+				0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */,
+				0E32F6471EEAEA5C00177063 /* BarsPlusMinusWithGradientExample.swift in Sources */,
+				0E32F6601EEAEA5C00177063 /* TrackerExample.swift in Sources */,
+				0E32F6461EEAEA5C00177063 /* BarsPlusMinusAndLinesExample.swift in Sources */,
+				0E32F6561EEAEA5C00177063 /* MultipleAxesExample.swift in Sources */,
+				0E7E671A1EE95A5D0049FB98 /* HACBarChart.m in Sources */,
 				0EEC1E241EDEF79700FBC91E /* CustomCalloutView.swift in Sources */,
 				0EB058681EE585300058A39D /* String+Email.swift in Sources */,
+				0E32F6571EEAEA5C00177063 /* MultipleAxesInteractiveExample.swift in Sources */,
 				0EEC1E201EDEF78600FBC91E /* StarbucksAnnotation.swift in Sources */,
+				0E32F6611EEAEA5C00177063 /* TrendlineExample.swift in Sources */,
+				0E32F64F1EEAEA5C00177063 /* CustomUnitsExample.swift in Sources */,
+				0E32F6581EEAEA5C00177063 /* MultipleLabelsExample.swift in Sources */,
+				0E32F6531EEAEA5C00177063 /* GroupedAndStackedBarsExample.swift in Sources */,
+				0E32F65A1EEAEA5C00177063 /* NotificationsExample.swift in Sources */,
+				0E32F65F1EEAEA5C00177063 /* TargetExample.swift in Sources */,
 				0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */,
 				0EEC1E181EDEEC0E00FBC91E /* CustomCallOutMapview.swift in Sources */,
+				0E32F64E1EEAEA5C00177063 /* CubicLinesExample.swift in Sources */,
+				0E32F6491EEAEA5C00177063 /* CandleStickExample.swift in Sources */,
 				0EEC1E1F1EDEF78600FBC91E /* AnnotationView.swift in Sources */,
+				0E32F6511EEAEA5C00177063 /* EqualSpacingExample.swift in Sources */,
+				0E32F6501EEAEA5C00177063 /* Env.swift in Sources */,
+				0E32F64C1EEAEA5C00177063 /* ConvenienceLinesExample.swift in Sources */,
+				0E32F6651EEAEA5C00177063 /* UIColor.swift in Sources */,
+				0E32F64D1EEAEA5C00177063 /* CoordsExample.swift in Sources */,
 				0E210BC51EDBF60500D705BD /* ViewController.swift in Sources */,
-				0E1EC9D01EE808AF00BF23D6 /* customMapview.m in Sources */,
+				0E32F65C1EEAEA5C00177063 /* RangedAxisExample.swift in Sources */,
+				0E32F65B1EEAEA5C00177063 /* NotNumericExample.swift in Sources */,
+				0E32F64B1EEAEA5C00177063 /* ConvenienceBarsExample.swift in Sources */,
 				0E210BC31EDBF60500D705BD /* AppDelegate.swift in Sources */,
+				0E32F6631EEAEA5C00177063 /* PointGuide.swift in Sources */,
+				0E32F6591EEAEA5C00177063 /* MultiTrackerExample.swift in Sources */,
+				0E32F65E1EEAEA5C00177063 /* StackedBarsExample.swift in Sources */,
+				0E32F6641EEAEA5C00177063 /* String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

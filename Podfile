@@ -7,4 +7,6 @@ target 'PractisDemo' do
 	pod 'ASPVideoPlayer', '~> 2.0'
     pod 'Fabric'
     pod 'Crashlytics'
+    pod 'SwiftCharts', :git => 'https://github.com/i-schuetz/SwiftCharts.git'
+
 end

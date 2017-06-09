@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h2F-A6-FEj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fhX-rw-TdB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -174,6 +175,78 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WeF-jw-b6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Charts-->
+        <scene sceneID="6rw-RT-Rny">
+            <objects>
+                <viewController id="fhX-rw-TdB" customClass="Charts" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9dS-mz-ol8"/>
+                        <viewControllerLayoutGuide type="bottom" id="XVP-MN-LxG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dTE-z3-ogF">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kalpesh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fN-di-02N">
+                                <rect key="frame" x="18" y="51" width="812" height="122"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g07-22-1Uo">
+                                <rect key="frame" x="450" y="20" width="554" height="728"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mA2-E4-8We">
+                                        <rect key="frame" x="0.0" y="0.0" width="554" height="728"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fY-NR-7AC">
+                                                <rect key="frame" x="0.0" y="0.0" width="554" height="242.5"/>
+                                                <color key="backgroundColor" red="0.39087637749999998" green="1" blue="0.42136299669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6a-Kg-Vp5">
+                                                <rect key="frame" x="0.0" y="242.5" width="554" height="243"/>
+                                                <color key="backgroundColor" red="1" green="0.36777126989999998" blue="0.1485920144" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsB-5b-4rD">
+                                                <rect key="frame" x="0.0" y="485.5" width="554" height="242.5"/>
+                                                <color key="backgroundColor" red="0.39087637749999998" green="1" blue="0.42136299669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mA2-E4-8We" secondAttribute="trailing" id="9eK-sc-MNc"/>
+                                    <constraint firstItem="mA2-E4-8We" firstAttribute="leading" secondItem="g07-22-1Uo" secondAttribute="leading" id="kzw-1l-I9C"/>
+                                    <constraint firstItem="mA2-E4-8We" firstAttribute="top" secondItem="g07-22-1Uo" secondAttribute="top" id="mmM-Ur-N1z"/>
+                                    <constraint firstAttribute="width" constant="554" id="mxH-xT-q0N"/>
+                                    <constraint firstAttribute="bottom" secondItem="mA2-E4-8We" secondAttribute="bottom" id="shg-90-yYf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="6fN-di-02N" secondAttribute="trailing" constant="174" id="05r-3x-L71"/>
+                            <constraint firstItem="XVP-MN-LxG" firstAttribute="top" secondItem="g07-22-1Uo" secondAttribute="bottom" constant="20" id="35e-gc-ail"/>
+                            <constraint firstAttribute="trailing" secondItem="g07-22-1Uo" secondAttribute="trailing" constant="20" id="G9f-dK-T4Y"/>
+                            <constraint firstItem="6fN-di-02N" firstAttribute="height" secondItem="dTE-z3-ogF" secondAttribute="height" constant="-646" id="IrN-G0-xhz"/>
+                            <constraint firstItem="g07-22-1Uo" firstAttribute="top" secondItem="dTE-z3-ogF" secondAttribute="top" constant="20" id="YEq-3p-oLg"/>
+                            <constraint firstItem="XVP-MN-LxG" firstAttribute="top" secondItem="6fN-di-02N" secondAttribute="bottom" constant="595" id="e9Q-LG-rzU"/>
+                            <constraint firstItem="6fN-di-02N" firstAttribute="width" secondItem="dTE-z3-ogF" secondAttribute="width" constant="-212" id="h3b-GX-BlB"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="expanceTrackingChart" destination="jsB-5b-4rD" id="Npb-8g-fv2"/>
+                        <outlet property="leaseChart" destination="4fY-NR-7AC" id="AIR-hV-2n1"/>
+                        <outlet property="roiChart" destination="p6a-Kg-Vp5" id="Uos-Yj-z1i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AHV-nI-zX4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="204.80000000000001" y="-14.392803598200901"/>
         </scene>
     </scenes>
 </document>
