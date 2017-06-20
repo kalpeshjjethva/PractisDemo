@@ -8,5 +8,8 @@ target 'PractisDemo' do
     pod 'Fabric'
     pod 'Crashlytics'
     pod 'SwiftCharts', :git => 'https://github.com/i-schuetz/SwiftCharts.git'
+    
+    pod "Cluster"
+
 
 end

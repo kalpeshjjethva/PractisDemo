@@ -50,11 +50,13 @@
 		0E32F6641EEAEA5C00177063 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6411EEAEA5C00177063 /* String.swift */; };
 		0E32F6651EEAEA5C00177063 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6421EEAEA5C00177063 /* UIColor.swift */; };
 		0E32F6661EEAEA5C00177063 /* VerticalGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32F6431EEAEA5C00177063 /* VerticalGuide.swift */; };
+		0E3644671EF62D6A006191E0 /* MapViewcluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3644661EF62D6A006191E0 /* MapViewcluster.swift */; };
 		0E46F7611EE6A8D300BEC579 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */; };
 		0E46F7621EE6A8D300BEC579 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F7601EE6A8D300BEC579 /* Fabric.framework */; };
 		0E7E671A1EE95A5D0049FB98 /* HACBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67171EE95A5D0049FB98 /* HACBarChart.m */; };
 		0E7E671B1EE95A5D0049FB98 /* HACBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */; };
 		0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E671D1EE95BED0049FB98 /* Charts.swift */; };
+		0E8AF3C31EF8CAAD003A3003 /* MultipleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8AF3C21EF8CAAD003A3003 /* MultipleLoader.swift */; };
 		0EB058621EE57B940058A39D /* getAllcontacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058611EE57B940058A39D /* getAllcontacts.swift */; };
 		0EB058641EE581680058A39D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB058631EE581680058A39D /* AddressBookUI.framework */; };
 		0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058651EE584E80058A39D /* ContactEntry.swift */; };
@@ -115,6 +117,7 @@
 		0E32F6411EEAEA5C00177063 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		0E32F6421EEAEA5C00177063 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		0E32F6431EEAEA5C00177063 /* VerticalGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalGuide.swift; sourceTree = "<group>"; };
+		0E3644661EF62D6A006191E0 /* MapViewcluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewcluster.swift; sourceTree = "<group>"; };
 		0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		0E46F7601EE6A8D300BEC579 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		0E7E67161EE95A5D0049FB98 /* HACBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACBarChart.h; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 		0E7E67181EE95A5D0049FB98 /* HACBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACBarLayer.h; sourceTree = "<group>"; };
 		0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACBarLayer.m; sourceTree = "<group>"; };
 		0E7E671D1EE95BED0049FB98 /* Charts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
+		0E8AF3C21EF8CAAD003A3003 /* MultipleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleLoader.swift; sourceTree = "<group>"; };
 		0EB058611EE57B940058A39D /* getAllcontacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getAllcontacts.swift; sourceTree = "<group>"; };
 		0EB058631EE581680058A39D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		0EB058651EE584E80058A39D /* ContactEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEntry.swift; sourceTree = "<group>"; };
@@ -184,6 +188,8 @@
 				0E1C13A51EE7E38C000633DF /* DrawRout.swift */,
 				0E7E671D1EE95BED0049FB98 /* Charts.swift */,
 				0E1C13A71EE7E62E000633DF /* Polyline.swift */,
+				0E3644661EF62D6A006191E0 /* MapViewcluster.swift */,
+				0E8AF3C21EF8CAAD003A3003 /* MultipleLoader.swift */,
 				0EEC1E251EDEF7E600FBC91E /* CalloutCustom */,
 				0E210BC61EDBF60500D705BD /* Main.storyboard */,
 				0E32F61E1EEAEA5B00177063 /* ChartLibrary */,
@@ -454,6 +460,7 @@
 				0E32F6541EEAEA5C00177063 /* GroupedBarsExample.swift in Sources */,
 				0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */,
 				0E32F6471EEAEA5C00177063 /* BarsPlusMinusWithGradientExample.swift in Sources */,
+				0E8AF3C31EF8CAAD003A3003 /* MultipleLoader.swift in Sources */,
 				0E32F6601EEAEA5C00177063 /* TrackerExample.swift in Sources */,
 				0E32F6461EEAEA5C00177063 /* BarsPlusMinusAndLinesExample.swift in Sources */,
 				0E32F6561EEAEA5C00177063 /* MultipleAxesExample.swift in Sources */,
@@ -470,6 +477,7 @@
 				0E32F65F1EEAEA5C00177063 /* TargetExample.swift in Sources */,
 				0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */,
 				0EEC1E181EDEEC0E00FBC91E /* CustomCallOutMapview.swift in Sources */,
+				0E3644671EF62D6A006191E0 /* MapViewcluster.swift in Sources */,
 				0E32F64E1EEAEA5C00177063 /* CubicLinesExample.swift in Sources */,
 				0E32F6491EEAEA5C00177063 /* CandleStickExample.swift in Sources */,
 				0EEC1E1F1EDEF78600FBC91E /* AnnotationView.swift in Sources */,

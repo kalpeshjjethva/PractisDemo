@@ -29,16 +29,16 @@ struct ExamplesDefaults {
     
     fileprivate static var iPadChartSettings: ChartSettings {
         var chartSettings = ChartSettings()
-        chartSettings.leading = 20
-        chartSettings.top = 20
-        chartSettings.trailing = 20
-        chartSettings.bottom = 20
-        chartSettings.labelsToAxisSpacingX = 10
-        chartSettings.labelsToAxisSpacingY = 10
-        chartSettings.axisTitleLabelsToLabelsSpacing = 5
-        chartSettings.axisStrokeWidth = 1
-        chartSettings.spacingBetweenAxesX = 15
-        chartSettings.spacingBetweenAxesY = 15
+        chartSettings.leading = 0
+        chartSettings.top = 5
+        chartSettings.trailing = 5
+        chartSettings.bottom = 0
+        chartSettings.labelsToAxisSpacingX = 0
+        chartSettings.labelsToAxisSpacingY = 0
+        chartSettings.axisTitleLabelsToLabelsSpacing = 0
+        chartSettings.axisStrokeWidth = 0.5
+        chartSettings.spacingBetweenAxesX = 5
+        chartSettings.spacingBetweenAxesY = 5
         chartSettings.labelsSpacing = 0
         return chartSettings
     }
@@ -74,7 +74,7 @@ struct ExamplesDefaults {
     }
     
     static func chartFrame(_ containerBounds: CGRect) -> CGRect {
-        return CGRect(x: 0, y: 70, width: containerBounds.size.width, height: containerBounds.size.height - 70)
+        return CGRect(x: 0, y: 0, width: containerBounds.size.width, height: containerBounds.size.height)
     }
     
     static var labelSettings: ChartLabelSettings {
@@ -82,7 +82,7 @@ struct ExamplesDefaults {
     }
     
     static var labelFont: UIFont {
-        return ExamplesDefaults.fontWithSize(Env.iPad ? 8 : 6)
+        return ExamplesDefaults.fontWithSize(Env.iPad ? 4 : 2)
     }
     
     static var labelFontSmall: UIFont {

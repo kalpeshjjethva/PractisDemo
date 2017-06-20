@@ -15,20 +15,15 @@ class Charts: UIViewController {
     @IBOutlet weak var expanceTrackingChart: UIView!
     @IBOutlet weak var leaseChart: UIView!
     @IBOutlet weak var roiChart: UIView!
-    fileprivate var chart: Chart? // arc
-    
-    fileprivate var chart2: Chart? // arc
-    
-    
+    fileprivate var objROIChart: Chart? // arc
+    fileprivate var objExpenceChart: Chart? // arc
     fileprivate var Lchart: Chart? // arc
     fileprivate var gradientPicker: GradientPicker? // to pick the colors of the bars
     
-    
-    
-    
-    
-    
     override func viewDidLoad() {
+        
+        
+        
         
         let Newframe = CGRect(x: 0.0, y: 0.0, width: expanceTrackingChart.frame.size.width, height: expanceTrackingChart.frame.size.height)
         print("Old Expance tracking frame \(Newframe)")
@@ -37,7 +32,7 @@ class Charts: UIViewController {
             
             self.gradientPicker = GradientPicker(width: 200)
             
-            self.LineChart()
+            self.ROIChart()
             self.loadExpanceChart()
             self.LeaseRenewalChart()
         }
@@ -210,13 +205,12 @@ class Charts: UIViewController {
             }
         }
     }
-    func LineChart(){
+    func ROIChart(){
         let labelSettings = ChartLabelSettings(font: ExamplesDefaults.labelFont)
         
         let chartPoints = [(0, 0), (4, 4), (8, 11), (9, -2), (11, -10), (12, 3), (15, -18), (18, 10), (20, 15)].map{ChartPoint(x: ChartAxisValueInt($0.0, labelSettings: labelSettings), y: ChartAxisValueInt($0.1))}
-        
         let xValues = chartPoints.map{$0.x}
-        let yValues = ChartAxisValuesStaticGenerator.generateYAxisValuesWithChartPoints(chartPoints, minSegmentCount: 10, maxSegmentCount: 20, multiple: 2, axisValueGenerator: {ChartAxisValueDouble($0, labelSettings: labelSettings)}, addPaddingSegmentIfEdge: false)
+        let yValues = ChartAxisValuesStaticGenerator.generateYAxisValuesWithChartPoints(chartPoints, minSegmentCount: 1, maxSegmentCount: 10, multiple: 2, axisValueGenerator: {ChartAxisValueDouble($0, labelSettings: labelSettings)}, addPaddingSegmentIfEdge: false)
         
         let xModel = ChartAxisModel(axisValues: xValues, axisTitleLabel: ChartAxisLabel(text: "Axis title", settings: labelSettings))
         let yModel = ChartAxisModel(axisValues: yValues, axisTitleLabel: ChartAxisLabel(text: "Axis title", settings: labelSettings.defaultVertical()))
@@ -236,11 +230,6 @@ class Charts: UIViewController {
         let settings = ChartGuideLinesDottedLayerSettings(linesColor: UIColor.black, linesWidth: ExamplesDefaults.guidelinesWidth)
         let guidelinesLayer = ChartGuideLinesDottedLayer(xAxisLayer: xAxisLayer, yAxisLayer: yAxisLayer, settings: settings)
         
-        
-        
-        
-        
-        
         let chart = Chart(
             frame: chartFrame,
             innerFrame: innerFrame,
@@ -254,7 +243,7 @@ class Charts: UIViewController {
         )
         
         leaseChart.addSubview(chart.view)
-        self.chart = chart
+        self.objROIChart = chart
         
     }
     func loadExpanceChart()
@@ -396,7 +385,7 @@ class Charts: UIViewController {
             ]
         )
         expanceTrackingChart.addSubview(chart.view)
-        self.chart2 = chart
+        self.objExpenceChart = chart
         
     }
     

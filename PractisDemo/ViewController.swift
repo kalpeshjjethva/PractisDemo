@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         ObjLastSize = objSuperView.frame
 
         
+
+        
+        
         isFull = false
         let videoURL = URL(string: "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8")
 
