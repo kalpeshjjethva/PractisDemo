@@ -55,7 +55,6 @@ class BarsPlusMinusAndLinesExample: UIViewController {
         
         
         var tempcounter = NSInteger()
-        
         let labelsGenerator = ChartAxisLabelsGeneratorFunc {scalar in
             
             return ChartAxisLabel(text: "\(scalar)\(tempcounter+=1)", settings: labelSettings)
@@ -63,8 +62,6 @@ class BarsPlusMinusAndLinesExample: UIViewController {
         
         
         let xModel = ChartAxisModel(firstModelValue: -1, lastModelValue: Double(barsData.count), axisTitleLabels: [ChartAxisLabel(text: "Axis title", settings: labelSettings)], axisValuesGenerator: xGenerator, labelsGenerator: labelsGenerator)
-        
-        
         
         
         let yModel = ChartAxisModel(firstModelValue: -80, lastModelValue: 80, axisTitleLabels: [ChartAxisLabel(text: "Axis title", settings: labelSettings.defaultVertical())], axisValuesGenerator: yGenerator, labelsGenerator: labelsGenerator)

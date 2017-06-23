@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
+    
     @IBOutlet weak var actLoader: UIActivityIndicatorView!
     @IBOutlet weak var lblLoaderText: UILabel!
     @IBOutlet var LoaderView: UIView!

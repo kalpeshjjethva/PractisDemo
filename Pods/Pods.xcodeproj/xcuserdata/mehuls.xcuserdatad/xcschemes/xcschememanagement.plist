@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Canvas.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Cluster.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,7 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Spring.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftCharts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>lottie-ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,12 +42,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>546401F8A315518091BF2776FAEE3D04</key>
+		<key>50EF3CABFC9A2CB754351231DC063B67</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>86CEE36B2C1585A4503D368F7B4D6FB7</key>
+		<key>546401F8A315518091BF2776FAEE3D04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A405788753A8E960A5C7F388834CDB72</key>
+		<key>9497590995E6D61474A5A8ACBE0D816E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5C29066B32BC3DBA7CD2538B4ED3A47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5E46B411139EFDAF40632435298616D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6497E6E7D485D7D0D7E0CD8E84BFCD4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

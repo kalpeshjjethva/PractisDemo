@@ -8,8 +8,9 @@ target 'PractisDemo' do
     pod 'Fabric'
     pod 'Crashlytics'
     pod 'SwiftCharts', :git => 'https://github.com/i-schuetz/SwiftCharts.git'
-    
+    pod 'Canvas', '~> 0.1.2'
     pod "Cluster"
-
+    pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+    pod 'lottie-ios'
 
 end

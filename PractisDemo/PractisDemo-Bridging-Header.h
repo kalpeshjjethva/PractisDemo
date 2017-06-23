@@ -5,3 +5,4 @@
 #import "HACBarLayer.h"
 #import "HACBarChart.h"
 
+#import <UIKit/UIKit.h>
