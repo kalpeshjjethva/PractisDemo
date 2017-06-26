@@ -28,29 +28,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         ObjLastSize = objSuperView.frame
 
-        
-
-        
-        
         isFull = false
         let videoURL = URL(string: "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8")
 
-        self.moviePlayer = MPMoviePlayerController(contentURL: videoURL)
-            moviePlayer.view.frame = CGRect(x: 0, y: 0, width: self.defaultView.frame.size.width, height: self.defaultView.frame.size.height)
-            moviePlayer.view.sizeToFit()
-            moviePlayer.scalingMode = MPMovieScalingMode.fill
-            moviePlayer.isFullscreen = true
-            moviePlayer.controlStyle = MPMovieControlStyle.none
-            moviePlayer.movieSourceType = MPMovieSourceType.file
-            moviePlayer.repeatMode = MPMovieRepeatMode.one
-            self.moviePlayer.controlStyle = MPMovieControlStyle.embedded;
-            moviePlayer.play()
-            self.defaultView.addSubview(moviePlayer.view)
-            self.defaultView.addSubview(btnPlayPause)
-            btnPlayPause.isHidden = true
-        
         /*
         ObjLastSize = objSuperView.frame
         let videoURL = URL(string: "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8")
