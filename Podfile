@@ -12,5 +12,6 @@ target 'PractisDemo' do
     pod "Cluster"
     pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
     pod 'lottie-ios'
-
+    pod 'Charts'
+    
 end

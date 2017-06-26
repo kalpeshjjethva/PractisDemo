@@ -10,7 +10,7 @@ import UIKit
 import Spring
 import Lottie
 
-class MultipleLoader: UIViewController {
+class AnimationDemo: UIViewController {
 
     @IBOutlet weak var objjSpingView: SpringView!
     
@@ -18,12 +18,12 @@ class MultipleLoader: UIViewController {
     
      override func viewDidLoad() {
         super.viewDidLoad()
-        animationDemo()
+        //animationDemo()
     }
-    func animationDemo()
+    func animationDemo(ANimationName:String)
     {
-        let animationView = LOTAnimationView(name: "PinJump")
-        animationView?.frame = CGRect(x: 300, y: 100, width: self.view.frame.size.width, height: 500)
+        let animationView = LOTAnimationView(name: ANimationName)
+        animationView?.frame = CGRect(x: 300, y: 0, width: self.view.frame.size.width, height: 400)
         animationView?.contentMode = .scaleAspectFill
         animationView?.loopAnimation = true
         self.view.addSubview(animationView!)
@@ -31,20 +31,32 @@ class MultipleLoader: UIViewController {
     }
     @IBAction func btnAction(_ sender: UIButton) {
         
-       // objjSpingView.curve = "linear"
-        
         if objcounter == 0
         {
+            //animationDemo(ANimationName: "PinJump")
             objjSpingView.animation = "squeezeDown"
             objjSpingView.animate()
         }
         else if objcounter == 1
         {
+            let animationView = LOTAnimationView(name: "LottieLogo1")
+            animationView?.frame = CGRect(x: 300, y: 400, width: self.view.frame.size.width, height: 400)
+            animationView?.contentMode = .scaleAspectFill
+            animationView?.loopAnimation = true
+            self.view.addSubview(animationView!)
+            animationView?.play()
             objjSpingView.animation = "squeezeLeft"
             objjSpingView.animate()
             
         }else if objcounter == 2
         {
+            
+            let animationView = LOTAnimationView(name: "TwitterHeart")
+            animationView?.frame = CGRect(x: 100, y: 800, width: self.view.frame.size.width, height: 400)
+            animationView?.contentMode = .scaleAspectFill
+            animationView?.loopAnimation = true
+            self.view.addSubview(animationView!)
+            animationView?.play()
             objjSpingView.animation = "slideLeft"
             objjSpingView.animate()
         }

@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Cluster.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,12 +47,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>50EF3CABFC9A2CB754351231DC063B67</key>
+		<key>546401F8A315518091BF2776FAEE3D04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>546401F8A315518091BF2776FAEE3D04</key>
+		<key>7E40F52DB43493E20A382C027F50FFEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9497590995E6D61474A5A8ACBE0D816E</key>
+		<key>90AF3A672354DE5DA55E72E37C3BD15C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,7 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5E46B411139EFDAF40632435298616D</key>
+		<key>E8DE0D847DDC9AA7BDA588BBFE347685</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F307B842FF76B2DE6C55DB67C0885325</key>
 		<dict>
 			<key>primary</key>
 			<true/>
