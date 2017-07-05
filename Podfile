@@ -13,5 +13,7 @@ target 'PractisDemo' do
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
   pod 'lottie-ios'
   pod 'Charts'
+  pod 'CryptoSwift'
+  pod 'RNCryptor', '~> 5.0'
 
 end

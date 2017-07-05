@@ -6,3 +6,8 @@
 #import "HACBarChart.h"
 
 #import <UIKit/UIKit.h>
+#import "AESCrypt.h"
+
+#import "NSData+Base64.h"
+#import "NSString+Base64.h"
+#import "NSData+CommonCrypto.h"

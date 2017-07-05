@@ -24,7 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CryptoSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-PractisDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNCryptor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,7 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7E40F52DB43493E20A382C027F50FFEB</key>
+		<key>5CA8C02FB4684FEF6C074E7629739B3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>65FC0341A5490947405CE6FA9FC39449</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6BB1C1403B2419F911818DA8413FDA07</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF2963903DCE26F76C42C90087109C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,17 +87,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>90AF3A672354DE5DA55E72E37C3BD15C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>B5C29066B32BC3DBA7CD2538B4ED3A47</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E8DE0D847DDC9AA7BDA588BBFE347685</key>
+		<key>EA3DEA48AA592E02B4B90AC3ACEBDF42</key>
 		<dict>
 			<key>primary</key>
 			<true/>

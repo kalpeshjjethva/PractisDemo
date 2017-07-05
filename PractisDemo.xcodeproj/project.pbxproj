@@ -100,6 +100,13 @@
 		0E3644671EF62D6A006191E0 /* MapViewcluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3644661EF62D6A006191E0 /* MapViewcluster.swift */; };
 		0E46F7611EE6A8D300BEC579 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */; };
 		0E46F7621EE6A8D300BEC579 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F7601EE6A8D300BEC579 /* Fabric.framework */; };
+		0E623E1A1F0A10D800233623 /* AESAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E623E191F0A10D800233623 /* AESAlgo.swift */; };
+		0E623E251F0A1E6A00233623 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E623E1C1F0A1E6A00233623 /* AESCrypt.m */; };
+		0E623E261F0A1E6A00233623 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0E623E1D1F0A1E6A00233623 /* LICENSE */; };
+		0E623E271F0A1E6A00233623 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E623E1F1F0A1E6A00233623 /* NSData+Base64.m */; };
+		0E623E281F0A1E6A00233623 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E623E211F0A1E6A00233623 /* NSData+CommonCrypto.m */; };
+		0E623E291F0A1E6A00233623 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E623E231F0A1E6A00233623 /* NSString+Base64.m */; };
+		0E623E2A1F0A1E6A00233623 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0E623E241F0A1E6A00233623 /* README.md */; };
 		0E7E671A1EE95A5D0049FB98 /* HACBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67171EE95A5D0049FB98 /* HACBarChart.m */; };
 		0E7E671B1EE95A5D0049FB98 /* HACBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */; };
 		0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E671D1EE95BED0049FB98 /* Charts.swift */; };
@@ -120,9 +127,9 @@
 
 /* Begin PBXFileReference section */
 		0E079D501EFCCC8700EC28D2 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = "Pods/../build/Release-iphoneos/lottie-ios/Lottie.framework"; sourceTree = "<group>"; };
-		0E079D521EFCCD8500EC28D2 /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
-		0E079D531EFCCD8500EC28D2 /* buttonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOff.json; sourceTree = "<group>"; };
-		0E079D541EFCCD8500EC28D2 /* buttonOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buttonOn.json; sourceTree = "<group>"; };
+		0E079D521EFCCD8500EC28D2 /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PinJump.json; path = ../PinJump.json; sourceTree = "<group>"; };
+		0E079D531EFCCD8500EC28D2 /* buttonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = buttonOff.json; path = ../buttonOff.json; sourceTree = "<group>"; };
+		0E079D541EFCCD8500EC28D2 /* buttonOn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = buttonOn.json; path = ../buttonOn.json; sourceTree = "<group>"; };
 		0E079D5D1EFCD30100EC28D2 /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
 		0E079D5E1EFCD30100EC28D2 /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
 		0E079D5F1EFCD30100EC28D2 /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
@@ -215,6 +222,17 @@
 		0E3644661EF62D6A006191E0 /* MapViewcluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewcluster.swift; sourceTree = "<group>"; };
 		0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		0E46F7601EE6A8D300BEC579 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		0E623E191F0A10D800233623 /* AESAlgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESAlgo.swift; sourceTree = "<group>"; };
+		0E623E1B1F0A1E6A00233623 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		0E623E1C1F0A1E6A00233623 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		0E623E1D1F0A1E6A00233623 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0E623E1E1F0A1E6A00233623 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		0E623E1F1F0A1E6A00233623 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		0E623E201F0A1E6A00233623 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		0E623E211F0A1E6A00233623 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		0E623E221F0A1E6A00233623 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		0E623E231F0A1E6A00233623 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		0E623E241F0A1E6A00233623 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0E7E67161EE95A5D0049FB98 /* HACBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACBarChart.h; sourceTree = "<group>"; };
 		0E7E67171EE95A5D0049FB98 /* HACBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACBarChart.m; sourceTree = "<group>"; };
 		0E7E67181EE95A5D0049FB98 /* HACBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACBarLayer.h; sourceTree = "<group>"; };
@@ -257,6 +275,9 @@
 		0E079D5C1EFCD30100EC28D2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				0E079D521EFCCD8500EC28D2 /* PinJump.json */,
+				0E079D531EFCCD8500EC28D2 /* buttonOff.json */,
+				0E079D541EFCCD8500EC28D2 /* buttonOn.json */,
 				0E079D5D1EFCD30100EC28D2 /* 9squares-AlBoardman.json */,
 				0E079D5E1EFCD30100EC28D2 /* HamburgerArrow.json */,
 				0E079D5F1EFCD30100EC28D2 /* IconTransitions.json */,
@@ -335,20 +356,10 @@
 				0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */,
 				0E46F7601EE6A8D300BEC579 /* Fabric.framework */,
 				0E210BC21EDBF60500D705BD /* AppDelegate.swift */,
+				0E623E2B1F0A1E7000233623 /* AESSDK */,
 				0E079D5C1EFCD30100EC28D2 /* Assets */,
-				0E079D521EFCCD8500EC28D2 /* PinJump.json */,
-				0E079D531EFCCD8500EC28D2 /* buttonOff.json */,
-				0E079D541EFCCD8500EC28D2 /* buttonOn.json */,
-				0E210BC41EDBF60500D705BD /* ViewController.swift */,
-				0EB058651EE584E80058A39D /* ContactEntry.swift */,
-				0EB058671EE585300058A39D /* String+Email.swift */,
-				0EB058611EE57B940058A39D /* getAllcontacts.swift */,
-				0E1C13A51EE7E38C000633DF /* DrawRout.swift */,
-				0E7E671D1EE95BED0049FB98 /* Charts.swift */,
-				0E1C13A71EE7E62E000633DF /* Polyline.swift */,
-				0E3644661EF62D6A006191E0 /* MapViewcluster.swift */,
-				0E8AF3C21EF8CAAD003A3003 /* AnimationDemo.swift */,
-				0E0D420A1EFF6C30003A43E7 /* DrawLabel.swift */,
+				0E623E191F0A10D800233623 /* AESAlgo.swift */,
+				0E623E181F0A10B800233623 /* ViewController */,
 				0E8AF3C41EF8CBF4003A3003 /* LoaderView2.xib */,
 				0EEC1E251EDEF7E600FBC91E /* CalloutCustom */,
 				0E210BC61EDBF60500D705BD /* Main.storyboard */,
@@ -419,6 +430,40 @@
 				0E32F6291EEAEA5B00177063 /* ConvenienceLinesExample.swift */,
 			);
 			path = Convenience;
+			sourceTree = "<group>";
+		};
+		0E623E181F0A10B800233623 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E210BC41EDBF60500D705BD /* ViewController.swift */,
+				0EB058651EE584E80058A39D /* ContactEntry.swift */,
+				0EB058671EE585300058A39D /* String+Email.swift */,
+				0EB058611EE57B940058A39D /* getAllcontacts.swift */,
+				0E1C13A51EE7E38C000633DF /* DrawRout.swift */,
+				0E7E671D1EE95BED0049FB98 /* Charts.swift */,
+				0E1C13A71EE7E62E000633DF /* Polyline.swift */,
+				0E3644661EF62D6A006191E0 /* MapViewcluster.swift */,
+				0E8AF3C21EF8CAAD003A3003 /* AnimationDemo.swift */,
+				0E0D420A1EFF6C30003A43E7 /* DrawLabel.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0E623E2B1F0A1E7000233623 /* AESSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0E623E1B1F0A1E6A00233623 /* AESCrypt.h */,
+				0E623E1C1F0A1E6A00233623 /* AESCrypt.m */,
+				0E623E1D1F0A1E6A00233623 /* LICENSE */,
+				0E623E1E1F0A1E6A00233623 /* NSData+Base64.h */,
+				0E623E1F1F0A1E6A00233623 /* NSData+Base64.m */,
+				0E623E201F0A1E6A00233623 /* NSData+CommonCrypto.h */,
+				0E623E211F0A1E6A00233623 /* NSData+CommonCrypto.m */,
+				0E623E221F0A1E6A00233623 /* NSString+Base64.h */,
+				0E623E231F0A1E6A00233623 /* NSString+Base64.m */,
+				0E623E241F0A1E6A00233623 /* README.md */,
+			);
+			name = AESSDK;
 			sourceTree = "<group>";
 		};
 		0E7E671C1EE95B720049FB98 /* HACGraph */ = {
@@ -531,6 +576,7 @@
 			files = (
 				0E079DAA1EFCD30100EC28D2 /* V.json in Resources */,
 				0E079DA61EFCD30100EC28D2 /* R.json in Resources */,
+				0E623E261F0A1E6A00233623 /* LICENSE in Resources */,
 				0E079DA51EFCD30100EC28D2 /* Q.json in Resources */,
 				0E079DA01EFCD30100EC28D2 /* L.json in Resources */,
 				0E079D9F1EFCD30100EC28D2 /* K.json in Resources */,
@@ -662,10 +708,12 @@
 				0E32F6551EEAEA5C00177063 /* HelloWorld.swift in Sources */,
 				0E7E671B1EE95A5D0049FB98 /* HACBarLayer.m in Sources */,
 				0E32F65D1EEAEA5C00177063 /* ScatterExample.swift in Sources */,
+				0E623E1A1F0A10D800233623 /* AESAlgo.swift in Sources */,
 				0E32F6661EEAEA5C00177063 /* VerticalGuide.swift in Sources */,
 				0E1C13A81EE7E62E000633DF /* Polyline.swift in Sources */,
 				0E32F6541EEAEA5C00177063 /* GroupedBarsExample.swift in Sources */,
 				0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */,
+				0E623E251F0A1E6A00233623 /* AESCrypt.m in Sources */,
 				0E32F6471EEAEA5C00177063 /* BarsPlusMinusWithGradientExample.swift in Sources */,
 				0E8AF3C31EF8CAAD003A3003 /* AnimationDemo.swift in Sources */,
 				0E32F6601EEAEA5C00177063 /* TrackerExample.swift in Sources */,
@@ -691,11 +739,15 @@
 				0E32F6511EEAEA5C00177063 /* EqualSpacingExample.swift in Sources */,
 				0E32F6501EEAEA5C00177063 /* Env.swift in Sources */,
 				0E32F64C1EEAEA5C00177063 /* ConvenienceLinesExample.swift in Sources */,
+				0E623E2A1F0A1E6A00233623 /* README.md in Sources */,
 				0E32F6651EEAEA5C00177063 /* UIColor.swift in Sources */,
 				0E32F64D1EEAEA5C00177063 /* CoordsExample.swift in Sources */,
 				0E210BC51EDBF60500D705BD /* ViewController.swift in Sources */,
 				0E32F65C1EEAEA5C00177063 /* RangedAxisExample.swift in Sources */,
 				0E32F65B1EEAEA5C00177063 /* NotNumericExample.swift in Sources */,
+				0E623E271F0A1E6A00233623 /* NSData+Base64.m in Sources */,
+				0E623E291F0A1E6A00233623 /* NSString+Base64.m in Sources */,
+				0E623E281F0A1E6A00233623 /* NSData+CommonCrypto.m in Sources */,
 				0E32F64B1EEAEA5C00177063 /* ConvenienceBarsExample.swift in Sources */,
 				0E210BC31EDBF60500D705BD /* AppDelegate.swift in Sources */,
 				0E32F6631EEAEA5C00177063 /* PointGuide.swift in Sources */,
@@ -849,6 +901,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "PractisDemo/PractisDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -875,6 +928,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PractisDemo/PractisDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

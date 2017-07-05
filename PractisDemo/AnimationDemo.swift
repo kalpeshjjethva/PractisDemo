@@ -19,6 +19,11 @@ class AnimationDemo: UIViewController {
      override func viewDidLoad() {
         super.viewDidLoad()
         //animationDemo()
+        
+        self.navigationController?.navigationBar.tintColor = UIColor.green
+        
+        
+        
     }
     func animationDemo(ANimationName:String)
     {
@@ -100,38 +105,37 @@ class AnimationDemo: UIViewController {
     }
     func wscall()
     {
-        /*
         let authdict = NSMutableDictionary()
-        authdict.setValue("wsuser@propertyapp.com", forKey: "ws_email"
-        authdict.setValue("wsuser", forKey: "ws_password"
+        authdict.setValue("wsuser@propertyapp.com", forKey: "ws_email")
+        authdict.setValue("wsuser", forKey: "ws_password")
         
         let condition = NSMutableArray()
-        condition.add("generalledgers.gl_isdelete =  0"
+        condition.add("generalledgers.gl_isdelete =  0")
         
         let fields = NSMutableArray()
-        fields.add("generalledgers.*"
-        fields.add("properties.*"
-        fields.add("propertytypes.*"
-        fields.add("DATE_FORMAT(generalledgers.gl_date, '%Y') as Year"
-        fields.add("DATE_FORMAT(generalledgers.gl_date, '%m') as Month"
-        fields.add("DATE_FORMAT(properties.p_leaseto, '%Y') as PTYear"
-        fields.add("DATE_FORMAT(properties.p_leaseto, '%m') as PTMonth"
+        fields.add("generalledgers.*")
+        fields.add("properties.*")
+        fields.add("propertytypes.*")
+        fields.add("DATE_FORMAT(generalledgers.gl_date, '%Y') as Year")
+        fields.add("DATE_FORMAT(generalledgers.gl_date, '%m') as Month")
+        fields.add("DATE_FORMAT(properties.p_leaseto, '%Y') as PTYear")
+        fields.add("DATE_FORMAT(properties.p_leaseto, '%m') as PTMonth")
         
         
         let contain = NSMutableArray()
-        contain.add("properties"
-        contain.add("propertytypes"
+        contain.add("properties")
+        contain.add("propertytypes")
         
         let params = NSMutableDictionary()
-        params.setValue(condition, forKey: "condition"
-        params.setValue(fields, forKey: "fields"
-        params.setValue(contain, forKey: "contain"
+        params.setValue(condition, forKey: "condition")
+        params.setValue(fields, forKey: "fields")
+        params.setValue(contain, forKey: "contain")
         
         
         let dict = NSMutableDictionary()
-        dict.setValue(authdict, forKey: "auth"
-        dict.setValue("get", forKey: "type"
-        dict.setValue(params, forKey: "params"
+        dict.setValue(authdict, forKey: "auth")
+        dict.setValue("get", forKey: "type")
+        dict.setValue(params, forKey: "params")
         
         
         print(dict)
@@ -140,15 +144,14 @@ class AnimationDemo: UIViewController {
         let jsonData = try? JSONSerialization.data(withJSONObject: dict)
         
         
-        
-        let url = URL(string: "http://192.168.1.139/pmitsws/ledgers"!
+        let url = URL(string: "http://propertyappws.secretdemo.com/")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.httpBody = jsonData
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {
-                print(error?.localizedDescription ?? "No data"
+                print(error?.localizedDescription ?? "No data")
                 return
             }
             let responseJSON = try? JSONSerialization.jsonObject(with: data, options: [])
@@ -164,7 +167,6 @@ class AnimationDemo: UIViewController {
         }
         task.resume()
         
-        */
     }
       override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
