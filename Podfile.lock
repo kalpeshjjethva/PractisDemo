@@ -1,4 +1,5 @@
 PODS:
+  - AES256CBC (1.1.1)
   - ASPVideoPlayer (2.0.2)
   - Canvas (0.1.2)
   - Charts (3.0.2):
@@ -15,6 +16,7 @@ PODS:
   - SwiftCharts (0.6)
 
 DEPENDENCIES:
+  - AES256CBC
   - ASPVideoPlayer (~> 2.0)
   - Canvas (~> 0.1.2)
   - Charts
@@ -43,6 +45,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/i-schuetz/SwiftCharts.git
 
 SPEC CHECKSUMS:
+  AES256CBC: 22b584fbea28b46ab3c52d44213902ab5c6f801f
   ASPVideoPlayer: fcfac6d210fff1cb5a43266caffe83957f01410b
   Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
   Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
@@ -55,6 +58,6 @@ SPEC CHECKSUMS:
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   SwiftCharts: 84f84c2a94a3f51f055eeaacd9b8dc3ada3380eb
 
-PODFILE CHECKSUM: e20a918800101e88d71f8638b10ee23685d7ffb1
+PODFILE CHECKSUM: add50f3cdd6cb4f3c098e24242f0ffea51ac991e
 
 COCOAPODS: 1.2.1

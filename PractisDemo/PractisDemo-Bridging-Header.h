@@ -11,3 +11,11 @@
 #import "NSData+Base64.h"
 #import "NSString+Base64.h"
 #import "NSData+CommonCrypto.h"
+#import "JFBCrypt.h"
+#import "JFBase64.h"
+#import "JFAes256Codec.h"
+#import "NSData+Encryption.h"
+
+
+#import "NSData+AESCrypt.h"
+#import "NSString+AESCrypt.h"

@@ -15,5 +15,6 @@ target 'PractisDemo' do
   pod 'Charts'
   pod 'CryptoSwift'
   pod 'RNCryptor', '~> 5.0'
+  pod 'AES256CBC'
 
 end

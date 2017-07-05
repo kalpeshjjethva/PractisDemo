@@ -9,43 +9,90 @@
 import UIKit
 import CryptoSwift
 import RNCryptor
+import AES256CBC
 
 class AESAlgo: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
         //Method 1
-        let encrypted = AESCrypt.encrypt("test", password: "test")
-        print("encrypted \(encrypted)")
-        let sdfDescencrypted = AESCrypt.decrypt(encrypted, password: "test")
-        print("sdfDescencrypted \(sdfDescencrypted)")
-        //Method 2
-       // let Descencrypted = AESCrypt.decrypt("eyJpdiI6IkgybUhvZUNtYXJSaEFubnl4RFFOQmc9PSIsInZhbHVlIjoiZFR6ZDBnZlhVRDcxeEVRcHV2QjJsZz09IiwibWFjIjoiYzdmYjFmYWQ2MGYxOTQzYTZkZGFhZTUyN2Y0MGRlZWEyMzFlMmVmOWY2OWZlZjkzYTU4YjQxNTQ3ZjRhOWJhYyJ9", password: "eYx7il2BNYdecDbtmg7s52AL5WUpKI4VfSqm+UHFfgI=")
-       // print("Descencrypted \(Descencrypted)")
         
         
-        //Method 3 
-        let input = "eyJpdiI6IkgybUhvZUNtYXJSaEFubnl4RFFOQmc9PSIsInZhbHVlIjoiZFR6ZDBnZlhVRDcxeEVRcHV2QjJsZz09IiwibWFjIjoiYzdmYjFmYWQ2MGYxOTQzYTZkZGFhZTUyN2Y0MGRlZWEyMzFlMmVmOWY2OWZlZjkzYTU4YjQxNTQ3ZjRhOWJhYyJ9"
-        let data = input.data(using: .utf8)!
-        let password = "eYx7il2BNYdecDbtmg7s52AL5WUpKI4VfSqm+UHFfgI="
-        let decryptor = RNCryptor.Decryptor(password: password)
-        let plaintext = NSMutableData()
-       // let sdf = try! plaintext.append(decryptor.decrypt(data: data))
-      //  print("sadf \(sdf)")
+        let encryptedString = "eyJpdiI6ImdqS0w3RDZqK053dVZYVzNMajVra0E9PSIsInZhbHVlIjoiS0ZJQnpCT3NsNW1SXC82V283RGRhUUE9PSIsIm1hYyI6ImNmYWU5YWViZmQwYWQyNWVhM2QzMzhkODY5ZjczNTg4ZDZmNTNlOTQ4ZTlmNzY5MTEyNTc0NDUzMjMyMjU4NTQifQ=="
+        let password = "QNCvHG9djOwhkroukUgb/n8/JD8D4EI5//i1GQTugl0="
         
-        // Do any additional setup after loading the view.
+        let data = encryptedString.data(using: String.Encoding.utf8, allowLossyConversion: true)
+        let data2 = encryptedString.data(using: String.Encoding.utf16, allowLossyConversion: true)
+        let data3 = encryptedString.data(using: String.Encoding.utf32, allowLossyConversion: true)
+        
+        
+        let sadfasdfa = NSString()
+        
+        let printobject =  sadfasdfa.aes256Decrypt(withKey: encryptedString)
+        
+        print("sadf \(printobject)")
+        
+        
+        
+        
+
+        
+        
+
+        let sadf = JFAes256Codec.decryptData(data, withKey: password)
+        let backToString = String(data: sadf!, encoding: String.Encoding.utf8) as String!
+        print("asdf \(backToString)")
+        
+        
+        
+        let objbase = JFBase64.decode(encryptedString)
+        
+        
+        print("objbase \(objbase)")
+
+        let backToStrsdfdsfing = String(data: objbase!, encoding: String.Encoding.ascii) as String!
+        print("asdf \(backToStrsdfdsfing)")
+
+        
+        
+        let Descencrypted = AESCrypt.decrypt(encryptedString, password: password)
+        print(Descencrypted ?? "")
+        method1(password: password, encryptedString: encryptedString)
+    }
+    func method2()
+    {
+        
+    }
+    func method1(password:String, encryptedString:String)
+    {
+        
+     
+        let str = "test"
+        let password = AES256CBC.generatePassword()  // returns random 32 char string
+        
+        // get AES-256 CBC encrypted string
+        
+        print(password)
+        
+        let encrypted = AES256CBC.encryptString(str, password: password)
+        
+        
+        print("\(encrypted)")
+        
+        // decrypt AES-256 CBC encrypted string
+        let decrypted = AES256CBC.decryptString(encrypted!, password: password)
+
+        print("\(decrypted)")
+
+        
     }
     @IBAction func btnDecrptionAction(_ sender: UIButton) {
     }
-
     @IBAction func btnEncrptionActino(_ sender: UIButton) {
-        
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "DrawRout") as! DrawRout
-        
         let transition: CATransition = CATransition()
         let timeFunc : CAMediaTimingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
         transition.duration = 0.5
@@ -54,9 +101,6 @@ class AESAlgo: UIViewController {
         transition.subtype = kCATransitionFromLeft
         self.navigationController?.view.layer.add(transition, forKey: kCATransition)
         self.navigationController?.pushViewController(vc, animated: false)
-        
-
-        
         
     }
     override func didReceiveMemoryWarning() {
