@@ -66,26 +66,22 @@ class AESAlgo: UIViewController {
     }
     func method1(password:String, encryptedString:String)
     {
-        
-     
         let str = "test"
         let password = AES256CBC.generatePassword()  // returns random 32 char string
         
         // get AES-256 CBC encrypted string
         
         print(password)
-        
         let encrypted = AES256CBC.encryptString(str, password: password)
         
         
         print("\(encrypted)")
         
         // decrypt AES-256 CBC encrypted string
+        //Password is for key in ios
         let decrypted = AES256CBC.decryptString(encrypted!, password: password)
 
         print("\(decrypted)")
-
-        
     }
     @IBAction func btnDecrptionAction(_ sender: UIButton) {
     }
