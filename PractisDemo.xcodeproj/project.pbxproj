@@ -151,12 +151,48 @@
 		0E7E671A1EE95A5D0049FB98 /* HACBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67171EE95A5D0049FB98 /* HACBarChart.m */; };
 		0E7E671B1EE95A5D0049FB98 /* HACBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */; };
 		0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E671D1EE95BED0049FB98 /* Charts.swift */; };
+		0E8758B31F0FA81F00067206 /* NewCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8758B21F0FA81F00067206 /* NewCharts.swift */; };
 		0E8AF3C31EF8CAAD003A3003 /* AnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8AF3C21EF8CAAD003A3003 /* AnimationDemo.swift */; };
 		0E8AF3C51EF8CBF4003A3003 /* LoaderView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E8AF3C41EF8CBF4003A3003 /* LoaderView2.xib */; };
 		0EB058621EE57B940058A39D /* getAllcontacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058611EE57B940058A39D /* getAllcontacts.swift */; };
 		0EB058641EE581680058A39D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB058631EE581680058A39D /* AddressBookUI.framework */; };
 		0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058651EE584E80058A39D /* ContactEntry.swift */; };
 		0EB058681EE585300058A39D /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058671EE585300058A39D /* String+Email.swift */; };
+		0EBDE5D91F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58A1F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m */; };
+		0EBDE5DA1F0FC43F00274824 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58B1F0FC43F00274824 /* easing.c */; };
+		0EBDE5DB1F0FC43F00274824 /* XAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58F1F0FC43F00274824 /* XAnimation.m */; };
+		0EBDE5DC1F0FC43F00274824 /* XAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5911F0FC43F00274824 /* XAnimator.m */; };
+		0EBDE5DD1F0FC43F00274824 /* XAuxiliaryCalculationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5941F0FC43F00274824 /* XAuxiliaryCalculationHelper.m */; };
+		0EBDE5DE1F0FC43F00274824 /* XRandomNumerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5961F0FC43F00274824 /* XRandomNumerHelper.m */; };
+		0EBDE5DF1F0FC43F00274824 /* CALayer+XXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5991F0FC43F00274824 /* CALayer+XXLayer.m */; };
+		0EBDE5E01F0FC43F00274824 /* CAShapeLayer+frameCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE59B1F0FC43F00274824 /* CAShapeLayer+frameCategory.m */; };
+		0EBDE5E11F0FC43F00274824 /* CAShapeLayer+XJYLayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE59D1F0FC43F00274824 /* CAShapeLayer+XJYLayerHelper.m */; };
+		0EBDE5E21F0FC43F00274824 /* UIGestureRecognizer+XXGes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE59F1F0FC43F00274824 /* UIGestureRecognizer+XXGes.m */; };
+		0EBDE5E31F0FC43F00274824 /* OrdinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5A21F0FC43F00274824 /* OrdinateView.m */; };
+		0EBDE5E41F0FC43F00274824 /* XAbscissaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5A41F0FC43F00274824 /* XAbscissaView.m */; };
+		0EBDE5E51F0FC43F00274824 /* XAnimationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5A61F0FC43F00274824 /* XAnimationLabel.m */; };
+		0EBDE5E61F0FC43F00274824 /* XAreaLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5A81F0FC43F00274824 /* XAreaLineContainerView.m */; };
+		0EBDE5E71F0FC43F00274824 /* XBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5AA1F0FC43F00274824 /* XBarChart.m */; };
+		0EBDE5E81F0FC43F00274824 /* XBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5AC1F0FC43F00274824 /* XBarChartView.m */; };
+		0EBDE5E91F0FC43F00274824 /* XBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5AE1F0FC43F00274824 /* XBarContainerView.m */; };
+		0EBDE5EA1F0FC43F00274824 /* XBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5B01F0FC43F00274824 /* XBarItem.m */; };
+		0EBDE5EB1F0FC43F00274824 /* XCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5B21F0FC43F00274824 /* XCycleView.m */; };
+		0EBDE5EC1F0FC43F00274824 /* XLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5B41F0FC43F00274824 /* XLineChart.m */; };
+		0EBDE5ED1F0FC43F00274824 /* XLineChartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5B61F0FC43F00274824 /* XLineChartItem.m */; };
+		0EBDE5EE1F0FC43F00274824 /* XLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5B81F0FC43F00274824 /* XLineChartView.m */; };
+		0EBDE5EF1F0FC43F00274824 /* XLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5BA1F0FC43F00274824 /* XLineContainerView.m */; };
+		0EBDE5F01F0FC43F00274824 /* XPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5BC1F0FC43F00274824 /* XPieChart.m */; };
+		0EBDE5F11F0FC43F00274824 /* XPieItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5BE1F0FC43F00274824 /* XPieItem.m */; };
+		0EBDE5F21F0FC43F00274824 /* XPositiveNegativeBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5C01F0FC43F00274824 /* XPositiveNegativeBarChart.m */; };
+		0EBDE5F31F0FC43F00274824 /* XPositiveNegativeBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5C21F0FC43F00274824 /* XPositiveNegativeBarChartView.m */; };
+		0EBDE5F41F0FC43F00274824 /* XPositiveNegativeBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5C41F0FC43F00274824 /* XPositiveNegativeBarContainerView.m */; };
+		0EBDE5F51F0FC43F00274824 /* XStackAreaLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5C61F0FC43F00274824 /* XStackAreaLineContainerView.m */; };
+		0EBDE5F61F0FC43F00274824 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5C91F0FC43F00274824 /* Colours.m */; };
+		0EBDE5F71F0FC43F00274824 /* XColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5CB1F0FC43F00274824 /* XColor.m */; };
+		0EBDE5F81F0FC43F00274824 /* XNotificationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5D01F0FC43F00274824 /* XNotificationBridge.m */; };
+		0EBDE5F91F0FC43F00274824 /* XShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5D21F0FC43F00274824 /* XShape.m */; };
+		0EBDE5FA1F0FC43F00274824 /* XJYIPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5D51F0FC43F00274824 /* XJYIPTools.m */; };
+		0EBDE5FB1F0FC43F00274824 /* XJYPopOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5D81F0FC43F00274824 /* XJYPopOption.m */; };
 		0EEC1E181EDEEC0E00FBC91E /* CustomCallOutMapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E171EDEEC0E00FBC91E /* CustomCallOutMapview.swift */; };
 		0EEC1E1F1EDEF78600FBC91E /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E1D1EDEF78600FBC91E /* AnnotationView.swift */; };
 		0EEC1E201EDEF78600FBC91E /* StarbucksAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E1E1EDEF78600FBC91E /* StarbucksAnnotation.swift */; };
@@ -373,12 +409,86 @@
 		0E7E67181EE95A5D0049FB98 /* HACBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACBarLayer.h; sourceTree = "<group>"; };
 		0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACBarLayer.m; sourceTree = "<group>"; };
 		0E7E671D1EE95BED0049FB98 /* Charts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
+		0E8758B21F0FA81F00067206 /* NewCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCharts.swift; sourceTree = "<group>"; };
 		0E8AF3C21EF8CAAD003A3003 /* AnimationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDemo.swift; sourceTree = "<group>"; };
 		0E8AF3C41EF8CBF4003A3003 /* LoaderView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderView2.xib; sourceTree = "<group>"; };
 		0EB058611EE57B940058A39D /* getAllcontacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getAllcontacts.swift; sourceTree = "<group>"; };
 		0EB058631EE581680058A39D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		0EB058651EE584E80058A39D /* ContactEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEntry.swift; sourceTree = "<group>"; };
 		0EB058671EE585300058A39D /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
+		0EBDE5891F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
+		0EBDE58A1F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
+		0EBDE58B1F0FC43F00274824 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		0EBDE58C1F0FC43F00274824 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		0EBDE58E1F0FC43F00274824 /* XAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAnimation.h; sourceTree = "<group>"; };
+		0EBDE58F1F0FC43F00274824 /* XAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAnimation.m; sourceTree = "<group>"; };
+		0EBDE5901F0FC43F00274824 /* XAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAnimator.h; sourceTree = "<group>"; };
+		0EBDE5911F0FC43F00274824 /* XAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAnimator.m; sourceTree = "<group>"; };
+		0EBDE5931F0FC43F00274824 /* XAuxiliaryCalculationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAuxiliaryCalculationHelper.h; sourceTree = "<group>"; };
+		0EBDE5941F0FC43F00274824 /* XAuxiliaryCalculationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAuxiliaryCalculationHelper.m; sourceTree = "<group>"; };
+		0EBDE5951F0FC43F00274824 /* XRandomNumerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRandomNumerHelper.h; sourceTree = "<group>"; };
+		0EBDE5961F0FC43F00274824 /* XRandomNumerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRandomNumerHelper.m; sourceTree = "<group>"; };
+		0EBDE5981F0FC43F00274824 /* CALayer+XXLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XXLayer.h"; sourceTree = "<group>"; };
+		0EBDE5991F0FC43F00274824 /* CALayer+XXLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XXLayer.m"; sourceTree = "<group>"; };
+		0EBDE59A1F0FC43F00274824 /* CAShapeLayer+frameCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+frameCategory.h"; sourceTree = "<group>"; };
+		0EBDE59B1F0FC43F00274824 /* CAShapeLayer+frameCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+frameCategory.m"; sourceTree = "<group>"; };
+		0EBDE59C1F0FC43F00274824 /* CAShapeLayer+XJYLayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+XJYLayerHelper.h"; sourceTree = "<group>"; };
+		0EBDE59D1F0FC43F00274824 /* CAShapeLayer+XJYLayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+XJYLayerHelper.m"; sourceTree = "<group>"; };
+		0EBDE59E1F0FC43F00274824 /* UIGestureRecognizer+XXGes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+XXGes.h"; sourceTree = "<group>"; };
+		0EBDE59F1F0FC43F00274824 /* UIGestureRecognizer+XXGes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+XXGes.m"; sourceTree = "<group>"; };
+		0EBDE5A11F0FC43F00274824 /* OrdinateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdinateView.h; sourceTree = "<group>"; };
+		0EBDE5A21F0FC43F00274824 /* OrdinateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdinateView.m; sourceTree = "<group>"; };
+		0EBDE5A31F0FC43F00274824 /* XAbscissaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAbscissaView.h; sourceTree = "<group>"; };
+		0EBDE5A41F0FC43F00274824 /* XAbscissaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAbscissaView.m; sourceTree = "<group>"; };
+		0EBDE5A51F0FC43F00274824 /* XAnimationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAnimationLabel.h; sourceTree = "<group>"; };
+		0EBDE5A61F0FC43F00274824 /* XAnimationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAnimationLabel.m; sourceTree = "<group>"; };
+		0EBDE5A71F0FC43F00274824 /* XAreaLineContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAreaLineContainerView.h; sourceTree = "<group>"; };
+		0EBDE5A81F0FC43F00274824 /* XAreaLineContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAreaLineContainerView.m; sourceTree = "<group>"; };
+		0EBDE5A91F0FC43F00274824 /* XBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBarChart.h; sourceTree = "<group>"; };
+		0EBDE5AA1F0FC43F00274824 /* XBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBarChart.m; sourceTree = "<group>"; };
+		0EBDE5AB1F0FC43F00274824 /* XBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBarChartView.h; sourceTree = "<group>"; };
+		0EBDE5AC1F0FC43F00274824 /* XBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBarChartView.m; sourceTree = "<group>"; };
+		0EBDE5AD1F0FC43F00274824 /* XBarContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBarContainerView.h; sourceTree = "<group>"; };
+		0EBDE5AE1F0FC43F00274824 /* XBarContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBarContainerView.m; sourceTree = "<group>"; };
+		0EBDE5AF1F0FC43F00274824 /* XBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBarItem.h; sourceTree = "<group>"; };
+		0EBDE5B01F0FC43F00274824 /* XBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBarItem.m; sourceTree = "<group>"; };
+		0EBDE5B11F0FC43F00274824 /* XCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCycleView.h; sourceTree = "<group>"; };
+		0EBDE5B21F0FC43F00274824 /* XCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCycleView.m; sourceTree = "<group>"; };
+		0EBDE5B31F0FC43F00274824 /* XLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLineChart.h; sourceTree = "<group>"; };
+		0EBDE5B41F0FC43F00274824 /* XLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLineChart.m; sourceTree = "<group>"; };
+		0EBDE5B51F0FC43F00274824 /* XLineChartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLineChartItem.h; sourceTree = "<group>"; };
+		0EBDE5B61F0FC43F00274824 /* XLineChartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLineChartItem.m; sourceTree = "<group>"; };
+		0EBDE5B71F0FC43F00274824 /* XLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLineChartView.h; sourceTree = "<group>"; };
+		0EBDE5B81F0FC43F00274824 /* XLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLineChartView.m; sourceTree = "<group>"; };
+		0EBDE5B91F0FC43F00274824 /* XLineContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLineContainerView.h; sourceTree = "<group>"; };
+		0EBDE5BA1F0FC43F00274824 /* XLineContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLineContainerView.m; sourceTree = "<group>"; };
+		0EBDE5BB1F0FC43F00274824 /* XPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPieChart.h; sourceTree = "<group>"; };
+		0EBDE5BC1F0FC43F00274824 /* XPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPieChart.m; sourceTree = "<group>"; };
+		0EBDE5BD1F0FC43F00274824 /* XPieItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPieItem.h; sourceTree = "<group>"; };
+		0EBDE5BE1F0FC43F00274824 /* XPieItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPieItem.m; sourceTree = "<group>"; };
+		0EBDE5BF1F0FC43F00274824 /* XPositiveNegativeBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPositiveNegativeBarChart.h; sourceTree = "<group>"; };
+		0EBDE5C01F0FC43F00274824 /* XPositiveNegativeBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPositiveNegativeBarChart.m; sourceTree = "<group>"; };
+		0EBDE5C11F0FC43F00274824 /* XPositiveNegativeBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPositiveNegativeBarChartView.h; sourceTree = "<group>"; };
+		0EBDE5C21F0FC43F00274824 /* XPositiveNegativeBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPositiveNegativeBarChartView.m; sourceTree = "<group>"; };
+		0EBDE5C31F0FC43F00274824 /* XPositiveNegativeBarContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPositiveNegativeBarContainerView.h; sourceTree = "<group>"; };
+		0EBDE5C41F0FC43F00274824 /* XPositiveNegativeBarContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPositiveNegativeBarContainerView.m; sourceTree = "<group>"; };
+		0EBDE5C51F0FC43F00274824 /* XStackAreaLineContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XStackAreaLineContainerView.h; sourceTree = "<group>"; };
+		0EBDE5C61F0FC43F00274824 /* XStackAreaLineContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XStackAreaLineContainerView.m; sourceTree = "<group>"; };
+		0EBDE5C81F0FC43F00274824 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		0EBDE5C91F0FC43F00274824 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		0EBDE5CA1F0FC43F00274824 /* XColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XColor.h; sourceTree = "<group>"; };
+		0EBDE5CB1F0FC43F00274824 /* XColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XColor.m; sourceTree = "<group>"; };
+		0EBDE5CC1F0FC43F00274824 /* XChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XChart.h; sourceTree = "<group>"; };
+		0EBDE5CD1F0FC43F00274824 /* XChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XChartDelegate.h; sourceTree = "<group>"; };
+		0EBDE5CE1F0FC43F00274824 /* XEnumHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEnumHeader.h; sourceTree = "<group>"; };
+		0EBDE5CF1F0FC43F00274824 /* XNotificationBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNotificationBridge.h; sourceTree = "<group>"; };
+		0EBDE5D01F0FC43F00274824 /* XNotificationBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNotificationBridge.m; sourceTree = "<group>"; };
+		0EBDE5D11F0FC43F00274824 /* XShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XShape.h; sourceTree = "<group>"; };
+		0EBDE5D21F0FC43F00274824 /* XShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XShape.m; sourceTree = "<group>"; };
+		0EBDE5D41F0FC43F00274824 /* XJYIPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJYIPTools.h; sourceTree = "<group>"; };
+		0EBDE5D51F0FC43F00274824 /* XJYIPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJYIPTools.m; sourceTree = "<group>"; };
+		0EBDE5D71F0FC43F00274824 /* XJYPopOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJYPopOption.h; sourceTree = "<group>"; };
+		0EBDE5D81F0FC43F00274824 /* XJYPopOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJYPopOption.m; sourceTree = "<group>"; };
 		0EEC1E171EDEEC0E00FBC91E /* CustomCallOutMapview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCallOutMapview.swift; sourceTree = "<group>"; };
 		0EEC1E1D1EDEF78600FBC91E /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		0EEC1E1E1EDEF78600FBC91E /* StarbucksAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksAnnotation.swift; sourceTree = "<group>"; };
@@ -588,6 +698,7 @@
 				0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */,
 				0E46F7601EE6A8D300BEC579 /* Fabric.framework */,
 				0E210BC21EDBF60500D705BD /* AppDelegate.swift */,
+				0EBDE5861F0FC43F00274824 /* Vender */,
 				0E7C844B1F0E4D1F00F1DF06 /* AES */,
 				0E079D5C1EFCD30100EC28D2 /* Assets */,
 				0E623E191F0A10D800233623 /* AESAlgo.swift */,
@@ -674,6 +785,7 @@
 				0EB058611EE57B940058A39D /* getAllcontacts.swift */,
 				0E1C13A51EE7E38C000633DF /* DrawRout.swift */,
 				0E7E671D1EE95BED0049FB98 /* Charts.swift */,
+				0E8758B21F0FA81F00067206 /* NewCharts.swift */,
 				0E1C13A71EE7E62E000633DF /* Polyline.swift */,
 				0E3644661EF62D6A006191E0 /* MapViewcluster.swift */,
 				0E8AF3C21EF8CAAD003A3003 /* AnimationDemo.swift */,
@@ -712,6 +824,158 @@
 				0E7E67191EE95A5D0049FB98 /* HACBarLayer.m */,
 			);
 			name = HACGraph;
+			sourceTree = "<group>";
+		};
+		0EBDE5861F0FC43F00274824 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5871F0FC43F00274824 /* XJYChart */,
+				0EBDE5D31F0FC43F00274824 /* XJYHttpTools */,
+				0EBDE5D61F0FC43F00274824 /* XJYPopView */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		0EBDE5871F0FC43F00274824 /* XJYChart */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5881F0FC43F00274824 /* AHEasing */,
+				0EBDE58D1F0FC43F00274824 /* Animator */,
+				0EBDE5921F0FC43F00274824 /* Calculate */,
+				0EBDE5971F0FC43F00274824 /* Category */,
+				0EBDE5A01F0FC43F00274824 /* ChartView */,
+				0EBDE5C71F0FC43F00274824 /* Color */,
+				0EBDE5CC1F0FC43F00274824 /* XChart.h */,
+				0EBDE5CD1F0FC43F00274824 /* XChartDelegate.h */,
+				0EBDE5CE1F0FC43F00274824 /* XEnumHeader.h */,
+				0EBDE5CF1F0FC43F00274824 /* XNotificationBridge.h */,
+				0EBDE5D01F0FC43F00274824 /* XNotificationBridge.m */,
+				0EBDE5D11F0FC43F00274824 /* XShape.h */,
+				0EBDE5D21F0FC43F00274824 /* XShape.m */,
+			);
+			path = XJYChart;
+			sourceTree = "<group>";
+		};
+		0EBDE5881F0FC43F00274824 /* AHEasing */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5891F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.h */,
+				0EBDE58A1F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m */,
+				0EBDE58B1F0FC43F00274824 /* easing.c */,
+				0EBDE58C1F0FC43F00274824 /* easing.h */,
+			);
+			path = AHEasing;
+			sourceTree = "<group>";
+		};
+		0EBDE58D1F0FC43F00274824 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE58E1F0FC43F00274824 /* XAnimation.h */,
+				0EBDE58F1F0FC43F00274824 /* XAnimation.m */,
+				0EBDE5901F0FC43F00274824 /* XAnimator.h */,
+				0EBDE5911F0FC43F00274824 /* XAnimator.m */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		0EBDE5921F0FC43F00274824 /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5931F0FC43F00274824 /* XAuxiliaryCalculationHelper.h */,
+				0EBDE5941F0FC43F00274824 /* XAuxiliaryCalculationHelper.m */,
+				0EBDE5951F0FC43F00274824 /* XRandomNumerHelper.h */,
+				0EBDE5961F0FC43F00274824 /* XRandomNumerHelper.m */,
+			);
+			path = Calculate;
+			sourceTree = "<group>";
+		};
+		0EBDE5971F0FC43F00274824 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5981F0FC43F00274824 /* CALayer+XXLayer.h */,
+				0EBDE5991F0FC43F00274824 /* CALayer+XXLayer.m */,
+				0EBDE59A1F0FC43F00274824 /* CAShapeLayer+frameCategory.h */,
+				0EBDE59B1F0FC43F00274824 /* CAShapeLayer+frameCategory.m */,
+				0EBDE59C1F0FC43F00274824 /* CAShapeLayer+XJYLayerHelper.h */,
+				0EBDE59D1F0FC43F00274824 /* CAShapeLayer+XJYLayerHelper.m */,
+				0EBDE59E1F0FC43F00274824 /* UIGestureRecognizer+XXGes.h */,
+				0EBDE59F1F0FC43F00274824 /* UIGestureRecognizer+XXGes.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0EBDE5A01F0FC43F00274824 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5A11F0FC43F00274824 /* OrdinateView.h */,
+				0EBDE5A21F0FC43F00274824 /* OrdinateView.m */,
+				0EBDE5A31F0FC43F00274824 /* XAbscissaView.h */,
+				0EBDE5A41F0FC43F00274824 /* XAbscissaView.m */,
+				0EBDE5A51F0FC43F00274824 /* XAnimationLabel.h */,
+				0EBDE5A61F0FC43F00274824 /* XAnimationLabel.m */,
+				0EBDE5A71F0FC43F00274824 /* XAreaLineContainerView.h */,
+				0EBDE5A81F0FC43F00274824 /* XAreaLineContainerView.m */,
+				0EBDE5A91F0FC43F00274824 /* XBarChart.h */,
+				0EBDE5AA1F0FC43F00274824 /* XBarChart.m */,
+				0EBDE5AB1F0FC43F00274824 /* XBarChartView.h */,
+				0EBDE5AC1F0FC43F00274824 /* XBarChartView.m */,
+				0EBDE5AD1F0FC43F00274824 /* XBarContainerView.h */,
+				0EBDE5AE1F0FC43F00274824 /* XBarContainerView.m */,
+				0EBDE5AF1F0FC43F00274824 /* XBarItem.h */,
+				0EBDE5B01F0FC43F00274824 /* XBarItem.m */,
+				0EBDE5B11F0FC43F00274824 /* XCycleView.h */,
+				0EBDE5B21F0FC43F00274824 /* XCycleView.m */,
+				0EBDE5B31F0FC43F00274824 /* XLineChart.h */,
+				0EBDE5B41F0FC43F00274824 /* XLineChart.m */,
+				0EBDE5B51F0FC43F00274824 /* XLineChartItem.h */,
+				0EBDE5B61F0FC43F00274824 /* XLineChartItem.m */,
+				0EBDE5B71F0FC43F00274824 /* XLineChartView.h */,
+				0EBDE5B81F0FC43F00274824 /* XLineChartView.m */,
+				0EBDE5B91F0FC43F00274824 /* XLineContainerView.h */,
+				0EBDE5BA1F0FC43F00274824 /* XLineContainerView.m */,
+				0EBDE5BB1F0FC43F00274824 /* XPieChart.h */,
+				0EBDE5BC1F0FC43F00274824 /* XPieChart.m */,
+				0EBDE5BD1F0FC43F00274824 /* XPieItem.h */,
+				0EBDE5BE1F0FC43F00274824 /* XPieItem.m */,
+				0EBDE5BF1F0FC43F00274824 /* XPositiveNegativeBarChart.h */,
+				0EBDE5C01F0FC43F00274824 /* XPositiveNegativeBarChart.m */,
+				0EBDE5C11F0FC43F00274824 /* XPositiveNegativeBarChartView.h */,
+				0EBDE5C21F0FC43F00274824 /* XPositiveNegativeBarChartView.m */,
+				0EBDE5C31F0FC43F00274824 /* XPositiveNegativeBarContainerView.h */,
+				0EBDE5C41F0FC43F00274824 /* XPositiveNegativeBarContainerView.m */,
+				0EBDE5C51F0FC43F00274824 /* XStackAreaLineContainerView.h */,
+				0EBDE5C61F0FC43F00274824 /* XStackAreaLineContainerView.m */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		0EBDE5C71F0FC43F00274824 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5C81F0FC43F00274824 /* Colours.h */,
+				0EBDE5C91F0FC43F00274824 /* Colours.m */,
+				0EBDE5CA1F0FC43F00274824 /* XColor.h */,
+				0EBDE5CB1F0FC43F00274824 /* XColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		0EBDE5D31F0FC43F00274824 /* XJYHttpTools */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5D41F0FC43F00274824 /* XJYIPTools.h */,
+				0EBDE5D51F0FC43F00274824 /* XJYIPTools.m */,
+			);
+			path = XJYHttpTools;
+			sourceTree = "<group>";
+		};
+		0EBDE5D61F0FC43F00274824 /* XJYPopView */ = {
+			isa = PBXGroup;
+			children = (
+				0EBDE5D71F0FC43F00274824 /* XJYPopOption.h */,
+				0EBDE5D81F0FC43F00274824 /* XJYPopOption.m */,
+			);
+			path = XJYPopView;
 			sourceTree = "<group>";
 		};
 		0EEC1E251EDEF7E600FBC91E /* CalloutCustom */ = {
@@ -939,7 +1203,9 @@
 				0E09FE401F0D2D5A0005B06C /* JFPopularityCache.m in Sources */,
 				0E32F6451EEAEA5C00177063 /* BarsExample.swift in Sources */,
 				0EB058621EE57B940058A39D /* getAllcontacts.swift in Sources */,
+				0EBDE5E51F0FC43F00274824 /* XAnimationLabel.m in Sources */,
 				0E1C13A61EE7E38C000633DF /* DrawRout.swift in Sources */,
+				0EBDE5DC1F0FC43F00274824 /* XAnimator.m in Sources */,
 				0E32F6441EEAEA5C00177063 /* AreasExample.swift in Sources */,
 				0E09FE471F0D2D5A0005B06C /* JFRandom.m in Sources */,
 				0E7C845B1F0E4D1F00F1DF06 /* NSData+AESCrypt.m in Sources */,
@@ -957,11 +1223,13 @@
 				0E09FE4D1F0D2D5A0005B06C /* JFUserDefaults.m in Sources */,
 				0E09FE361F0D2D5A0005B06C /* JFOpenGLCamera.m in Sources */,
 				0E32F65D1EEAEA5C00177063 /* ScatterExample.swift in Sources */,
+				0EBDE5F21F0FC43F00274824 /* XPositiveNegativeBarChart.m in Sources */,
 				0E623E1A1F0A10D800233623 /* AESAlgo.swift in Sources */,
 				0E32F6661EEAEA5C00177063 /* VerticalGuide.swift in Sources */,
 				0E1C13A81EE7E62E000633DF /* Polyline.swift in Sources */,
 				0E09FE4A1F0D2D5A0005B06C /* JFSocketWriter.m in Sources */,
 				0E32F6541EEAEA5C00177063 /* GroupedBarsExample.swift in Sources */,
+				0EBDE5EF1F0FC43F00274824 /* XLineContainerView.m in Sources */,
 				0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */,
 				0E09FE351F0D2D5A0005B06C /* JFNoCutPasteTextField.m in Sources */,
 				0E32F6471EEAEA5C00177063 /* BarsPlusMinusWithGradientExample.swift in Sources */,
@@ -972,13 +1240,20 @@
 				0E32F6461EEAEA5C00177063 /* BarsPlusMinusAndLinesExample.swift in Sources */,
 				0E32F6561EEAEA5C00177063 /* MultipleAxesExample.swift in Sources */,
 				0E7E671A1EE95A5D0049FB98 /* HACBarChart.m in Sources */,
+				0EBDE5E61F0FC43F00274824 /* XAreaLineContainerView.m in Sources */,
 				0E09FE331F0D2D5A0005B06C /* JFLocaleMatchUtil.m in Sources */,
 				0EEC1E241EDEF79700FBC91E /* CustomCalloutView.swift in Sources */,
+				0EBDE5F71F0FC43F00274824 /* XColor.m in Sources */,
 				0EB058681EE585300058A39D /* String+Email.swift in Sources */,
 				0E09FE2E1F0D2D5A0005B06C /* JFGuidGenerator.m in Sources */,
 				0E32F6571EEAEA5C00177063 /* MultipleAxesInteractiveExample.swift in Sources */,
 				0EEC1E201EDEF78600FBC91E /* StarbucksAnnotation.swift in Sources */,
+				0EBDE5E21F0FC43F00274824 /* UIGestureRecognizer+XXGes.m in Sources */,
+				0EBDE5F81F0FC43F00274824 /* XNotificationBridge.m in Sources */,
+				0EBDE5EA1F0FC43F00274824 /* XBarItem.m in Sources */,
+				0EBDE5F91F0FC43F00274824 /* XShape.m in Sources */,
 				0E32F6611EEAEA5C00177063 /* TrendlineExample.swift in Sources */,
+				0EBDE5EC1F0FC43F00274824 /* XLineChart.m in Sources */,
 				0E32F64F1EEAEA5C00177063 /* CustomUnitsExample.swift in Sources */,
 				0E09FE3F1F0D2D5A0005B06C /* JFOpenGLView.m in Sources */,
 				0E09FE441F0D2D5A0005B06C /* JFPropertyAnimationAdvancementArray.m in Sources */,
@@ -992,30 +1267,51 @@
 				0E32F65F1EEAEA5C00177063 /* TargetExample.swift in Sources */,
 				0E09FE411F0D2D5A0005B06C /* JFPropertyAnimatable.swift in Sources */,
 				0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */,
+				0EBDE5E91F0FC43F00274824 /* XBarContainerView.m in Sources */,
 				0E09FE391F0D2D5A0005B06C /* JFOpenGLQuad.m in Sources */,
+				0EBDE5FB1F0FC43F00274824 /* XJYPopOption.m in Sources */,
 				0EEC1E181EDEEC0E00FBC91E /* CustomCallOutMapview.swift in Sources */,
+				0EBDE5F31F0FC43F00274824 /* XPositiveNegativeBarChartView.m in Sources */,
+				0EBDE5F51F0FC43F00274824 /* XStackAreaLineContainerView.m in Sources */,
 				0E3644671EF62D6A006191E0 /* MapViewcluster.swift in Sources */,
+				0EBDE5FA1F0FC43F00274824 /* XJYIPTools.m in Sources */,
+				0EBDE5E81F0FC43F00274824 /* XBarChartView.m in Sources */,
 				0E32F64E1EEAEA5C00177063 /* CubicLinesExample.swift in Sources */,
 				0E32F6491EEAEA5C00177063 /* CandleStickExample.swift in Sources */,
 				0E09FE291F0D2D5A0005B06C /* JFBoxDecoder.m in Sources */,
 				0E7C845A1F0E4D1F00F1DF06 /* AESCrypt.m in Sources */,
+				0EBDE5F61F0FC43F00274824 /* Colours.m in Sources */,
 				0E7C845D1F0E4D1F00F1DF06 /* NSData+CommonCrypto.m in Sources */,
+				0EBDE5F41F0FC43F00274824 /* XPositiveNegativeBarContainerView.m in Sources */,
 				0EEC1E1F1EDEF78600FBC91E /* AnnotationView.swift in Sources */,
+				0EBDE5DF1F0FC43F00274824 /* CALayer+XXLayer.m in Sources */,
+				0EBDE5DE1F0FC43F00274824 /* XRandomNumerHelper.m in Sources */,
+				0EBDE5E11F0FC43F00274824 /* CAShapeLayer+XJYLayerHelper.m in Sources */,
+				0EBDE5F11F0FC43F00274824 /* XPieItem.m in Sources */,
+				0EBDE5EB1F0FC43F00274824 /* XCycleView.m in Sources */,
 				0E32F6511EEAEA5C00177063 /* EqualSpacingExample.swift in Sources */,
 				0E09FE481F0D2D5A0005B06C /* JFScrollViewUtil.m in Sources */,
 				0E32F6501EEAEA5C00177063 /* Env.swift in Sources */,
 				0E32F64C1EEAEA5C00177063 /* ConvenienceLinesExample.swift in Sources */,
 				0E09FE491F0D2D5A0005B06C /* JFSocketReader.m in Sources */,
+				0EBDE5E01F0FC43F00274824 /* CAShapeLayer+frameCategory.m in Sources */,
+				0EBDE5ED1F0FC43F00274824 /* XLineChartItem.m in Sources */,
 				0E32F6651EEAEA5C00177063 /* UIColor.swift in Sources */,
 				0E32F64D1EEAEA5C00177063 /* CoordsExample.swift in Sources */,
+				0EBDE5E71F0FC43F00274824 /* XBarChart.m in Sources */,
+				0EBDE5DB1F0FC43F00274824 /* XAnimation.m in Sources */,
+				0EBDE5DA1F0FC43F00274824 /* easing.c in Sources */,
 				0E210BC51EDBF60500D705BD /* ViewController.swift in Sources */,
 				0E7C845C1F0E4D1F00F1DF06 /* NSData+Base64.m in Sources */,
 				0E09FE3C1F0D2D5A0005B06C /* JFOpenGLTriangle.m in Sources */,
+				0EBDE5F01F0FC43F00274824 /* XPieChart.m in Sources */,
 				0E7C84601F0E4D1F00F1DF06 /* NSString+Base64.m in Sources */,
 				0E09FE261F0D2D5A0005B06C /* JFAes256Codec.m in Sources */,
 				0E32F65C1EEAEA5C00177063 /* RangedAxisExample.swift in Sources */,
 				0E09FE3D1F0D2D5A0005B06C /* JFOpenGLUtil.m in Sources */,
+				0EBDE5EE1F0FC43F00274824 /* XLineChartView.m in Sources */,
 				0E09FE381F0D2D5A0005B06C /* JFOpenGLPoint.m in Sources */,
+				0EBDE5E41F0FC43F00274824 /* XAbscissaView.m in Sources */,
 				0E32F65B1EEAEA5C00177063 /* NotNumericExample.swift in Sources */,
 				0E09FE321F0D2D5A0005B06C /* JFInterruptableActionPerformer.m in Sources */,
 				0E09FE2C1F0D2D5A0005B06C /* JFCoordinateFormatter.m in Sources */,
@@ -1023,16 +1319,20 @@
 				0E09FE301F0D2D5A0005B06C /* JFICloudUtil.m in Sources */,
 				0E09FE271F0D2D5A0005B06C /* JFBase64.m in Sources */,
 				0E32F64B1EEAEA5C00177063 /* ConvenienceBarsExample.swift in Sources */,
+				0E8758B31F0FA81F00067206 /* NewCharts.swift in Sources */,
 				0E09FE311F0D2D5A0005B06C /* JFImageUtil.m in Sources */,
 				0E210BC31EDBF60500D705BD /* AppDelegate.swift in Sources */,
 				0E32F6631EEAEA5C00177063 /* PointGuide.swift in Sources */,
 				0E0D420B1EFF6C30003A43E7 /* DrawLabel.swift in Sources */,
 				0E32F6591EEAEA5C00177063 /* MultiTrackerExample.swift in Sources */,
+				0EBDE5E31F0FC43F00274824 /* OrdinateView.m in Sources */,
 				0E09FE341F0D2D5A0005B06C /* JFNetworkUtil.m in Sources */,
 				0E09FE281F0D2D5A0005B06C /* JFBCrypt.m in Sources */,
+				0EBDE5D91F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m in Sources */,
 				0E32F65E1EEAEA5C00177063 /* StackedBarsExample.swift in Sources */,
 				0E09FE2F1F0D2D5A0005B06C /* JFGuidUtil.m in Sources */,
 				0E32F6641EEAEA5C00177063 /* String.swift in Sources */,
+				0EBDE5DD1F0FC43F00274824 /* XAuxiliaryCalculationHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

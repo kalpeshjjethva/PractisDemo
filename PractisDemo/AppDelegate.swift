@@ -30,9 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.LoaderView = Bundle.main.loadNibNamed("LoaderView", owner: self, options: nil)?.first as! UIView
 
-        
-        
-        
         // Override point for customization after application launch.
         return true
     }
@@ -63,3 +60,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
+/*
+ https://github.com/vsouza/awesome-ios
+ 
+ https://github.com/kevinzhow/PNChart
+ 
+ https://github.com/JunyiXie/XJYChart
+ 
+ 
+ 
+ */

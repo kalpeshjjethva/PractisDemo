@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RDZ-9V-7n4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TIL-7z-ngT">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -298,6 +298,46 @@
             </objects>
             <point key="canvasLocation" x="997.10144927536237" y="1542.3913043478262"/>
         </scene>
+        <!--New Charts-->
+        <scene sceneID="oq3-MB-C0Q">
+            <objects>
+                <viewController id="TIL-7z-ngT" customClass="NewCharts" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fx0-Zk-Cxj"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZQ3-SX-lh1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ev3-Kg-zc8">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8iO-5n-Yvs" customClass="XBarChart">
+                                <rect key="frame" x="600" y="59" width="320" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.5747214692" blue="0.060647884200000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ENl-ok-mec">
+                                <rect key="frame" x="600" y="269" width="320" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.5747214692" blue="0.060647884200000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xVv-Yj-d70">
+                                <rect key="frame" x="600" y="514" width="320" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.5747214692" blue="0.060647884200000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="ViewxbarChart" destination="8iO-5n-Yvs" id="Jew-Il-OFN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfd-iK-QdG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="4270"/>
+        </scene>
         <!--Algo-->
         <scene sceneID="pYH-aR-vOk">
             <objects>
@@ -326,8 +366,17 @@
                                     <action selector="btnEncrptionActino:" destination="yht-Yv-4qT" eventType="touchUpInside" id="a3S-iV-Zvc"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LQK-ra-t2h">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LQK-ra-t2h" firstAttribute="leading" secondItem="VMa-nE-cl3" secondAttribute="leading" id="0TR-l1-d9h"/>
+                            <constraint firstAttribute="trailing" secondItem="LQK-ra-t2h" secondAttribute="trailing" id="IBR-LB-pZq"/>
+                            <constraint firstAttribute="bottom" secondItem="LQK-ra-t2h" secondAttribute="bottom" id="pVG-60-RL4"/>
+                            <constraint firstItem="LQK-ra-t2h" firstAttribute="top" secondItem="VMa-nE-cl3" secondAttribute="top" id="u5n-kw-hT8"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vDa-Ln-c2l"/>
                 </viewController>
