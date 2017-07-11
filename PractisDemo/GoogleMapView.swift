@@ -53,37 +53,29 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
                 lablt.text = String(50)
 
             }else if i == 1 {
+                
                 let marker = GMSMarker()
-
                 let camera = GMSCameraPosition.camera(withLatitude: 25.3548,
                                                       longitude: 51.1839,
                                                       zoom: 0)
                 marker.position = camera.target
-                
                 marker.iconView = myview
                 marker.map = objMapview
                 lablt.text = String(51)
 
-
             }else{
                 
                 let marker = GMSMarker()
-
                 let camera = GMSCameraPosition.camera(withLatitude: 22.1408,
                                                       longitude: 72.45682,
                                                       zoom: 0)
                 objMapview.camera = camera
-
                 marker.position = camera.target
                 marker.iconView = myview
                 marker.map = objMapview
                 lablt.text = String(52)
-
             }
-            
-            
             myview.addSubview(lablt)
-
         }
         do {
             if let styleURL = Bundle.main.url(forResource: "style", withExtension: "json") {
@@ -141,12 +133,12 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
             print("locationMarker is nil")
             return false
         }
-        infoWindow.center = mapView.projection.point(for: location)
-        infoWindow.center.y = infoWindow.center.y - infoWindow.frame.size.height  + 50 // - sizeForOffset(view: infoWindow) - 200
+        MyView.center = mapView.projection.point(for: location)
+        MyView.center.y = MyView.center.y - MyView.frame.size.height  + 50 // - sizeForOffset(view: infoWindow) - 200
 
 //        infoWindow.center.y = infoWindow.center.y - 200 // - sizeForOffset(view: infoWindow) - 200
         
-        self.objMapview.addSubview(infoWindow)
+        self.objMapview.addSubview(MyView)
         
         return false
     }
@@ -156,9 +148,8 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
     func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
         if (locationMarker != nil){
             let location = locationMarker?.position
-            infoWindow.center = mapView.projection.point(for: location!)
-            infoWindow.center.y = infoWindow.center.y - infoWindow.frame.size.height + 50 // - sizeForOffset(view: infoWindow) - 200
-
+            MyView.center = mapView.projection.point(for: location!)
+            MyView.center.y = MyView.center.y - MyView.frame.size.height + 50 // - sizeForOffset(view: infoWindow) - 200
         }
     }
     func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
