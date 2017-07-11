@@ -85,6 +85,7 @@
     
     // data filter
     [self.dataItemArray enumerateObjectsUsingBlock:^(XBarItem * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        
         [self.colorArray addObject:obj.color];
         [self.dataNumberArray addObject:obj.dataNumber];
         [self.dataDescribeArray addObject:obj.dataDescribe];
@@ -94,8 +95,10 @@
     NSMutableArray<NSNumber *> *xArray = [[self getxArray] copy];
     NSMutableArray<NSValue *> *rectArray = [self getBackgroundRectArrayWithXArray:xArray];
     self.backgroundLayerArray = [self getBackgroundLayerWithRectArray:rectArray];
+    
     [self.backgroundLayerArray enumerateObjectsUsingBlock:^(CAShapeLayer * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [self.layer addSublayer:obj];
+        
     }];
 
     //fill layer
@@ -119,11 +122,10 @@
         CGRect fillRect = obj.CGRectValue;
         CAShapeLayer *fillRectShapeLayer = [self rectAnimationLayerWithBounds:fillRect
                                                                     fillColor:self.dataItemArray[idx].color];
-        // animation number label
+        
         XAnimationLabel *topLabel = [self topLabelWithRect:CGRectMake(fillRect.origin.x, fillRect.origin.y - 15, fillRect.size.width, 15)
                                                   fillColor:[UIColor clearColor]
                                                        text:self.dataNumberArray[idx].stringValue];
-        
         [self addSubview:topLabel];
         CGPoint tempCenter = topLabel.center;
         topLabel.center = CGPointMake(topLabel.center.x, topLabel.center.y + fillRect.size.height );
@@ -169,7 +171,6 @@
     }];
     return rectArray;
 }
-
 - (NSMutableArray<CAShapeLayer *> *)getBackgroundLayerWithRectArray:(NSMutableArray<NSValue *> *)rectArray {
     NSMutableArray<CAShapeLayer *> *backgroundLayerArray = [[NSMutableArray alloc] init];
     //background layer
@@ -209,11 +210,13 @@
     chartLine.path = temPath.CGPath;
     chartLine.strokeStart = 0.0;
     chartLine.strokeEnd = 1.0;
-    chartLine.strokeColor = XJYBlue.CGColor;
+    chartLine.strokeColor = fillColor.CGColor; //XJYBlue.CGColor;
     [chartLine addAnimation:self.pathAnimation forKey:@"strokeEndAnimation"];
     //help to judge is touch in area
     chartLine.frameValue = [NSValue valueWithCGRect:rect];
     chartLine.selectStatusNumber = [NSNumber numberWithBool:NO];
+    
+
     return chartLine;
 }
 

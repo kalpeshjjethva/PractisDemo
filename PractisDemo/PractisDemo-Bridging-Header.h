@@ -34,3 +34,5 @@
 #import "XPositiveNegativeBarChart.h"
 #import "XCycleView.h"
 #import "XBarItem.h"
+#import "Colours.h"
+#import "XChart.h"

@@ -27,6 +27,7 @@
 @implementation XBarChart
 
 - (instancetype)initWithFrame:(CGRect)frame dataItemArray:(NSMutableArray<XBarItem *> *)dataItemArray topNumber:(NSNumber *)topNumbser bottomNumber:(NSNumber *)bottomNumber {
+    
     if (self = [super initWithFrame:frame]) {
         
         self.dataItemArray = dataItemArray;

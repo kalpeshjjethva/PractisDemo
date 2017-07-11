@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TIL-7z-ngT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oQ7-26-SkJ">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -320,7 +320,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.5747214692" blue="0.060647884200000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xVv-Yj-d70">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xVv-Yj-d70" customClass="LineChartView" customModule="Charts">
                                 <rect key="frame" x="600" y="514" width="320" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.5747214692" blue="0.060647884200000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -332,6 +332,8 @@
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="ViewxbarChart" destination="8iO-5n-Yvs" id="Jew-Il-OFN"/>
+                        <outlet property="lineChartView" destination="xVv-Yj-d70" id="RAR-Bt-b80"/>
+                        <outlet property="roiChart" destination="ENl-ok-mec" id="dSl-1h-hK8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfd-iK-QdG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -497,7 +499,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sY3-YL-F2G" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nvy-yB-TD2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Nvy-yB-TD2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -515,7 +517,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="RDZ-9V-7n4" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W1G-fG-pBS">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="W1G-fG-pBS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -527,6 +529,78 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9n-rE-VRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2114.4927536231885" y="1188.5869565217392"/>
+        </scene>
+        <!--Delegate-->
+        <scene sceneID="aWi-XM-Dbf">
+            <objects>
+                <viewController id="oQ7-26-SkJ" customClass="GoogleMapView" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zOa-N6-1TM"/>
+                        <viewControllerLayoutGuide type="bottom" id="czL-CN-eha"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="egf-aE-fbh">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gD8-dS-zfM" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="169" width="1024" height="391"/>
+                                <color key="backgroundColor" red="1" green="0.80392156859999997" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="oQ7-26-SkJ" id="FEb-1r-d8R"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IIH-b5-ZiG">
+                                <rect key="frame" x="392" y="320" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05k-tF-rrR">
+                                        <rect key="frame" x="0.0" y="9" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gD8-dS-zfM" firstAttribute="leading" secondItem="egf-aE-fbh" secondAttribute="leading" id="ggc-Ls-x5S"/>
+                            <constraint firstItem="czL-CN-eha" firstAttribute="top" secondItem="gD8-dS-zfM" secondAttribute="bottom" constant="208" id="vFc-MZ-aHQ"/>
+                            <constraint firstItem="gD8-dS-zfM" firstAttribute="top" secondItem="zOa-N6-1TM" secondAttribute="bottom" constant="149" id="w0I-Lh-H94"/>
+                            <constraint firstAttribute="trailing" secondItem="gD8-dS-zfM" secondAttribute="trailing" id="yZz-wZ-TfH"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="MyView" destination="q49-bO-6cV" id="r07-Te-Xkg"/>
+                        <outlet property="lblCounter" destination="05k-tF-rrR" id="cbG-v8-ksd"/>
+                        <outlet property="markertIcon" destination="IIH-b5-ZiG" id="Q3r-sp-jja"/>
+                        <outlet property="objMapview" destination="gD8-dS-zfM" id="vX0-Ro-XS3"/>
+                        <outlet property="tblView" destination="ID6-kx-rj4" id="KAB-FL-ntr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qw0-7H-aGr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="q49-bO-6cV">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="178"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ID6-kx-rj4">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="oQ7-26-SkJ" id="cNu-kb-KeP"/>
+                                <outlet property="delegate" destination="oQ7-26-SkJ" id="Gs7-gZ-fUJ"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.71576640270000003" green="0.03456184725" blue="0.49642498239999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="-213" y="2528"/>
         </scene>
     </scenes>
 </document>

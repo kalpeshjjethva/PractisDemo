@@ -158,6 +158,8 @@
 		0EB058641EE581680058A39D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB058631EE581680058A39D /* AddressBookUI.framework */; };
 		0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058651EE584E80058A39D /* ContactEntry.swift */; };
 		0EB058681EE585300058A39D /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058671EE585300058A39D /* String+Email.swift */; };
+		0EBB329B1F14958D00C87EAE /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */; };
+		0EBB329F1F14C88600C87EAE /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EBB329E1F14C88600C87EAE /* style.json */; };
 		0EBDE5D91F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58A1F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m */; };
 		0EBDE5DA1F0FC43F00274824 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58B1F0FC43F00274824 /* easing.c */; };
 		0EBDE5DB1F0FC43F00274824 /* XAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58F1F0FC43F00274824 /* XAnimation.m */; };
@@ -416,6 +418,8 @@
 		0EB058631EE581680058A39D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		0EB058651EE584E80058A39D /* ContactEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEntry.swift; sourceTree = "<group>"; };
 		0EB058671EE585300058A39D /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
+		0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		0EBB329E1F14C88600C87EAE /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		0EBDE5891F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
 		0EBDE58A1F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
 		0EBDE58B1F0FC43F00274824 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
@@ -698,6 +702,7 @@
 				0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */,
 				0E46F7601EE6A8D300BEC579 /* Fabric.framework */,
 				0E210BC21EDBF60500D705BD /* AppDelegate.swift */,
+				0EBB329E1F14C88600C87EAE /* style.json */,
 				0EBDE5861F0FC43F00274824 /* Vender */,
 				0E7C844B1F0E4D1F00F1DF06 /* AES */,
 				0E079D5C1EFCD30100EC28D2 /* Assets */,
@@ -790,6 +795,7 @@
 				0E3644661EF62D6A006191E0 /* MapViewcluster.swift */,
 				0E8AF3C21EF8CAAD003A3003 /* AnimationDemo.swift */,
 				0E0D420A1EFF6C30003A43E7 /* DrawLabel.swift */,
+				0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -1076,6 +1082,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBB329F1F14C88600C87EAE /* style.json in Resources */,
 				0E079DAA1EFCD30100EC28D2 /* V.json in Resources */,
 				0E079DA61EFCD30100EC28D2 /* R.json in Resources */,
 				0E079DA51EFCD30100EC28D2 /* Q.json in Resources */,
@@ -1235,6 +1242,7 @@
 				0E32F6471EEAEA5C00177063 /* BarsPlusMinusWithGradientExample.swift in Sources */,
 				0E8AF3C31EF8CAAD003A3003 /* AnimationDemo.swift in Sources */,
 				0E7C845E1F0E4D1F00F1DF06 /* NSData+Encryption.m in Sources */,
+				0EBB329B1F14958D00C87EAE /* GoogleMapView.swift in Sources */,
 				0E32F6601EEAEA5C00177063 /* TrackerExample.swift in Sources */,
 				0E09FE2B1F0D2D5A0005B06C /* JFColorUtil.m in Sources */,
 				0E32F6461EEAEA5C00177063 /* BarsPlusMinusAndLinesExample.swift in Sources */,

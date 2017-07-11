@@ -41,11 +41,13 @@
         self.dataItemArray = dataItemArray;
         self.top = topNumbser;
         self.bottom = bottomNumber;
-        
         self.backgroundColor = [UIColor whiteColor];
         self.contentSize = [self computeSrollViewCententSizeFromItemArray:self.dataItemArray];
-        [self addSubview:self.barContainerView];
         
+        
+        
+        
+        [self addSubview:self.barContainerView];
         [self addSubview:self.XAbscissaView];
 
     }
@@ -71,14 +73,10 @@
         CGFloat height = self.frame.size.height;
         return CGSizeMake(width, height);
     }
-    
 }
-
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
 }
-
 #pragma mark Get
 - (XAbscissaView *)XAbscissaView {
     if (!_XAbscissaView) {

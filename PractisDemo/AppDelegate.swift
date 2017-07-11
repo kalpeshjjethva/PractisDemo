@@ -9,14 +9,14 @@
 import UIKit
 import Fabric
 import Crashlytics
+import GoogleMaps
+import GooglePlaces
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-    
-    
     @IBOutlet weak var actLoader: UIActivityIndicatorView!
     @IBOutlet weak var lblLoaderText: UILabel!
     @IBOutlet var LoaderView: UIView!
@@ -25,6 +25,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
             Fabric.with([Crashlytics.self])
+        
+        GMSServices.provideAPIKey("AIzaSyCwY83-RT00Ji5G39LQfjh0vpGoSCt5RE8")
+        GMSPlacesClient.provideAPIKey("AIzaSyCwY83-RT00Ji5G39LQfjh0vpGoSCt5RE8")
+        
+        
+
             logUser()
            // self.LoaderView = Bundle.main.loadNibNamed("LoaderView", owner: self, options: nil)?.first as! UIView
         
