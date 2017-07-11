@@ -160,6 +160,7 @@
 		0EB058681EE585300058A39D /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058671EE585300058A39D /* String+Email.swift */; };
 		0EBB329B1F14958D00C87EAE /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */; };
 		0EBB329F1F14C88600C87EAE /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EBB329E1F14C88600C87EAE /* style.json */; };
+		0EBB32A11F15072A00C87EAE /* PopupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB32A01F15072A00C87EAE /* PopupCell.swift */; };
 		0EBDE5D91F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58A1F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m */; };
 		0EBDE5DA1F0FC43F00274824 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58B1F0FC43F00274824 /* easing.c */; };
 		0EBDE5DB1F0FC43F00274824 /* XAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE58F1F0FC43F00274824 /* XAnimation.m */; };
@@ -420,6 +421,7 @@
 		0EB058671EE585300058A39D /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
 		0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
 		0EBB329E1F14C88600C87EAE /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		0EBB32A01F15072A00C87EAE /* PopupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupCell.swift; sourceTree = "<group>"; };
 		0EBDE5891F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
 		0EBDE58A1F0FC43F00274824 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
 		0EBDE58B1F0FC43F00274824 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
@@ -796,6 +798,7 @@
 				0E8AF3C21EF8CAAD003A3003 /* AnimationDemo.swift */,
 				0E0D420A1EFF6C30003A43E7 /* DrawLabel.swift */,
 				0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */,
+				0EBB32A01F15072A00C87EAE /* PopupCell.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -1236,6 +1239,7 @@
 				0E1C13A81EE7E62E000633DF /* Polyline.swift in Sources */,
 				0E09FE4A1F0D2D5A0005B06C /* JFSocketWriter.m in Sources */,
 				0E32F6541EEAEA5C00177063 /* GroupedBarsExample.swift in Sources */,
+				0EBB32A11F15072A00C87EAE /* PopupCell.swift in Sources */,
 				0EBDE5EF1F0FC43F00274824 /* XLineContainerView.m in Sources */,
 				0E7E671E1EE95BED0049FB98 /* Charts.swift in Sources */,
 				0E09FE351F0D2D5A0005B06C /* JFNoCutPasteTextField.m in Sources */,

@@ -114,15 +114,15 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
         return 10
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = "kalpesh"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PopupCell") as! PopupCell
+        
+        cell.lblPropertyName.text = "Alimah Apartment"
+        cell.lblPropertyDescription.text = "Lorem ipsum dolor sit amet, consectetur"
         return cell
     }
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("self. didselect")
     }
-    
     func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
         
         // Needed to create the custom info window
@@ -134,7 +134,7 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
             return false
         }
         MyView.center = mapView.projection.point(for: location)
-        MyView.center.y = MyView.center.y - MyView.frame.size.height  + 50 // - sizeForOffset(view: infoWindow) - 200
+        MyView.center.y = MyView.center.y - MyView.frame.size.height  + 90 // - sizeForOffset(view: infoWindow) - 200
 
 //        infoWindow.center.y = infoWindow.center.y - 200 // - sizeForOffset(view: infoWindow) - 200
         
@@ -149,7 +149,7 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
         if (locationMarker != nil){
             let location = locationMarker?.position
             MyView.center = mapView.projection.point(for: location!)
-            MyView.center.y = MyView.center.y - MyView.frame.size.height + 50 // - sizeForOffset(view: infoWindow) - 200
+            MyView.center.y = MyView.center.y - MyView.frame.size.height + 90 // - sizeForOffset(view: infoWindow) - 200
         }
     }
     func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
