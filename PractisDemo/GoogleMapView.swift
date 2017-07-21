@@ -30,7 +30,9 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
 //AIzaSyCwY83-RT00Ji5G39LQfjh0vpGoSCt5RE8
         
         objMapview.delegate = self
-
+        objMapview.clear()
+        
+        
         
         for i in 0...3
         {
@@ -43,37 +45,40 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
             
             if i == 0
             {
-                let marker = GMSMarker()
                 let camera = GMSCameraPosition.camera(withLatitude: -33.908,
                                                       longitude: 151.2086,
                                                       zoom: 0)
+                let marker = GMSMarker()
+
                 marker.position = camera.target
                 marker.iconView = myview
                 marker.map = objMapview
-                lablt.text = String(50)
-
+                lablt.text = String(1)
+                
             }else if i == 1 {
                 
-                let marker = GMSMarker()
-                let camera = GMSCameraPosition.camera(withLatitude: 25.3548,
-                                                      longitude: 51.1839,
+                let camera = GMSCameraPosition.camera(withLatitude: -33.708,
+                                                      longitude: 151.1086,
                                                       zoom: 0)
+                let marker = GMSMarker()
+
                 marker.position = camera.target
                 marker.iconView = myview
                 marker.map = objMapview
-                lablt.text = String(51)
+                lablt.text = String(1)
 
             }else{
                 
-                let marker = GMSMarker()
                 let camera = GMSCameraPosition.camera(withLatitude: 22.1408,
                                                       longitude: 72.45682,
                                                       zoom: 0)
+                let marker = GMSMarker()
+
                 objMapview.camera = camera
                 marker.position = camera.target
                 marker.iconView = myview
                 marker.map = objMapview
-                lablt.text = String(52)
+                lablt.text = String(i)
             }
             myview.addSubview(lablt)
         }
@@ -86,9 +91,9 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
         } catch {
             NSLog("The style definition could not be loaded: \(error)")
         }
-        infoWindow = loadNiB()
-
+       
     }
+    
     func loadNiB() -> CustomCalloutView{
         let infoWindow = CustomCalloutView.instanceFromNib() as! CustomCalloutView
         infoWindow.clipsToBounds = true
@@ -134,7 +139,7 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
             return false
         }
         MyView.center = mapView.projection.point(for: location)
-        MyView.center.y = MyView.center.y - MyView.frame.size.height  + 90 // - sizeForOffset(view: infoWindow) - 200
+        MyView.center.y = MyView.center.y - MyView.frame.size.height  + 80 // - sizeForOffset(view: infoWindow) - 200
 
 //        infoWindow.center.y = infoWindow.center.y - 200 // - sizeForOffset(view: infoWindow) - 200
         
@@ -149,11 +154,11 @@ class GoogleMapView: UIViewController, GMSMapViewDelegate, UITableViewDelegate, 
         if (locationMarker != nil){
             let location = locationMarker?.position
             MyView.center = mapView.projection.point(for: location!)
-            MyView.center.y = MyView.center.y - MyView.frame.size.height + 90 // - sizeForOffset(view: infoWindow) - 200
+            MyView.center.y = MyView.center.y - MyView.frame.size.height + 80 // - sizeForOffset(view: infoWindow) - 200
         }
     }
     func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
-        infoWindow.removeFromSuperview()
+        MyView.removeFromSuperview()
     }
    /* func mapView(_ mapView: GMSMapView, markerInfoContents marker: GMSMarker) -> UIView? {
         let infoWindow = Bundle.main.loadNibNamed("CustomCalloutView", owner: self, options: nil)?.first! as! CustomCalloutView

@@ -1,5 +1,6 @@
 PODS:
   - AES256CBC (1.1.1)
+  - ANDLineChartView (0.2.2)
   - ASPVideoPlayer (2.0.2)
   - Canvas (0.1.2)
   - Charts (3.0.2):
@@ -21,9 +22,11 @@ PODS:
   - RNCryptor (5.0.1)
   - Spring (1.0.3)
   - SwiftCharts (0.6)
+  - youtube-ios-player-helper (0.1.6)
 
 DEPENDENCIES:
   - AES256CBC
+  - ANDLineChartView
   - ASPVideoPlayer (~> 2.0)
   - Canvas (~> 0.1.2)
   - Charts
@@ -37,6 +40,7 @@ DEPENDENCIES:
   - RNCryptor (~> 5.0)
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
   - SwiftCharts (from `https://github.com/i-schuetz/SwiftCharts.git`)
+  - youtube-ios-player-helper (~> 0.1.4)
 
 EXTERNAL SOURCES:
   Spring:
@@ -55,6 +59,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AES256CBC: 22b584fbea28b46ab3c52d44213902ab5c6f801f
+  ANDLineChartView: fc9b4685a444eeb16ea373691962dc71e60dccd1
   ASPVideoPlayer: fcfac6d210fff1cb5a43266caffe83957f01410b
   Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
   Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
@@ -68,7 +73,8 @@ SPEC CHECKSUMS:
   RNCryptor: 2e352a488779d1a9184ab629be22a7c5bc84acb5
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   SwiftCharts: 84f84c2a94a3f51f055eeaacd9b8dc3ada3380eb
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
 
-PODFILE CHECKSUM: d423b35d1e33ec666b9bacb20a3875077a899763
+PODFILE CHECKSUM: 04ffed6179498d4b30a1b9e2dc7f05eb8d99b63f
 
 COCOAPODS: 1.2.1

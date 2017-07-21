@@ -75,4 +75,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  
  
  
+ IOS chart class
+ 
+ http://cocoadocs.org/docsets/Charts/2.0.9/Classes.html#/s:C6Charts12PieChartData
+ 
+ 
  */

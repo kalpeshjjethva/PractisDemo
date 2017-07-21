@@ -19,5 +19,7 @@ target 'PractisDemo' do
   pod 'Charts'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod "ANDLineChartView"
+  pod "youtube-ios-player-helper", "~> 0.1.4"
 
 end

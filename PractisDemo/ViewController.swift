@@ -12,24 +12,17 @@ import MediaPlayer
 
 class ViewController: UIViewController {
 
-    
     @IBOutlet weak var videoPlayer: ASPVideoPlayerView!
-
     @IBOutlet weak var defaultView: UIView!
-    
     @IBOutlet weak var objSuperView: UIView!
+    
     var isFull = Bool()
-    
     var moviePlayer : MPMoviePlayerController!
-
     var ObjLastSize = CGRect()
-    
     @IBOutlet weak var btnPlayPause: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         
         wscall()
     }
@@ -75,12 +68,9 @@ class ViewController: UIViewController {
         dict.setValue("get", forKey: "type")
         dict.setValue(params, forKey: "params")
         
-        
         print(dict)
         
-        
         let jsonData = try? JSONSerialization.data(withJSONObject: dict)
-        
         
         let url = URL(string: "http://propertyappws.secretdemo.com/ledgers")!
         var request = URLRequest(url: url)

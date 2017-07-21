@@ -90,6 +90,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AES256CBC/AES256CBC.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ANDLineChartView/ANDLineChartView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ASPVideoPlayer/ASPVideoPlayer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Canvas/Canvas.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Charts/Charts.framework"
@@ -99,9 +100,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Spring/Spring.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftCharts/SwiftCharts.framework"
   install_framework "$BUILT_PRODUCTS_DIR/lottie-ios/Lottie.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/youtube-ios-player-helper/youtube_ios_player_helper.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AES256CBC/AES256CBC.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ANDLineChartView/ANDLineChartView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ASPVideoPlayer/ASPVideoPlayer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Canvas/Canvas.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Charts/Charts.framework"
@@ -111,6 +114,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Spring/Spring.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftCharts/SwiftCharts.framework"
   install_framework "$BUILT_PRODUCTS_DIR/lottie-ios/Lottie.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/youtube-ios-player-helper/youtube_ios_player_helper.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

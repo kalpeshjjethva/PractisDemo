@@ -140,6 +140,8 @@
 		0E3644671EF62D6A006191E0 /* MapViewcluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3644661EF62D6A006191E0 /* MapViewcluster.swift */; };
 		0E46F7611EE6A8D300BEC579 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */; };
 		0E46F7621EE6A8D300BEC579 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E46F7601EE6A8D300BEC579 /* Fabric.framework */; };
+		0E4EEA0B1F21E3E200FCA986 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EEA081F21E3E200FCA986 /* FBEncryptorAES.m */; };
+		0E4EEA0C1F21E3E200FCA986 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EEA0A1F21E3E200FCA986 /* NSData+Base64.m */; };
 		0E623E1A1F0A10D800233623 /* AESAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E623E191F0A10D800233623 /* AESAlgo.swift */; };
 		0E7C845A1F0E4D1F00F1DF06 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C844D1F0E4D1F00F1DF06 /* AESCrypt.m */; };
 		0E7C845B1F0E4D1F00F1DF06 /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C844F1F0E4D1F00F1DF06 /* NSData+AESCrypt.m */; };
@@ -196,6 +198,27 @@
 		0EBDE5F91F0FC43F00274824 /* XShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5D21F0FC43F00274824 /* XShape.m */; };
 		0EBDE5FA1F0FC43F00274824 /* XJYIPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5D51F0FC43F00274824 /* XJYIPTools.m */; };
 		0EBDE5FB1F0FC43F00274824 /* XJYPopOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDE5D81F0FC43F00274824 /* XJYPopOption.m */; };
+		0EC8F3021F1C98D100F8057A /* yplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8F3011F1C98D100F8057A /* yplayerViewController.swift */; };
+		0EC8F3051F1C9F5800F8057A /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC8F3041F1C9F5800F8057A /* YTPlayerView.m */; };
+		0EDB8D041F16489E009BFAF9 /* WSAreaChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CD61F16489E009BFAF9 /* WSAreaChartView.m */; };
+		0EDB8D051F16489E009BFAF9 /* WSBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CD91F16489E009BFAF9 /* WSBarChartView.m */; };
+		0EDB8D061F16489E009BFAF9 /* WSAreaLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CDC1F16489E009BFAF9 /* WSAreaLayer.m */; };
+		0EDB8D071F16489E009BFAF9 /* WSBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CDE1F16489E009BFAF9 /* WSBarLayer.m */; };
+		0EDB8D081F16489E009BFAF9 /* WSColumnLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CE01F16489E009BFAF9 /* WSColumnLayer.m */; };
+		0EDB8D091F16489E009BFAF9 /* WSCoordinateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CE21F16489E009BFAF9 /* WSCoordinateLayer.m */; };
+		0EDB8D0A1F16489E009BFAF9 /* WSLegendLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CE41F16489E009BFAF9 /* WSLegendLayer.m */; };
+		0EDB8D0B1F16489E009BFAF9 /* WSLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CE61F16489E009BFAF9 /* WSLineLayer.m */; };
+		0EDB8D0C1F16489E009BFAF9 /* WSScatterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CE81F16489E009BFAF9 /* WSScatterLayer.m */; };
+		0EDB8D0D1F16489E009BFAF9 /* WSTopLeftCoordinateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CEA1F16489E009BFAF9 /* WSTopLeftCoordinateLayer.m */; };
+		0EDB8D0E1F16489E009BFAF9 /* WSColumnChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CED1F16489E009BFAF9 /* WSColumnChartView.m */; };
+		0EDB8D0F1F16489E009BFAF9 /* WSComboChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CF01F16489E009BFAF9 /* WSComboChartView.m */; };
+		0EDB8D101F16489E009BFAF9 /* WSBaseChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CF41F16489E009BFAF9 /* WSBaseChartView.m */; };
+		0EDB8D111F16489E009BFAF9 /* WSChartObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CF61F16489E009BFAF9 /* WSChartObject.m */; };
+		0EDB8D121F16489E009BFAF9 /* WSGlobalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CF81F16489E009BFAF9 /* WSGlobalCore.m */; };
+		0EDB8D131F16489E009BFAF9 /* WSLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CFB1F16489E009BFAF9 /* WSLineChartView.m */; };
+		0EDB8D141F16489E009BFAF9 /* WSPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8CFE1F16489E009BFAF9 /* WSPieChartView.m */; };
+		0EDB8D151F16489E009BFAF9 /* WSPieChartWithMotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8D001F16489E009BFAF9 /* WSPieChartWithMotionView.m */; };
+		0EDB8D161F16489E009BFAF9 /* WSScatterChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB8D031F16489E009BFAF9 /* WSScatterChartView.m */; };
 		0EEC1E181EDEEC0E00FBC91E /* CustomCallOutMapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E171EDEEC0E00FBC91E /* CustomCallOutMapview.swift */; };
 		0EEC1E1F1EDEF78600FBC91E /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E1D1EDEF78600FBC91E /* AnnotationView.swift */; };
 		0EEC1E201EDEF78600FBC91E /* StarbucksAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC1E1E1EDEF78600FBC91E /* StarbucksAnnotation.swift */; };
@@ -392,6 +415,10 @@
 		0E3644661EF62D6A006191E0 /* MapViewcluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewcluster.swift; sourceTree = "<group>"; };
 		0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		0E46F7601EE6A8D300BEC579 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		0E4EEA071F21E3E200FCA986 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
+		0E4EEA081F21E3E200FCA986 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
+		0E4EEA091F21E3E200FCA986 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		0E4EEA0A1F21E3E200FCA986 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		0E623E191F0A10D800233623 /* AESAlgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESAlgo.swift; sourceTree = "<group>"; };
 		0E7C844C1F0E4D1F00F1DF06 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
 		0E7C844D1F0E4D1F00F1DF06 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
@@ -495,6 +522,49 @@
 		0EBDE5D51F0FC43F00274824 /* XJYIPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJYIPTools.m; sourceTree = "<group>"; };
 		0EBDE5D71F0FC43F00274824 /* XJYPopOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJYPopOption.h; sourceTree = "<group>"; };
 		0EBDE5D81F0FC43F00274824 /* XJYPopOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJYPopOption.m; sourceTree = "<group>"; };
+		0EC8F3011F1C98D100F8057A /* yplayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yplayerViewController.swift; sourceTree = "<group>"; };
+		0EC8F3031F1C9F5800F8057A /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		0EC8F3041F1C9F5800F8057A /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		0EDB8CD51F16489E009BFAF9 /* WSAreaChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAreaChartView.h; sourceTree = "<group>"; };
+		0EDB8CD61F16489E009BFAF9 /* WSAreaChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAreaChartView.m; sourceTree = "<group>"; };
+		0EDB8CD81F16489E009BFAF9 /* WSBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBarChartView.h; sourceTree = "<group>"; };
+		0EDB8CD91F16489E009BFAF9 /* WSBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBarChartView.m; sourceTree = "<group>"; };
+		0EDB8CDB1F16489E009BFAF9 /* WSAreaLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAreaLayer.h; sourceTree = "<group>"; };
+		0EDB8CDC1F16489E009BFAF9 /* WSAreaLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAreaLayer.m; sourceTree = "<group>"; };
+		0EDB8CDD1F16489E009BFAF9 /* WSBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBarLayer.h; sourceTree = "<group>"; };
+		0EDB8CDE1F16489E009BFAF9 /* WSBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBarLayer.m; sourceTree = "<group>"; };
+		0EDB8CDF1F16489E009BFAF9 /* WSColumnLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSColumnLayer.h; sourceTree = "<group>"; };
+		0EDB8CE01F16489E009BFAF9 /* WSColumnLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSColumnLayer.m; sourceTree = "<group>"; };
+		0EDB8CE11F16489E009BFAF9 /* WSCoordinateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCoordinateLayer.h; sourceTree = "<group>"; };
+		0EDB8CE21F16489E009BFAF9 /* WSCoordinateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCoordinateLayer.m; sourceTree = "<group>"; };
+		0EDB8CE31F16489E009BFAF9 /* WSLegendLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLegendLayer.h; sourceTree = "<group>"; };
+		0EDB8CE41F16489E009BFAF9 /* WSLegendLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLegendLayer.m; sourceTree = "<group>"; };
+		0EDB8CE51F16489E009BFAF9 /* WSLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineLayer.h; sourceTree = "<group>"; };
+		0EDB8CE61F16489E009BFAF9 /* WSLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineLayer.m; sourceTree = "<group>"; };
+		0EDB8CE71F16489E009BFAF9 /* WSScatterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSScatterLayer.h; sourceTree = "<group>"; };
+		0EDB8CE81F16489E009BFAF9 /* WSScatterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSScatterLayer.m; sourceTree = "<group>"; };
+		0EDB8CE91F16489E009BFAF9 /* WSTopLeftCoordinateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTopLeftCoordinateLayer.h; sourceTree = "<group>"; };
+		0EDB8CEA1F16489E009BFAF9 /* WSTopLeftCoordinateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTopLeftCoordinateLayer.m; sourceTree = "<group>"; };
+		0EDB8CEC1F16489E009BFAF9 /* WSColumnChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSColumnChartView.h; sourceTree = "<group>"; };
+		0EDB8CED1F16489E009BFAF9 /* WSColumnChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSColumnChartView.m; sourceTree = "<group>"; };
+		0EDB8CEF1F16489E009BFAF9 /* WSComboChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSComboChartView.h; sourceTree = "<group>"; };
+		0EDB8CF01F16489E009BFAF9 /* WSComboChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSComboChartView.m; sourceTree = "<group>"; };
+		0EDB8CF21F16489E009BFAF9 /* WSBaseChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseChartDelegate.h; sourceTree = "<group>"; };
+		0EDB8CF31F16489E009BFAF9 /* WSBaseChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseChartView.h; sourceTree = "<group>"; };
+		0EDB8CF41F16489E009BFAF9 /* WSBaseChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseChartView.m; sourceTree = "<group>"; };
+		0EDB8CF51F16489E009BFAF9 /* WSChartObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChartObject.h; sourceTree = "<group>"; };
+		0EDB8CF61F16489E009BFAF9 /* WSChartObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChartObject.m; sourceTree = "<group>"; };
+		0EDB8CF71F16489E009BFAF9 /* WSGlobalCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGlobalCore.h; sourceTree = "<group>"; };
+		0EDB8CF81F16489E009BFAF9 /* WSGlobalCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSGlobalCore.m; sourceTree = "<group>"; };
+		0EDB8CFA1F16489E009BFAF9 /* WSLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineChartView.h; sourceTree = "<group>"; };
+		0EDB8CFB1F16489E009BFAF9 /* WSLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineChartView.m; sourceTree = "<group>"; };
+		0EDB8CFD1F16489E009BFAF9 /* WSPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPieChartView.h; sourceTree = "<group>"; };
+		0EDB8CFE1F16489E009BFAF9 /* WSPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPieChartView.m; sourceTree = "<group>"; };
+		0EDB8CFF1F16489E009BFAF9 /* WSPieChartWithMotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPieChartWithMotionView.h; sourceTree = "<group>"; };
+		0EDB8D001F16489E009BFAF9 /* WSPieChartWithMotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPieChartWithMotionView.m; sourceTree = "<group>"; };
+		0EDB8D021F16489E009BFAF9 /* WSScatterChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSScatterChartView.h; sourceTree = "<group>"; };
+		0EDB8D031F16489E009BFAF9 /* WSScatterChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSScatterChartView.m; sourceTree = "<group>"; };
+		0EDB8D171F1648BC009BFAF9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0EEC1E171EDEEC0E00FBC91E /* CustomCallOutMapview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCallOutMapview.swift; sourceTree = "<group>"; };
 		0EEC1E1D1EDEF78600FBC91E /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		0EEC1E1E1EDEF78600FBC91E /* StarbucksAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksAnnotation.swift; sourceTree = "<group>"; };
@@ -701,9 +771,16 @@
 		0E210BC11EDBF60500D705BD /* PractisDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0EC8F3031F1C9F5800F8057A /* YTPlayerView.h */,
+				0EC8F3041F1C9F5800F8057A /* YTPlayerView.m */,
+				0E4EEA071F21E3E200FCA986 /* FBEncryptorAES.h */,
+				0E4EEA081F21E3E200FCA986 /* FBEncryptorAES.m */,
+				0E4EEA091F21E3E200FCA986 /* NSData+Base64.h */,
+				0E4EEA0A1F21E3E200FCA986 /* NSData+Base64.m */,
 				0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */,
 				0E46F7601EE6A8D300BEC579 /* Fabric.framework */,
 				0E210BC21EDBF60500D705BD /* AppDelegate.swift */,
+				0EDB8CD31F164891009BFAF9 /* New charts */,
 				0EBB329E1F14C88600C87EAE /* style.json */,
 				0EBDE5861F0FC43F00274824 /* Vender */,
 				0E7C844B1F0E4D1F00F1DF06 /* AES */,
@@ -798,6 +875,7 @@
 				0E8AF3C21EF8CAAD003A3003 /* AnimationDemo.swift */,
 				0E0D420A1EFF6C30003A43E7 /* DrawLabel.swift */,
 				0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */,
+				0EC8F3011F1C98D100F8057A /* yplayerViewController.swift */,
 				0EBB32A01F15072A00C87EAE /* PopupCell.swift */,
 			);
 			name = ViewController;
@@ -985,6 +1063,125 @@
 				0EBDE5D81F0FC43F00274824 /* XJYPopOption.m */,
 			);
 			path = XJYPopView;
+			sourceTree = "<group>";
+		};
+		0EDB8CD31F164891009BFAF9 /* New charts */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CD41F16489E009BFAF9 /* Area Chart */,
+				0EDB8CD71F16489E009BFAF9 /* Bar Chart */,
+				0EDB8CDA1F16489E009BFAF9 /* Chart Layers */,
+				0EDB8CEB1F16489E009BFAF9 /* Column Chart */,
+				0EDB8CEE1F16489E009BFAF9 /* Combo Chart */,
+				0EDB8CF11F16489E009BFAF9 /* Global */,
+				0EDB8CF91F16489E009BFAF9 /* Line Chart */,
+				0EDB8CFC1F16489E009BFAF9 /* Pie Chart */,
+				0EDB8D011F16489E009BFAF9 /* Scatter Chart */,
+				0EDB8D171F1648BC009BFAF9 /* PrefixHeader.pch */,
+			);
+			name = "New charts";
+			sourceTree = "<group>";
+		};
+		0EDB8CD41F16489E009BFAF9 /* Area Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CD51F16489E009BFAF9 /* WSAreaChartView.h */,
+				0EDB8CD61F16489E009BFAF9 /* WSAreaChartView.m */,
+			);
+			path = "Area Chart";
+			sourceTree = "<group>";
+		};
+		0EDB8CD71F16489E009BFAF9 /* Bar Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CD81F16489E009BFAF9 /* WSBarChartView.h */,
+				0EDB8CD91F16489E009BFAF9 /* WSBarChartView.m */,
+			);
+			path = "Bar Chart";
+			sourceTree = "<group>";
+		};
+		0EDB8CDA1F16489E009BFAF9 /* Chart Layers */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CDB1F16489E009BFAF9 /* WSAreaLayer.h */,
+				0EDB8CDC1F16489E009BFAF9 /* WSAreaLayer.m */,
+				0EDB8CDD1F16489E009BFAF9 /* WSBarLayer.h */,
+				0EDB8CDE1F16489E009BFAF9 /* WSBarLayer.m */,
+				0EDB8CDF1F16489E009BFAF9 /* WSColumnLayer.h */,
+				0EDB8CE01F16489E009BFAF9 /* WSColumnLayer.m */,
+				0EDB8CE11F16489E009BFAF9 /* WSCoordinateLayer.h */,
+				0EDB8CE21F16489E009BFAF9 /* WSCoordinateLayer.m */,
+				0EDB8CE31F16489E009BFAF9 /* WSLegendLayer.h */,
+				0EDB8CE41F16489E009BFAF9 /* WSLegendLayer.m */,
+				0EDB8CE51F16489E009BFAF9 /* WSLineLayer.h */,
+				0EDB8CE61F16489E009BFAF9 /* WSLineLayer.m */,
+				0EDB8CE71F16489E009BFAF9 /* WSScatterLayer.h */,
+				0EDB8CE81F16489E009BFAF9 /* WSScatterLayer.m */,
+				0EDB8CE91F16489E009BFAF9 /* WSTopLeftCoordinateLayer.h */,
+				0EDB8CEA1F16489E009BFAF9 /* WSTopLeftCoordinateLayer.m */,
+			);
+			path = "Chart Layers";
+			sourceTree = "<group>";
+		};
+		0EDB8CEB1F16489E009BFAF9 /* Column Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CEC1F16489E009BFAF9 /* WSColumnChartView.h */,
+				0EDB8CED1F16489E009BFAF9 /* WSColumnChartView.m */,
+			);
+			path = "Column Chart";
+			sourceTree = "<group>";
+		};
+		0EDB8CEE1F16489E009BFAF9 /* Combo Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CEF1F16489E009BFAF9 /* WSComboChartView.h */,
+				0EDB8CF01F16489E009BFAF9 /* WSComboChartView.m */,
+			);
+			path = "Combo Chart";
+			sourceTree = "<group>";
+		};
+		0EDB8CF11F16489E009BFAF9 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CF21F16489E009BFAF9 /* WSBaseChartDelegate.h */,
+				0EDB8CF31F16489E009BFAF9 /* WSBaseChartView.h */,
+				0EDB8CF41F16489E009BFAF9 /* WSBaseChartView.m */,
+				0EDB8CF51F16489E009BFAF9 /* WSChartObject.h */,
+				0EDB8CF61F16489E009BFAF9 /* WSChartObject.m */,
+				0EDB8CF71F16489E009BFAF9 /* WSGlobalCore.h */,
+				0EDB8CF81F16489E009BFAF9 /* WSGlobalCore.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		0EDB8CF91F16489E009BFAF9 /* Line Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CFA1F16489E009BFAF9 /* WSLineChartView.h */,
+				0EDB8CFB1F16489E009BFAF9 /* WSLineChartView.m */,
+			);
+			path = "Line Chart";
+			sourceTree = "<group>";
+		};
+		0EDB8CFC1F16489E009BFAF9 /* Pie Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8CFD1F16489E009BFAF9 /* WSPieChartView.h */,
+				0EDB8CFE1F16489E009BFAF9 /* WSPieChartView.m */,
+				0EDB8CFF1F16489E009BFAF9 /* WSPieChartWithMotionView.h */,
+				0EDB8D001F16489E009BFAF9 /* WSPieChartWithMotionView.m */,
+			);
+			path = "Pie Chart";
+			sourceTree = "<group>";
+		};
+		0EDB8D011F16489E009BFAF9 /* Scatter Chart */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB8D021F16489E009BFAF9 /* WSScatterChartView.h */,
+				0EDB8D031F16489E009BFAF9 /* WSScatterChartView.m */,
+			);
+			path = "Scatter Chart";
 			sourceTree = "<group>";
 		};
 		0EEC1E251EDEF7E600FBC91E /* CalloutCustom */ = {
@@ -1211,6 +1408,7 @@
 			files = (
 				0E32F6481EEAEA5C00177063 /* BubbleExample.swift in Sources */,
 				0E09FE401F0D2D5A0005B06C /* JFPopularityCache.m in Sources */,
+				0E4EEA0C1F21E3E200FCA986 /* NSData+Base64.m in Sources */,
 				0E32F6451EEAEA5C00177063 /* BarsExample.swift in Sources */,
 				0EB058621EE57B940058A39D /* getAllcontacts.swift in Sources */,
 				0EBDE5E51F0FC43F00274824 /* XAnimationLabel.m in Sources */,
@@ -1228,6 +1426,8 @@
 				0E32F6521EEAEA5C00177063 /* ExamplesDefaults.swift in Sources */,
 				0E32F64A1EEAEA5C00177063 /* CandleStickInteractiveExample.swift in Sources */,
 				0E32F6551EEAEA5C00177063 /* HelloWorld.swift in Sources */,
+				0EDB8D131F16489E009BFAF9 /* WSLineChartView.m in Sources */,
+				0EDB8D071F16489E009BFAF9 /* WSBarLayer.m in Sources */,
 				0E7E671B1EE95A5D0049FB98 /* HACBarLayer.m in Sources */,
 				0E09FE451F0D2D5A0005B06C /* JFPropertyAnimator.m in Sources */,
 				0E09FE4D1F0D2D5A0005B06C /* JFUserDefaults.m in Sources */,
@@ -1246,13 +1446,18 @@
 				0E32F6471EEAEA5C00177063 /* BarsPlusMinusWithGradientExample.swift in Sources */,
 				0E8AF3C31EF8CAAD003A3003 /* AnimationDemo.swift in Sources */,
 				0E7C845E1F0E4D1F00F1DF06 /* NSData+Encryption.m in Sources */,
+				0EDB8D141F16489E009BFAF9 /* WSPieChartView.m in Sources */,
 				0EBB329B1F14958D00C87EAE /* GoogleMapView.swift in Sources */,
 				0E32F6601EEAEA5C00177063 /* TrackerExample.swift in Sources */,
+				0EDB8D161F16489E009BFAF9 /* WSScatterChartView.m in Sources */,
+				0EDB8D0D1F16489E009BFAF9 /* WSTopLeftCoordinateLayer.m in Sources */,
+				0EDB8D081F16489E009BFAF9 /* WSColumnLayer.m in Sources */,
 				0E09FE2B1F0D2D5A0005B06C /* JFColorUtil.m in Sources */,
 				0E32F6461EEAEA5C00177063 /* BarsPlusMinusAndLinesExample.swift in Sources */,
 				0E32F6561EEAEA5C00177063 /* MultipleAxesExample.swift in Sources */,
 				0E7E671A1EE95A5D0049FB98 /* HACBarChart.m in Sources */,
 				0EBDE5E61F0FC43F00274824 /* XAreaLineContainerView.m in Sources */,
+				0EC8F3051F1C9F5800F8057A /* YTPlayerView.m in Sources */,
 				0E09FE331F0D2D5A0005B06C /* JFLocaleMatchUtil.m in Sources */,
 				0EEC1E241EDEF79700FBC91E /* CustomCalloutView.swift in Sources */,
 				0EBDE5F71F0FC43F00274824 /* XColor.m in Sources */,
@@ -1266,15 +1471,19 @@
 				0EBDE5F91F0FC43F00274824 /* XShape.m in Sources */,
 				0E32F6611EEAEA5C00177063 /* TrendlineExample.swift in Sources */,
 				0EBDE5EC1F0FC43F00274824 /* XLineChart.m in Sources */,
+				0EDB8D0F1F16489E009BFAF9 /* WSComboChartView.m in Sources */,
 				0E32F64F1EEAEA5C00177063 /* CustomUnitsExample.swift in Sources */,
+				0EDB8D151F16489E009BFAF9 /* WSPieChartWithMotionView.m in Sources */,
 				0E09FE3F1F0D2D5A0005B06C /* JFOpenGLView.m in Sources */,
 				0E09FE441F0D2D5A0005B06C /* JFPropertyAnimationAdvancementArray.m in Sources */,
 				0E09FE4E1F0D2D5A0005B06C /* JFViewPositionUtil.m in Sources */,
 				0E32F6581EEAEA5C00177063 /* MultipleLabelsExample.swift in Sources */,
 				0E7C845F1F0E4D1F00F1DF06 /* NSString+AESCrypt.m in Sources */,
+				0EDB8D051F16489E009BFAF9 /* WSBarChartView.m in Sources */,
 				0E32F6531EEAEA5C00177063 /* GroupedAndStackedBarsExample.swift in Sources */,
 				0E32F65A1EEAEA5C00177063 /* NotificationsExample.swift in Sources */,
 				0E09FE3E1F0D2D5A0005B06C /* JFOpenGLVertex.m in Sources */,
+				0EDB8D041F16489E009BFAF9 /* WSAreaChartView.m in Sources */,
 				0E09FE4C1F0D2D5A0005B06C /* JFTextExporter.m in Sources */,
 				0E32F65F1EEAEA5C00177063 /* TargetExample.swift in Sources */,
 				0E09FE411F0D2D5A0005B06C /* JFPropertyAnimatable.swift in Sources */,
@@ -1290,6 +1499,8 @@
 				0EBDE5E81F0FC43F00274824 /* XBarChartView.m in Sources */,
 				0E32F64E1EEAEA5C00177063 /* CubicLinesExample.swift in Sources */,
 				0E32F6491EEAEA5C00177063 /* CandleStickExample.swift in Sources */,
+				0EC8F3021F1C98D100F8057A /* yplayerViewController.swift in Sources */,
+				0EDB8D111F16489E009BFAF9 /* WSChartObject.m in Sources */,
 				0E09FE291F0D2D5A0005B06C /* JFBoxDecoder.m in Sources */,
 				0E7C845A1F0E4D1F00F1DF06 /* AESCrypt.m in Sources */,
 				0EBDE5F61F0FC43F00274824 /* Colours.m in Sources */,
@@ -1316,12 +1527,18 @@
 				0E210BC51EDBF60500D705BD /* ViewController.swift in Sources */,
 				0E7C845C1F0E4D1F00F1DF06 /* NSData+Base64.m in Sources */,
 				0E09FE3C1F0D2D5A0005B06C /* JFOpenGLTriangle.m in Sources */,
+				0EDB8D0A1F16489E009BFAF9 /* WSLegendLayer.m in Sources */,
 				0EBDE5F01F0FC43F00274824 /* XPieChart.m in Sources */,
+				0E4EEA0B1F21E3E200FCA986 /* FBEncryptorAES.m in Sources */,
+				0EDB8D121F16489E009BFAF9 /* WSGlobalCore.m in Sources */,
 				0E7C84601F0E4D1F00F1DF06 /* NSString+Base64.m in Sources */,
+				0EDB8D091F16489E009BFAF9 /* WSCoordinateLayer.m in Sources */,
 				0E09FE261F0D2D5A0005B06C /* JFAes256Codec.m in Sources */,
+				0EDB8D0C1F16489E009BFAF9 /* WSScatterLayer.m in Sources */,
 				0E32F65C1EEAEA5C00177063 /* RangedAxisExample.swift in Sources */,
 				0E09FE3D1F0D2D5A0005B06C /* JFOpenGLUtil.m in Sources */,
 				0EBDE5EE1F0FC43F00274824 /* XLineChartView.m in Sources */,
+				0EDB8D0B1F16489E009BFAF9 /* WSLineLayer.m in Sources */,
 				0E09FE381F0D2D5A0005B06C /* JFOpenGLPoint.m in Sources */,
 				0EBDE5E41F0FC43F00274824 /* XAbscissaView.m in Sources */,
 				0E32F65B1EEAEA5C00177063 /* NotNumericExample.swift in Sources */,
@@ -1329,9 +1546,11 @@
 				0E09FE2C1F0D2D5A0005B06C /* JFCoordinateFormatter.m in Sources */,
 				0E09FE2D1F0D2D5A0005B06C /* JFDeviceDetector.m in Sources */,
 				0E09FE301F0D2D5A0005B06C /* JFICloudUtil.m in Sources */,
+				0EDB8D061F16489E009BFAF9 /* WSAreaLayer.m in Sources */,
 				0E09FE271F0D2D5A0005B06C /* JFBase64.m in Sources */,
 				0E32F64B1EEAEA5C00177063 /* ConvenienceBarsExample.swift in Sources */,
 				0E8758B31F0FA81F00067206 /* NewCharts.swift in Sources */,
+				0EDB8D101F16489E009BFAF9 /* WSBaseChartView.m in Sources */,
 				0E09FE311F0D2D5A0005B06C /* JFImageUtil.m in Sources */,
 				0E210BC31EDBF60500D705BD /* AppDelegate.swift in Sources */,
 				0E32F6631EEAEA5C00177063 /* PointGuide.swift in Sources */,
@@ -1344,6 +1563,7 @@
 				0E32F65E1EEAEA5C00177063 /* StackedBarsExample.swift in Sources */,
 				0E09FE2F1F0D2D5A0005B06C /* JFGuidUtil.m in Sources */,
 				0E32F6641EEAEA5C00177063 /* String.swift in Sources */,
+				0EDB8D0E1F16489E009BFAF9 /* WSColumnChartView.m in Sources */,
 				0EBDE5DD1F0FC43F00274824 /* XAuxiliaryCalculationHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1475,16 +1695,17 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4D7WM9KH8K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/build/Release-iphoneos/lottie-ios",
 				);
+				GCC_PREFIX_HEADER = /Users/mehuls/Desktop/PractisDemo/PractisDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = PractisDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.pmits;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.pmits2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1503,16 +1724,17 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4D7WM9KH8K;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/build/Release-iphoneos/lottie-ios",
 				);
+				GCC_PREFIX_HEADER = /Users/mehuls/Desktop/PractisDemo/PractisDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = PractisDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.pmits;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.pmits2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

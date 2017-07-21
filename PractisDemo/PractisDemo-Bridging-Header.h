@@ -36,3 +36,11 @@
 #import "XBarItem.h"
 #import "Colours.h"
 #import "XChart.h"
+#import "WSBaseChartView.h"
+
+#import "WSAreaChartView.h"
+#import "YTPlayerView.h"
+
+
+#import "FBEncryptorAES.h"
+#import "NSData+Base64.h"

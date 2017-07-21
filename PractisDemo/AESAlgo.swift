@@ -60,9 +60,21 @@ class AESAlgo: UIViewController {
         print(Descencrypted ?? "")
         method1(password: password, encryptedString: encryptedString)
     }
-    func method2()
+    func method2(password:String, encryptedString:String)
     {
         
+//        self.encrypted.text = [FBEncryptorAES encryptBase64String:self.message.text
+//            keyString:self.key.text
+//            separateLines:[self.separateline isOn]];
+//
+        ///NSString* msg = [FBEncryptorAES decryptBase64String:self.encrypted.text
+          //  keyString:self.key.text];
+        
+        
+        
+        let messg = FBEncryptorAES.decryptBase64String(encryptedString, keyString: password)
+        print(messg)
+
     }
     func method1(password:String, encryptedString:String)
     {
