@@ -54,21 +54,20 @@ class aaChart: UIViewController ,UIWebViewDelegate {
         array.add(dict2)
         array.add(dict3)
         
-        print(array)
 
         
-        let jsonData = try! JSONSerialization.data(withJSONObject: array, options: JSONSerialization.WritingOptions.prettyPrinted)
-
+        let jsonData = try! JSONSerialization.data(withJSONObject: array, options: (JSONSerialization.WritingOptions(rawValue: 0)))
         let theJSONText = NSString(data: jsonData,
                                    encoding: String.Encoding.ascii.rawValue)
         
-        print(theJSONText!)
         
-        objWebView.loadHTMLString(htmlString!, baseURL: nil)
-        let jsString = NSString.localizedStringWithFormat("Calllsdf('kalpesh jethva');" as NSString)
-        optionsJson = jsString as String;
+        let jsString = NSString.localizedStringWithFormat("loadTheHighChartView('\(theJSONText!)');" as NSString)
         objWebView.stringByEvaluatingJavaScript(from: jsString as String)
+        objWebView.loadHTMLString(htmlString!, baseURL: nil)
+        objWebView.delegate = self
+       
     }
+   
 }
 
 extension AASerializable {

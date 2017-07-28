@@ -87,6 +87,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  
 https://github.com/rajagp/iOS_Highcharts_Sample
  
-  
 https://jsfiddle.net/gh/get/jquery/1.11.0/highslide-software/highcharts.com/tree/master/samples/highcharts/exporting/offline-download/
+
+http://www.knowstack.com/different-ways-of-loading-highcharts-data/
+ 
  */

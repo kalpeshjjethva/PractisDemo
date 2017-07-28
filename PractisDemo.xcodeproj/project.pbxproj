@@ -237,6 +237,7 @@
 		0EF45BD61F2B61DF0059697B /* h1.js in Sources */ = {isa = PBXBuildFile; fileRef = 0EF45BCF1F2B60270059697B /* h1.js */; };
 		0EF45BD71F2B61E20059697B /* q1.js in Sources */ = {isa = PBXBuildFile; fileRef = 0EF45BD31F2B60460059697B /* q1.js */; };
 		0EF45BD81F2B61FF0059697B /* graph.html in Sources */ = {isa = PBXBuildFile; fileRef = 0EF45BCE1F2B60270059697B /* graph.html */; };
+		0EF45BDA1F2B7BA90059697B /* highChartWithPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF45BD91F2B7BA90059697B /* highChartWithPod.swift */; };
 		811BF94B6D8B329CC775BB15 /* Pods_PractisDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D69D27C6F8667C444F73F4 /* Pods_PractisDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -591,6 +592,7 @@
 		0EF45BCE1F2B60270059697B /* graph.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = graph.html; sourceTree = SOURCE_ROOT; };
 		0EF45BCF1F2B60270059697B /* h1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = h1.js; sourceTree = SOURCE_ROOT; };
 		0EF45BD31F2B60460059697B /* q1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = q1.js; sourceTree = SOURCE_ROOT; };
+		0EF45BD91F2B7BA90059697B /* highChartWithPod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = highChartWithPod.swift; sourceTree = "<group>"; };
 		56C9ED7E606C9934302BC2DC /* Pods-PractisDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractisDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PractisDemo/Pods-PractisDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9FE860961C4AEEBC15C87D91 /* Pods-PractisDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractisDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PractisDemo/Pods-PractisDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C1D69D27C6F8667C444F73F4 /* Pods_PractisDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractisDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -805,6 +807,7 @@
 				0E46F7601EE6A8D300BEC579 /* Fabric.framework */,
 				0E210BC21EDBF60500D705BD /* AppDelegate.swift */,
 				0EF45B911F2B063B0059697B /* aaChart.swift */,
+				0EF45BD91F2B7BA90059697B /* highChartWithPod.swift */,
 				0EF45BA01F2B065A0059697B /* AAChartCreator */,
 				0EF45B931F2B06530059697B /* AAJSFiles */,
 				0EDB8CD31F164891009BFAF9 /* New charts */,
@@ -1488,6 +1491,7 @@
 				0EBDE5F21F0FC43F00274824 /* XPositiveNegativeBarChart.m in Sources */,
 				0E623E1A1F0A10D800233623 /* AESAlgo.swift in Sources */,
 				0E32F6661EEAEA5C00177063 /* VerticalGuide.swift in Sources */,
+				0EF45BDA1F2B7BA90059697B /* highChartWithPod.swift in Sources */,
 				0E1C13A81EE7E62E000633DF /* Polyline.swift in Sources */,
 				0E09FE4A1F0D2D5A0005B06C /* JFSocketWriter.m in Sources */,
 				0E32F6541EEAEA5C00177063 /* GroupedBarsExample.swift in Sources */,

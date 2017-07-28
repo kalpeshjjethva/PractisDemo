@@ -886,5 +886,24 @@
             </objects>
             <point key="canvasLocation" x="24.637681159420293" y="371.73913043478262"/>
         </scene>
+        <!--High Chart With Pod-->
+        <scene sceneID="Y0t-cF-u7Y">
+            <objects>
+                <viewController id="pyP-Ea-F4P" customClass="highChartWithPod" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mMQ-sw-Lxp"/>
+                        <viewControllerLayoutGuide type="bottom" id="THy-qq-qQG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OtX-lm-wEC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="736"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C9B-5U-8oV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
 </document>

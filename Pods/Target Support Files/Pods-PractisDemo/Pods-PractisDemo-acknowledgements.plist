@@ -433,6 +433,18 @@ Permission is granted to anyone to use this software for any purpose,including c
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>This is the repository for Highcharts for iOS wrapper (beta version) for JavaScript charting libraries: Highcharts.
+Any commercial use of Highcharts for iOS wrapper (beta version) is prohibited.
+In case of questions, please contact sales@highsoft.com</string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
+			<string>Highcharts</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>The MIT License (MIT)
 
 Copyright (c) 2015 Rob Napier

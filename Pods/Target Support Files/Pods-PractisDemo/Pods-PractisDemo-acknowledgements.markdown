@@ -354,6 +354,12 @@ Copyright 2017 Google
 
 Copyright 2017 Google
 
+## Highcharts
+
+This is the repository for Highcharts for iOS wrapper (beta version) for JavaScript charting libraries: Highcharts.
+Any commercial use of Highcharts for iOS wrapper (beta version) is prohibited.
+In case of questions, please contact sales@highsoft.com
+
 ## RNCryptor
 
 The MIT License (MIT)
