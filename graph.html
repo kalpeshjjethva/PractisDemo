@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>Highcharts Example</title>
+<script type="text/javascript" src="http://192.168.1.139/pmitsadmin/public/appjs/jquery.min.js"></script>
+
+<!--    <script type="text/javascript" src="q1.js"></script>-->
+
+<!--            <script type="text/javascript">-->
+
+    <script>
+                var tempObjj;
+                
+                function Calllsdf(asdf)
+                {
+                    tempObjj = asdf;
+                    
+                };
+            
+                $(function kalpeshArray(kplData)
+                {
+                  $('#container').highcharts({
+                                             chart: {
+                                             type: 'column'
+                                             },
+                                             title: {
+                                             text: 'Inventory detail'
+                                             },
+                                             xAxis: {
+                                             categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May','Jun', 'July', 'Aug', 'Sep', 'Oct','Nov', 'Dec']
+                                             },
+                                             yAxis: {
+                                             min: 0,
+                                             title: {
+                                             text: tempObjj
+                                             },
+                                             stackLabels: {
+                                             enabled: true,
+                                             style: {
+                                             fontWeight: 'bold',
+                                             color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                                             }
+                                             }
+                                             },
+                                             legend: {
+                                             align: 'right',
+                                             x: -30,
+                                             verticalAlign: 'top',
+                                             y: 25,
+                                             floating: true,
+                                             backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
+                                             borderColor: '#CCC',
+                                             borderWidth: 1,
+                                             shadow: false
+                                             },
+                                             tooltip: {
+                                             headerFormat: '<b>{point.x}</b><br/>',
+                                             pointFormat: '{series.name}: {point.y}<br/>Total: {point.stackTotal}'
+                                             },
+                                             plotOptions: {
+                                             column: {
+                                             stacking: 'normal',
+                                             dataLabels: {
+                                             enabled: true,
+                                             color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
+                                             }
+                                             }
+                                             },
+                                             series: [{
+                                                      name: 'Gas',
+                                                      data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
+                                                      }, {
+                                                      name: 'Electicity',
+                                                      data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
+                                                      }, {
+                                                      name: 'Light',
+                                                      data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
+                                                      }]
+                                             });
+                  });
+                  
+                  
+                </script>
+            </head>
+    <body>
+<!--        <script type="text/javascript" src="h1.js"></script>-->
+<!--        <script type="text/javascript" src="ex1.js"></script>-->
+
+    <script src="http://192.168.1.139/pmitsadmin/public/appjs/highcharts.js"></script>
+    <script src="http://192.168.1.139/pmitsadmin/public/appjs/exporting.js"></script>
+
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    </body>
+</html>

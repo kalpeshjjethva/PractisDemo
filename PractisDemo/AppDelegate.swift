@@ -80,4 +80,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  http://cocoadocs.org/docsets/Charts/2.0.9/Classes.html#/s:C6Charts12PieChartData
  
  
+ 
+ High Charts
+ 
+ https://github.com/highcharts/highcharts-ios
+ 
+https://github.com/rajagp/iOS_Highcharts_Sample
+ 
+  
+https://jsfiddle.net/gh/get/jquery/1.11.0/highslide-software/highcharts.com/tree/master/samples/highcharts/exporting/offline-download/
  */

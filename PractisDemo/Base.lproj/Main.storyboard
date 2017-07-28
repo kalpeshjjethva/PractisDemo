@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="r13-ty-4Sn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hA8-Xj-7oc">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -840,6 +840,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z4A-bo-03w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-800.00000000000011" y="3163.858695652174"/>
+        </scene>
+        <!--Aa Chart-->
+        <scene sceneID="hxt-Ms-UjD">
+            <objects>
+                <viewController id="hA8-Xj-7oc" customClass="aaChart" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Gu-ry-aYV"/>
+                        <viewControllerLayoutGuide type="bottom" id="mzi-XW-76D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fZ9-v7-0J8">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tMk-MR-NPm">
+                                <rect key="frame" x="20" y="50" width="320" height="300"/>
+                                <subviews>
+                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DHq-Z4-rpI">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </webView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.67843137249999996" green="0.5450980392" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="VNI-rL-in0"/>
+                                    <constraint firstAttribute="height" constant="300" id="tjp-yh-Bxp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tMk-MR-NPm" firstAttribute="leading" secondItem="fZ9-v7-0J8" secondAttribute="leading" constant="20" id="IKT-yd-XXD"/>
+                            <constraint firstItem="tMk-MR-NPm" firstAttribute="top" secondItem="fZ9-v7-0J8" secondAttribute="top" constant="50" id="y9l-xa-RNz"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="736"/>
+                    <connections>
+                        <outlet property="chartView" destination="tMk-MR-NPm" id="2wn-9z-oFp"/>
+                        <outlet property="objWebView" destination="DHq-Z4-rpI" id="eMU-DF-fBb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s45-Ry-X6B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.637681159420293" y="371.73913043478262"/>
         </scene>
     </scenes>
 </document>

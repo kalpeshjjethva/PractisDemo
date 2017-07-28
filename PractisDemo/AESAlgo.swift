@@ -17,36 +17,27 @@ class AESAlgo: UIViewController {
         super.viewDidLoad()
         
         //Method 1
-        
-        
         let encryptedString = "eyJpdiI6ImdqS0w3RDZqK053dVZYVzNMajVra0E9PSIsInZhbHVlIjoiS0ZJQnpCT3NsNW1SXC82V283RGRhUUE9PSIsIm1hYyI6ImNmYWU5YWViZmQwYWQyNWVhM2QzMzhkODY5ZjczNTg4ZDZmNTNlOTQ4ZTlmNzY5MTEyNTc0NDUzMjMyMjU4NTQifQ=="
         let password = "QNCvHG9djOwhkroukUgb/n8/JD8D4EI5//i1GQTugl0="
         
         let data = encryptedString.data(using: String.Encoding.utf8, allowLossyConversion: true)
-        let data2 = encryptedString.data(using: String.Encoding.utf16, allowLossyConversion: true)
-        let data3 = encryptedString.data(using: String.Encoding.utf32, allowLossyConversion: true)
+        
+      //  let passwords: Array<UInt8> = password.utf8.map {$0}
+     //   let salt: Array<UInt8> = encryptedString.utf8.map {$0}
         
         
         let sadfasdfa = NSString()
-        
         let printobject =  sadfasdfa.aes256Decrypt(withKey: encryptedString)
-        
         print("sadf \(printobject)")
         
-        
-        
-        
-
-        
-        
-
         let sadf = JFAes256Codec.decryptData(data, withKey: password)
         let backToString = String(data: sadf!, encoding: String.Encoding.utf8) as String!
         print("asdf \(backToString)")
         
-        
-        
         let objbase = JFBase64.decode(encryptedString)
+        
+        
+        
         
         
         print("objbase \(objbase)")
