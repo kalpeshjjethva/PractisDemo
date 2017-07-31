@@ -160,6 +160,7 @@
 		0EB058641EE581680058A39D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB058631EE581680058A39D /* AddressBookUI.framework */; };
 		0EB058661EE584E80058A39D /* ContactEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058651EE584E80058A39D /* ContactEntry.swift */; };
 		0EB058681EE585300058A39D /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB058671EE585300058A39D /* String+Email.swift */; };
+		0EB244891F2C4CAF003D2A78 /* AAOptionsConstructor.js in Resources */ = {isa = PBXBuildFile; fileRef = 0EB244881F2C4CAF003D2A78 /* AAOptionsConstructor.js */; };
 		0EBB329B1F14958D00C87EAE /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */; };
 		0EBB329F1F14C88600C87EAE /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EBB329E1F14C88600C87EAE /* style.json */; };
 		0EBB32A11F15072A00C87EAE /* PopupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB32A01F15072A00C87EAE /* PopupCell.swift */; };
@@ -459,6 +460,7 @@
 		0EB058631EE581680058A39D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		0EB058651EE584E80058A39D /* ContactEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactEntry.swift; sourceTree = "<group>"; };
 		0EB058671EE585300058A39D /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
+		0EB244881F2C4CAF003D2A78 /* AAOptionsConstructor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAOptionsConstructor.js; sourceTree = "<group>"; };
 		0EBB329A1F14958D00C87EAE /* GoogleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
 		0EBB329E1F14C88600C87EAE /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		0EBB32A01F15072A00C87EAE /* PopupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupCell.swift; sourceTree = "<group>"; };
@@ -803,6 +805,7 @@
 				0EF45BCE1F2B60270059697B /* graph.html */,
 				0EF45BCF1F2B60270059697B /* h1.js */,
 				0EF45BD31F2B60460059697B /* q1.js */,
+				0EB244881F2C4CAF003D2A78 /* AAOptionsConstructor.js */,
 				0E46F75F1EE6A8D300BEC579 /* Crashlytics.framework */,
 				0E46F7601EE6A8D300BEC579 /* Fabric.framework */,
 				0E210BC21EDBF60500D705BD /* AppDelegate.swift */,
@@ -1341,6 +1344,7 @@
 				0E079D9C1EFCD30100EC28D2 /* H.json in Resources */,
 				0E079D981EFCD30100EC28D2 /* D.json in Resources */,
 				0E079D9D1EFCD30100EC28D2 /* I.json in Resources */,
+				0EB244891F2C4CAF003D2A78 /* AAOptionsConstructor.js in Resources */,
 				0E079DA11EFCD30100EC28D2 /* M.json in Resources */,
 				0E079DAC1EFCD30100EC28D2 /* X.json in Resources */,
 				0E079D551EFCCD8500EC28D2 /* PinJump.json in Resources */,

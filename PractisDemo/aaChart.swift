@@ -21,7 +21,9 @@ class aaChart: UIViewController ,UIWebViewDelegate {
         
         super.viewDidLoad()
         let htmlFile: String? = Bundle.main.path(forResource: "graph", ofType: "html")
-        let htmlString = try? String(contentsOfFile: htmlFile!, encoding: String.Encoding.utf8)
+        var htmlString = try? String(contentsOfFile: htmlFile!, encoding: String.Encoding.utf8)
+        
+        
         
         /*
          [{
@@ -54,20 +56,18 @@ class aaChart: UIViewController ,UIWebViewDelegate {
         array.add(dict2)
         array.add(dict3)
         
-
-        
         let jsonData = try! JSONSerialization.data(withJSONObject: array, options: (JSONSerialization.WritingOptions(rawValue: 0)))
         let theJSONText = NSString(data: jsonData,
                                    encoding: String.Encoding.ascii.rawValue)
         
         
+        htmlString = htmlString?.replacingOccurrences(of: "kalpeshAAAAAData", with: theJSONText as! String)
+        
         let jsString = NSString.localizedStringWithFormat("loadTheHighChartView('\(theJSONText!)');" as NSString)
         objWebView.stringByEvaluatingJavaScript(from: jsString as String)
         objWebView.loadHTMLString(htmlString!, baseURL: nil)
         objWebView.delegate = self
-       
-    }
-   
+     }
 }
 
 extension AASerializable {
