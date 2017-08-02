@@ -905,5 +905,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C9B-5U-8oV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Draw Label-->
+        <scene sceneID="I64-JU-zwM">
+            <objects>
+                <viewController id="Nr6-iP-0NZ" customClass="DrawLabel" customModule="PractisDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="abB-Cj-nJk"/>
+                        <viewControllerLayoutGuide type="bottom" id="U8A-DQ-LxG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VDW-Zb-v27">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTo-h0-ivX">
+                                <rect key="frame" x="0.0" y="139" width="1024" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xTo-h0-ivX" secondAttribute="trailing" id="6zM-Sr-zXd"/>
+                            <constraint firstItem="U8A-DQ-LxG" firstAttribute="top" secondItem="xTo-h0-ivX" secondAttribute="bottom" constant="572" id="IaX-z0-15U"/>
+                            <constraint firstItem="xTo-h0-ivX" firstAttribute="leading" secondItem="VDW-Zb-v27" secondAttribute="leading" id="MEC-jI-bEO"/>
+                            <constraint firstItem="xTo-h0-ivX" firstAttribute="top" secondItem="abB-Cj-nJk" secondAttribute="bottom" constant="119" id="yxh-fU-yqf"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="736"/>
+                    <connections>
+                        <outlet property="lblText" destination="xTo-h0-ivX" id="m6h-w9-ulG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0l-Lt-zy9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="569.56521739130437" y="4930.434782608696"/>
+        </scene>
     </scenes>
 </document>

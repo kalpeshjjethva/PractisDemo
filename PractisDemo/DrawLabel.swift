@@ -10,28 +10,42 @@ import UIKit
 import Charts
 
 class DrawLabel: UIViewController {
-    @IBOutlet weak var lineChartView: LineChartView!
+//    @IBOutlet weak var lineChartView: LineChartView!
     
+    @IBOutlet weak var lblText: UILabel!
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
-        let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jan", "Feb", "Mar", "Apr", "May", "Jun"]
-        let unitsSold = [20.0, 4.0, 6.0, 3.0, 12.0, 16.0,20.0, 4.0, 6.0, 3.0, 12.0, 16.0]
-        setChart(dataPoints: months, values: unitsSold)
+        
+        
+        let htmlString = "<font size=\"15\">Purchased on <font color=\"red\">16/05/2015</font> Maintained by 21electrical lastServiced <font color=\"red\">11/07/2017</font></font>"
+        
+        let encodedData = htmlString.data(using: String.Encoding.utf8)!
+        let attributedOptions = [NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType]
+        let attributedString = try! NSAttributedString(data: encodedData, options: attributedOptions, documentAttributes: nil)
+        
+        lblText.attributedText = attributedString
+
     }
+    
+    func setAttributedText(font:UIFont, staticText:String, dynamicText: String, StaticColor:UIColor, DynamicColor: UIColor)-> NSMutableAttributedString
+    {
+        let yourAttributes = [NSForegroundColorAttributeName: StaticColor, NSFontAttributeName: font ] as [String : Any]
+        let yourOtherAttributes = [NSForegroundColorAttributeName: DynamicColor, NSFontAttributeName: font] as [String : Any]
+        
+        let partOne = NSMutableAttributedString(string: staticText, attributes: yourAttributes)
+        let partTwo = NSMutableAttributedString(string: dynamicText, attributes: yourOtherAttributes)
+        let combination = NSMutableAttributedString()
+        
+        combination.append(partOne)
+        combination.append(partTwo)
+        
+        return combination
+    }
+    
     func setChart(dataPoints: [String], values: [Double]) {
-        
-        var dataEntries: [ChartDataEntry] = []
-        
-        for i in 0..<dataPoints.count {
-            let dataEntry = ChartDataEntry(x: values[i], y: Double(i))
-            dataEntries.append(dataEntry)
-        }
-        let lineChartDataSet = LineChartDataSet(values: dataEntries, label: "Units Sold")
-        lineChartDataSet.mode = .cubicBezier
-        let lineChartData = LineChartData(dataSet: lineChartDataSet)
-        lineChartView.data = lineChartData
-    }
+            }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

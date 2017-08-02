@@ -20,24 +20,26 @@ class aaChart: UIViewController ,UIWebViewDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        let htmlFile: String? = Bundle.main.path(forResource: "graph", ofType: "html")
+        
+        LeaseRenewalChart()
+        
+     }
+    func LeaseRenewalChart()
+    {
+        let htmlFile: String? = Bundle.main.path(forResource: "LeaseRenewalChart", ofType: "html")
+        let htmlString = try? String(contentsOfFile: htmlFile!, encoding: String.Encoding.utf8)
+        
+        
+        objWebView.stringByEvaluatingJavaScript(from: htmlString! as String)
+        objWebView.loadHTMLString(htmlString!, baseURL: nil)
+        objWebView.delegate = self
+    }
+    
+    func billingDetailChart()
+    {
+        let htmlFile: String? = Bundle.main.path(forResource: "BillingDetailGraph", ofType: "html")
         var htmlString = try? String(contentsOfFile: htmlFile!, encoding: String.Encoding.utf8)
-        
-        
-        
-        /*
-         [{
-         name: 'Gas',
-         data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
-         }, {
-         name: 'Electicity',
-         data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
-         }, {
-         name: 'Light',
-         data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
-         }]
-         */
-        
+
         var array = NSMutableArray()
         
         let dict = NSMutableDictionary()
@@ -47,7 +49,7 @@ class aaChart: UIViewController ,UIWebViewDelegate {
         let dict2 = NSMutableDictionary()
         dict2.setValue("Electicity", forKey: "name")
         dict2.setValue([5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8], forKey: "data")
-
+        
         let dict3 = NSMutableDictionary()
         dict3.setValue("Light", forKey: "name")
         dict3.setValue([5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8], forKey: "data")
@@ -67,7 +69,9 @@ class aaChart: UIViewController ,UIWebViewDelegate {
         objWebView.stringByEvaluatingJavaScript(from: jsString as String)
         objWebView.loadHTMLString(htmlString!, baseURL: nil)
         objWebView.delegate = self
-     }
+
+    }
+
 }
 
 extension AASerializable {
@@ -81,3 +85,15 @@ extension AASerializable {
         }
     }
 }
+/*
+ [{
+ name: 'Gas',
+ data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
+ }, {
+ name: 'Electicity',
+ data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
+ }, {
+ name: 'Light',
+ data: [5, 3, 4, 7, 2, 5, 3, 4, 7, 2, 5, 8]
+ }]
+ */
